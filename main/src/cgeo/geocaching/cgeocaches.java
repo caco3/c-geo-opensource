@@ -1457,6 +1457,14 @@ public class cgeocaches extends AbstractListActivity implements FilteredActivity
         });
     }
 
+    /**
+     * @param view
+     *            unused here but needed since this method is referenced from XML layout
+     */
+    public void goBack(View view) {
+        finish(); //same as back button
+    }
+
     public void switchListById(int id) {
         if (id < 0) {
             return;
