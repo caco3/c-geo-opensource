@@ -63,6 +63,8 @@ public abstract class AbstractMap {
 
     public abstract void goHome(View view);
 
+    public abstract void goBack(View view);
+
     public abstract void onSaveInstanceState(final Bundle outState);
 
 }

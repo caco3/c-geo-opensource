@@ -36,6 +36,11 @@ public abstract class AbstractListActivity extends FragmentListActivity implemen
         ActivityMixin.goHome(this);
     }
 
+    @Override
+    final public void goBack(View view) {
+        finish();
+    }
+
     final public void showProgress(final boolean show) {
         ActivityMixin.showProgress(this, show);
     }

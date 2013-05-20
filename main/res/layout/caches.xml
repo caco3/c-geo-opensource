@@ -7,9 +7,11 @@
     <LinearLayout style="@style/action_bar" >
         
         <ImageView
-            style="@style/action_bar_action"
+            style="@style/action_bar_back"
             android:onClick="goBack" />
 
+        <View style="@style/action_bar_separator" />
+        
         <TextView
             style="@style/action_bar_title"
             android:clickable="true"

@@ -74,6 +74,16 @@
         <item name="android:background">@drawable/actionbar_button</item>
     </style>
 
+    <style name="action_bar_back">
+        <item name="android:layout_width">@dimen/actionbar_height</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+        <item name="android:padding">2dip</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:src">@drawable/actionbar_back</item>
+        <item name="android:background">@drawable/actionbar_button</item>
+    </style>
+
     <style name="action_bar_separator">
         <item name="android:layout_width">@dimen/actionbar_separator_width</item>
         <item name="android:layout_height">@dimen/actionbar_separator_height</item>

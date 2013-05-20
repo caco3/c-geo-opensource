@@ -117,6 +117,12 @@ public class MapsforgeMapActivity extends MapActivity implements MapActivityImpl
         mapBase.goHome(view);
     }
 
+    // close activity and go back
+    @Override
+    public void goBack(View view) {
+        finish();
+    }
+
     // open menu
     @Override
     public void showMenu(View view) {

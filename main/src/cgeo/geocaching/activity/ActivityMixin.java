@@ -33,6 +33,10 @@ public final class ActivityMixin {
         fromActivity.finish();
     }
 
+    public final static void goBack(final Activity fromActivity) {
+        fromActivity.finish();
+    }
+
     public static void goManual(final Context context, final String helpTopic) {
         if (StringUtils.isBlank(helpTopic)) {
             return;

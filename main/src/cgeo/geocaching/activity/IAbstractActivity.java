@@ -6,6 +6,8 @@ public interface IAbstractActivity {
 
     public void goHome(View view);
 
+    public void goBack(View view);
+
     public void showToast(String text);
 
     public void showShortToast(String text);
