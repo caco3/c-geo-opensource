@@ -94,7 +94,8 @@
     · Removed obsolete Help manual\n
     · Added menu buttons in toolbars\n   
     · Replaced Home button with a Back button in all toolbars\n   
-    · Removed menu entry for additional programs\n
+    · Removed menu entry for additional programs\n  
+    · Added Cancel button to dialogs (but not possible for sub menus)\n
     \n
     \n
     <b>2013.05.18</b>\n

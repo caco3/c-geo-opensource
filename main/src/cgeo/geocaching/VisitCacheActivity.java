@@ -664,6 +664,14 @@ public class VisitCacheActivity extends AbstractLoggingActivity implements DateD
                 dialog.dismiss();
             }
         });
+
+        alert.setNegativeButton(res.getString(android.R.string.no), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int id) {
+                dialog.cancel();
+            }
+        });
+
         alert.create().show();
     }
 
@@ -711,6 +719,14 @@ public class VisitCacheActivity extends AbstractLoggingActivity implements DateD
                 dialog.dismiss();
             }
         });
+
+        alert.setNegativeButton(res.getString(android.R.string.no), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int id) {
+                dialog.cancel();
+            }
+        });
+
         alert.create().show();
     }
 

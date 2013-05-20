@@ -1130,7 +1130,7 @@ public class cgeocaches extends AbstractListActivity implements FilteredActivity
                 dialog.cancel();
             }
         });
-        dialog.setNegativeButton(getString(android.R.string.no), new DialogInterface.OnClickListener() {
+        dialog.setNegativeButton(res.getString(android.R.string.no), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
                 dialog.cancel();
@@ -1183,7 +1183,7 @@ public class cgeocaches extends AbstractListActivity implements FilteredActivity
                 dialog.cancel();
             }
         });
-        dialog.setNegativeButton(getString(android.R.string.no), new DialogInterface.OnClickListener() {
+        dialog.setNegativeButton(res.getString(android.R.string.no), new DialogInterface.OnClickListener() {
 
             @Override
             public void onClick(DialogInterface dialog, int id) {

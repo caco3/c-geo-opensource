@@ -97,6 +97,13 @@ public final class FilterUserInterface {
             }
         });
 
+        builder.setNegativeButton(res.getString(android.R.string.no), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int id) {
+                dialog.cancel();
+            }
+        });
+
         builder.create().show();
     }
 
@@ -115,6 +122,13 @@ public final class FilterUserInterface {
             @Override
             public void onClick(DialogInterface dialog, int item) {
                 runAfterwards.run(filters[item]);
+            }
+        });
+
+        builder.setNegativeButton(res.getString(android.R.string.no), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int id) {
+                dialog.cancel();
             }
         });
 

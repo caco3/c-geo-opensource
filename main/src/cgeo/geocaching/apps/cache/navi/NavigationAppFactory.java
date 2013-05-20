@@ -174,6 +174,14 @@ public final class NavigationAppFactory extends AbstractAppFactory {
                 }
             }
         });
+
+        builder.setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int id) {
+                dialog.cancel();
+            }
+        });
+
         final AlertDialog alert = builder.create();
         alert.show();
     }

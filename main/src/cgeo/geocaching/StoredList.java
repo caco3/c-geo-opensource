@@ -112,6 +112,14 @@ public class StoredList {
                     }
                 }
             });
+
+            builder.setNegativeButton(res.getString(android.R.string.no), new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int id) {
+                    dialog.cancel();
+                }
+            });
+
             builder.create().show();
         }
 

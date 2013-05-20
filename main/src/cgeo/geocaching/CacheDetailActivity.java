@@ -767,7 +767,7 @@ public class CacheDetailActivity extends AbstractViewPagerActivity<CacheDetailAc
                             startActivity(intent);
                         }
                     })
-                    .setNegativeButton(getString(android.R.string.no), new DialogInterface.OnClickListener() {
+                    .setNegativeButton(res.getString(android.R.string.no), new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int id) {
                             dialog.cancel();
@@ -889,6 +889,14 @@ public class CacheDetailActivity extends AbstractViewPagerActivity<CacheDetailAc
                 }
             }
         });
+
+        builder.setNegativeButton(res.getString(android.R.string.no), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int id) {
+                dialog.cancel();
+            }
+        });
+
         AlertDialog alert = builder.create();
         alert.show();
     }
@@ -2377,6 +2385,14 @@ public class CacheDetailActivity extends AbstractViewPagerActivity<CacheDetailAc
                 new ResetCoordsThread(cache, handler, wpt, which == 0 || which == 1, which == 1, progressDialog).start();
             }
         });
+
+        builder.setNegativeButton(res.getString(android.R.string.no), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int id) {
+                dialog.cancel();
+            }
+        });
+
         return builder.create();
     }
 

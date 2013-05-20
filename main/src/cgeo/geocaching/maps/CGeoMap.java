@@ -766,6 +766,13 @@ public class CGeoMap extends AbstractMap implements OnMapDragListener, ViewFacto
                     }
                 });
 
+        builder.setNegativeButton(res.getString(android.R.string.no), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int id) {
+                dialog.cancel();
+            }
+        });
+
         builder.show();
     }
 
