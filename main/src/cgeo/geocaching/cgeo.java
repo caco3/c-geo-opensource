@@ -1,7 +1,6 @@
 package cgeo.geocaching;
 
 import cgeo.geocaching.activity.AbstractActivity;
-import cgeo.geocaching.activity.ActivityMixin;
 import cgeo.geocaching.connector.gc.Login;
 import cgeo.geocaching.enumerations.CacheType;
 import cgeo.geocaching.enumerations.StatusCode;
@@ -35,7 +34,6 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -189,27 +187,6 @@ public class cgeo extends AbstractActivity {
         version = Version.getVersionCode(this);
         Log.i("Starting " + getPackageName() + ' ' + version + " a.k.a " + Version.getVersionName(this));
 
-        try {
-            if (!Settings.isHelpShown()) {
-                final RelativeLayout helper = (RelativeLayout) findViewById(R.id.helper);
-                if (helper != null) {
-                    helper.setVisibility(View.VISIBLE);
-                    helper.setClickable(true);
-                    helper.setOnClickListener(new View.OnClickListener() {
-
-                        @Override
-                        public void onClick(View view) {
-                            ActivityMixin.goManual(cgeo.this, "c:geo-intro");
-                            view.setVisibility(View.GONE);
-                        }
-                    });
-                    Settings.setHelpShown();
-                }
-            }
-        } catch (Exception e) {
-            // nothing
-        }
-
         init();
     }
 
@@ -283,9 +260,12 @@ public class cgeo extends AbstractActivity {
             case R.id.menu_about:
                 showAbout(null);
                 return true;
-            case R.id.menu_helpers:
-                startActivity(new Intent(this, UsefulAppsActivity.class));
-                return true;
+                /*
+                 * Disabled for now since the tools are not available for Blackberry:
+                 * case R.id.menu_helpers:
+                 * startActivity(new Intent(this, UsefulAppsActivity.class));
+                 * return true;
+                 */
             case R.id.menu_settings:
                 startActivity(new Intent(this, SettingsActivity.class));
                 return true;
@@ -792,6 +772,14 @@ public class cgeo extends AbstractActivity {
      */
     public void goSearch(View view) {
         onSearchRequested();
+    }
+
+    /**
+     * @param view
+     *            unused here but needed since this method is referenced from XML layout
+     */
+    public void showMenu(View view) {
+        openOptionsMenu();
     }
 
 }

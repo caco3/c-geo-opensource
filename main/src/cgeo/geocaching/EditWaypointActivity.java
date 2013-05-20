@@ -1,7 +1,6 @@
 package cgeo.geocaching;
 
 import cgeo.geocaching.activity.AbstractActivity;
-import cgeo.geocaching.activity.ActivityMixin;
 import cgeo.geocaching.connector.ConnectorFactory;
 import cgeo.geocaching.connector.IConnector;
 import cgeo.geocaching.enumerations.CacheType;
@@ -541,11 +540,6 @@ public class EditWaypointActivity extends AbstractActivity {
         return con.supportsOwnCoordinates() && con.uploadModifiedCoordinates(cache, waypointUploaded);
     }
 
-    @Override
-    public void goManual(final View view) {
-        ActivityMixin.goManual(this, id >= 0 ? "c:geo-waypoint-edit" : "c:geo-waypoint-new");
-    }
-
     public static void startActivityEditWaypoint(final Context context, final int waypointId) {
         context.startActivity(new Intent(context, EditWaypointActivity.class)
                 .putExtra(Intents.EXTRA_WAYPOINT_ID, waypointId));
@@ -555,5 +549,10 @@ public class EditWaypointActivity extends AbstractActivity {
         context.startActivity(new Intent(context, EditWaypointActivity.class)
                 .putExtra(Intents.EXTRA_GEOCODE, cache.getGeocode())
                 .putExtra(Intents.EXTRA_COUNT, cache.getWaypoints().size()));
+    }
+
+    // open menu
+    public void showMenu(View view) {
+        openOptionsMenu();
     }
 }

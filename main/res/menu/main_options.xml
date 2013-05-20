@@ -11,11 +11,13 @@
         android:icon="@drawable/ic_menu_recent_history"
         android:title="@string/menu_history">
     </item>
+    <!--   Disabled for now since the tools are not available for Blackberry 
     <item
         android:id="@+id/menu_helpers"
         android:icon="@drawable/ic_menu_shopping"
         android:title="@string/menu_helpers">
     </item>
+    -->
     <item
         android:id="@+id/menu_scan"
         android:icon="@drawable/ic_menu_barcode"

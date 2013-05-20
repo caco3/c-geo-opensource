@@ -10,8 +10,6 @@
             style="@style/action_bar_action"
             android:onClick="goHome" />
 
-        <View style="@style/action_bar_separator" />
-
         <TextView
             style="@style/action_bar_title"
             android:clickable="true"
@@ -20,20 +18,13 @@
         <ProgressBar
             style="@style/action_bar_progress"
             android:visibility="gone" />
-
-        <View style="@style/action_bar_separator" />
+        
+        <include layout="@layout/actionbar_button_menu" />
 
         <ImageView
             style="@style/action_bar_action"
             android:onClick="goMap"
             android:src="@drawable/actionbar_map" />
-
-        <View style="@style/action_bar_separator" />
-
-        <ImageView
-            style="@style/action_bar_action"
-            android:onClick="goManual"
-            android:src="@drawable/actionbar_manual" />
     </LinearLayout>
 
     <include layout="@layout/filter_bar" />

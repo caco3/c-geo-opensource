@@ -172,7 +172,7 @@
                 android:textColorLink="?text_color_link"
                 android:textSize="14dip" />
 
-            <TextView
+  <!--          <TextView
                 android:id="@+id/twitter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -188,6 +188,7 @@
                 android:textColor="?text_color"
                 android:textColorLink="?text_color_link"
                 android:textSize="14dip" />
+-->  
 
             <TextView
                 android:id="@+id/nutshellmanual"

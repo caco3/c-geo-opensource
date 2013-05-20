@@ -13,6 +13,8 @@
         <View style="@style/action_bar_separator" />
 
         <TextView style="@style/action_bar_title" />
+
+        <include layout="@layout/actionbar_button_menu" />
     </LinearLayout>
 
     <ListView

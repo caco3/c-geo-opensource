@@ -800,6 +800,13 @@ public class CacheDetailActivity extends AbstractViewPagerActivity<CacheDetailAc
     }
 
     /**
+     * Wrapper to open menu.
+     */
+    public void showMenu(@SuppressWarnings("unused") View view) {
+        openOptionsMenu();
+    }
+
+    /**
      * referenced from XML view
      */
     public void showNavigationMenu(@SuppressWarnings("unused") View view) {

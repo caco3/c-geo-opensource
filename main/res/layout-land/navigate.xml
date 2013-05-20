@@ -15,12 +15,7 @@
 
         <TextView style="@style/action_bar_title" />
 
-        <View style="@style/action_bar_separator" />
-
-        <ImageView
-            style="@style/action_bar_action"
-            android:onClick="goManual"
-            android:src="@drawable/actionbar_manual" />
+        <include layout="@layout/actionbar_button_menu" />
     </LinearLayout>
 
     <LinearLayout
@@ -82,7 +77,7 @@
                 android:text="@null"
                 android:textColor="?text_color"
                 android:textSize="26dip" />
-
+<!-- 
             <TextView
                 android:id="@+id/nav_location"
                 style="@style/location_current"
@@ -93,7 +88,7 @@
                 android:layout_marginLeft="0dp"
                 android:layout_marginTop="95dp"
                 android:text="@string/loc_trying" />
-
+-->
             <RelativeLayout
                 android:id="@+id/status"
                 android:layout_width="fill_parent"

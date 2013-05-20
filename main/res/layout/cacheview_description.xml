@@ -42,6 +42,7 @@
             style="@style/button_small"
             android:layout_marginBottom="36dip"
             android:layout_marginTop="12dip"
+            android:minHeight="30dp"
             android:text="@string/cache_description_long"
             android:visibility="gone" />
 
@@ -133,6 +134,7 @@
             <Button
                 android:id="@+id/edit_personalnote"
                 style="@style/button_small"
+                android:minHeight="30dp"
                 android:text="@string/cache_personal_note_edit" />
         </LinearLayout>
     </LinearLayout>

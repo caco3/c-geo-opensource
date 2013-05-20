@@ -102,12 +102,6 @@ public abstract class AbstractPopupActivity extends AbstractActivity {
         }).start();
     }
 
-    @Override
-    public void goManual(View view) {
-        super.goManual(view);
-        finish();
-    }
-
     protected void init() {
         cache = cgData.loadCache(geocode, LoadFlags.LOAD_CACHE_OR_DB);
 
@@ -303,4 +297,11 @@ public abstract class AbstractPopupActivity extends AbstractActivity {
         finish();
     }
 
+    /**
+     * @param view
+     *            unused here but needed since this method is referenced from XML layout
+     */
+    public final void showMenu(View view) {
+        openOptionsMenu();
+    }
 }

@@ -1061,4 +1061,8 @@ public class SettingsActivity extends AbstractActivity {
         fromActivity.startActivity(initIntent);
     }
 
+    // open menu
+    public void showMenu(View view) {
+        openOptionsMenu();
+    }
 }

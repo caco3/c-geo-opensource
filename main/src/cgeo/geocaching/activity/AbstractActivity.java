@@ -38,11 +38,6 @@ public abstract class AbstractActivity extends FragmentActivity implements IAbst
         ActivityMixin.goHome(this);
     }
 
-    @Override
-    public void goManual(final View view) {
-        ActivityMixin.goManual(this, helpTopic);
-    }
-
     final public void setTitle(final String title) {
         ActivityMixin.setTitle(this, title);
     }

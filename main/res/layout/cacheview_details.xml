@@ -78,6 +78,7 @@
                     android:id="@+id/offline_refresh"
                     style="@style/button_small"
                     android:layout_width="60dip"
+                    android:minHeight="30dp"
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="71dip"
                     android:text="@string/cache_offline_refresh"
@@ -86,6 +87,7 @@
                 <Button
                     android:id="@+id/offline_store"
                     style="@style/button_small"
+                    android:minHeight="30dp"
                     android:layout_width="60dip"
                     android:layout_alignParentRight="true"
                     android:text="@string/cache_offline_store" />
@@ -117,6 +119,7 @@
             <Button
                 android:id="@+id/change_list"
                 style="@style/button_small"
+                android:minHeight="30dp"
                 android:layout_alignParentRight="true"
                 android:text="@string/cache_list_change"
                 android:visibility="visible" />
@@ -155,6 +158,7 @@
                 <Button
                     android:id="@+id/add_to_watchlist"
                     style="@style/button_small"
+                    android:minHeight="30dp"
                     android:layout_alignParentRight="true"
                     android:text="@string/cache_watchlist_add"
                     android:visibility="gone" />
@@ -162,6 +166,7 @@
                 <Button
                     android:id="@+id/remove_from_watchlist"
                     style="@style/button_small"
+                    android:minHeight="30dp"
                     android:layout_alignParentRight="true"
                     android:text="@string/cache_watchlist_remove"
                     android:visibility="gone" />
@@ -201,6 +206,7 @@
                 <Button
                     android:id="@+id/add_to_favpoint"
                     style="@style/button_small"
+                    android:minHeight="30dp"
                     android:layout_alignParentRight="true"
                     android:text="@string/cache_favpoint_add"
                     android:visibility="gone" />
@@ -208,6 +214,7 @@
                 <Button
                     android:id="@+id/remove_from_favpoint"
                     style="@style/button_small"
+                    android:minHeight="30dp"
                     android:layout_alignParentRight="true"
                     android:text="@string/cache_favpoint_remove"
                     android:visibility="gone" />

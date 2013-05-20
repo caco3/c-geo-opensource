@@ -744,4 +744,9 @@ public class VisitCacheActivity extends AbstractLoggingActivity implements DateD
         imageButton.setText(StringUtils.isNotBlank(imageUri.getPath()) ?
                 res.getString(R.string.log_image_edit) : res.getString(R.string.log_image_attach));
     }
+
+    // open menu
+    public void showMenu(View view) {
+        openOptionsMenu();
+    }
 }

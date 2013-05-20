@@ -304,4 +304,7 @@ public class cgeonavigate extends AbstractActivity {
         cgeonavigate.startActivity(context, geocode, displayedName, coords, coordinatesWithType, null);
     }
 
+    public final void showMenu(View view) {
+        openOptionsMenu();
+    }
 }

@@ -117,11 +117,12 @@ public class MapsforgeMapActivity024 extends MapActivity implements MapActivityI
         mapBase.goHome(view);
     }
 
-    // open manual entry
+    // open menu
     @Override
-    public void goManual(View view) {
-        mapBase.goManual(view);
+    public void showMenu(View view) {
+        openOptionsMenu();
     }
+
 
     @Override
     public void showFilterMenu(View view) {

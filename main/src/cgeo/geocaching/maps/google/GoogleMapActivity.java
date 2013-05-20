@@ -122,10 +122,10 @@ public class GoogleMapActivity extends MapActivity implements MapActivityImpl, F
         mapBase.goHome(view);
     }
 
-    // open manual entry
+    // open menu
     @Override
-    public void goManual(View view) {
-        mapBase.goManual(view);
+    public void showMenu(View view) {
+        openOptionsMenu();
     }
 
     @Override

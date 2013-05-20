@@ -8,8 +8,8 @@
     <LinearLayout style="@style/action_bar" >
 
         <TextView style="@style/action_bar_title" />
-
-        <View style="@style/action_bar_separator" />
+        
+        <include layout="@layout/actionbar_button_menu" />
 
         <ImageView
             android:id="@+id/defaultNavigation"
@@ -17,15 +17,6 @@
             android:longClickable="true"
             android:onClick="goDefaultNavigation"
             android:src="@drawable/actionbar_compass_dark" />
-
-        <View
-            android:id="@+id/separator"
-            style="@style/action_bar_separator" />
-
-        <ImageView
-            style="@style/action_bar_action"
-            android:onClick="goManual"
-            android:src="@drawable/actionbar_manual" />
     </LinearLayout>
 
     <ScrollView
@@ -56,6 +47,7 @@
                 <Button
                     android:id="@+id/edit"
                     style="@style/button_small"
+                    android:minHeight="30dp"
                     android:text="@string/waypoint_edit" />
             </LinearLayout>
 
@@ -80,6 +72,7 @@
                 <Button
                     android:id="@+id/more_details"
                     style="@style/button_small"
+                    android:minHeight="30dp"
                     android:text="@string/popup_more" />
             </LinearLayout>
         </LinearLayout>

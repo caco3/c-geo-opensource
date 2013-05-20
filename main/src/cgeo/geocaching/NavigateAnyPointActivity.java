@@ -569,4 +569,9 @@ public class NavigateAnyPointActivity extends AbstractActivity {
         }
         Settings.setAnyCoordinates(coords);
     }
+
+    // open menu
+    public void showMenu(View view) {
+        openOptionsMenu();
+    }
 }

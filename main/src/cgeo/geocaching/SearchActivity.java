@@ -434,4 +434,9 @@ public class SearchActivity extends AbstractActivity {
                 putExtra(Intents.EXTRA_KEYWORD_SEARCH, false);
         fromActivity.startActivityForResult(searchIntent, cgeo.SEARCH_REQUEST_CODE);
     }
+
+    // open menu
+    public void showMenu(View view) {
+        openOptionsMenu();
+    }
 }

@@ -38,6 +38,7 @@
     · blafoo (code, localization DE)\n
     · Bonemaro (tester)\n
     · BudBundi (localization DE, tester)\n
+    · CaCO3 (BB10 porter)\n
     · campbeb (code)\n
     · Charles (localization FR)\n
     · Denny (localization DA)\n
@@ -87,6 +88,14 @@
 
   <!-- changelog -->
   <string name="changelog" translatable="false">\n
+    <b>2013.05.18-2</b>\n
+    · Initial Port to BB10\n
+    · Removed Help button in toolbars\n
+    · Removed obsolete Help manual\n
+    · Added menu buttons in toolbars\n   
+    · Removed useful programs menu entry\n
+    \n
+    \n
     <b>2013.05.18</b>\n
     <b>Bugfixing:</b>\n
     · Correction for compatability issue with tablet devices\n
