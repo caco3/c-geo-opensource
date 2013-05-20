@@ -18,11 +18,14 @@
         android:title="@string/menu_helpers">
     </item>
     -->
+    
+    <!--   Disabled for now since it is not supported in Blackberry 
     <item
         android:id="@+id/menu_scan"
         android:icon="@drawable/ic_menu_barcode"
         android:title="@string/menu_scan_geo">
     </item>
+    -->
     <item
         android:id="@+id/menu_about"
         android:icon="@drawable/ic_menu_info_details"
