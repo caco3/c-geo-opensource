@@ -19,7 +19,7 @@
     </item>
     -->
     
-    <!--   Disabled for now since it is not supported in Blackberry 
+    <!--   Disabled for now since GeoCode scan is not supported in Blackberry 
     <item
         android:id="@+id/menu_scan"
         android:icon="@drawable/ic_menu_barcode"

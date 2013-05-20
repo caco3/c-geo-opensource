@@ -238,10 +238,13 @@ public class cgeo extends AbstractActivity {
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         super.onPrepareOptionsMenu(menu);
-        MenuItem item = menu.findItem(R.id.menu_scan);
-        if (item != null) {
-            item.setEnabled(isIntentAvailable(SCAN_INTENT));
-        }
+        /*
+         * Disabled for now since GeoCode scan is not supported in Blackberry
+         * MenuItem item = menu.findItem(R.id.menu_scan);
+         * if (item != null) {
+         * item.setEnabled(isIntentAvailable(SCAN_INTENT));
+         * }
+         */
         return true;
     }
 
@@ -272,9 +275,12 @@ public class cgeo extends AbstractActivity {
             case R.id.menu_history:
                 cgeocaches.startActivityHistory(this);
                 return true;
-            case R.id.menu_scan:
-                startScannerApplication();
-                return true;
+                /*
+                 * Disabled for now since GeoCode scan is not supported in Blackberry
+                 * case R.id.menu_scan:
+                 * startScannerApplication();
+                 * return true;
+                 */
             default:
                 return super.onOptionsItemSelected(item);
         }
