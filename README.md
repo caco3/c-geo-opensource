@@ -1,8 +1,13 @@
-[c:geo](http://www.cgeo.org) is a simple yet powerful unofficial geocaching client for Android devices. In contrast to other similar applications, c:geo doesn't require a web browser nor file exports. You can just go geocaching with your phone and without any home preparation or worries. Of course, you can go without paying - it's free.
+[c:geo](http://www.cgeo.org) is a simple yet powerful unofficial geocaching client for Android and Blackberry 10 devices. In contrast to other similar applications, c:geo doesn't require a web browser nor file exports. You can just go geocaching with your phone and without any home preparation or worries. Of course, you can go without paying - it's free.
 
-You want to contribute?
------------------------
-Perfect! Please **tell us in the [issue tracker](https://github.com/cgeo/c-geo-opensource/issues) before hacking** on your great new feature. It would be bad if you have implemented something great, but we can't include it because it doesn't fit the remaining architecture and code. You might also want to chat with the developers on channel #cgeo on the freenode IRC network.
+This is a fork from the official Android port. It contains modifications and enhancements required for the Blackberry BB10 devices.
+
+### Limitations on BB10 ###
+- No Google Maps/Satellite images available. This could only be solved by Blackberry supporting Google Maps. How ever you can save Google Satellite as offline maps for each Geocache.
+- Some features are disabled as they are not yet supported (i.e. list of useful programs).
+- Several other Android programs work well together with c:geo, how ever they currently have to get manually sideloaded: GCC, Google Maps/Navigation, GPS Test.
+
+
 
 Get the source
 --------------
@@ -45,12 +50,12 @@ If the workspace directory name contains a space and leads to errors in the -dex
 ### Configuration ###
 
 1. copy `./main/templates/private.properties` to `./main/`
-2. edit `private.properties` (see comments in the file)
-3. copy `./main/templates/local.properties` to `./main/`
-3. copy `./main/templates/local.properties` to `./tests/`
-4. edit `local.properties` (see comments in the file)
-5. copy `./main/templates/mapsapikey.xml` to `./main/res/values/`
-6. edit `./main/res/values/mapsapikey.xml` and insert your Maps API key (see comments in the file)
+2. edit `private.properties` (see comments in the file. Note: This not needed for BB10 as we dont use Google Maps)
+3. edit `local.properties` (see comments in the file)
+4. copy `./main/templates/local.properties` to `./main/`
+5. copy `./main/templates/local.properties` to `./tests/`
+6. copy `./main/templates/mapsapikey.xml` to `./main/res/values/`
+7. edit `./main/res/values/mapsapikey.xml` and insert your Maps API key (see comments in the file. Note: This not needed for BB10 as we dont use Google Maps)
 
 ### Building with Ant ###
 
@@ -74,6 +79,16 @@ the class under test.
 Every class can be "Run As" (or "Debug As") an [Android JUnit Test](http://developer.android.com/guide/topics/testing/testing_android.html) from Eclipse.
 To run all tests use the same "Run As" menu item from the context menu of the test project.
 
+### Converting for BB10 ###
+To get a working BAR file for BB10, you have to do the following:
+
+1. Make sure it builds successfully in Eclipe
+2. In the Project Explorer, right click on the project, then go to Android Tools > Export Signen Application Package
+3. Sign it with a locally generated Android key
+3. Convert the APK file to a BB10 BAR file (i.e. by using apk2bar-HaTaX, see http://forums.crackberry.com/android-app-sideloading-f258/tools-help-make-apk-bar-process-easier-662772/)
+4. Sign the BAR file with your Blackberry Vendor key (i.e. by using signbar-HaTaX, see same link as above).
+
+
 License
 -------
 
@@ -82,10 +97,5 @@ c:geo is distributed under [Apache License, Version 2.0](http://www.apache.org/l
 Contact
 -------
 
-- Website: http://www.cgeo.org/
-- Support: support@cgeo.org
-- Twitter: http://twitter.com/android_gc
-- Facebook: http://www.facebook.com/android.geocaching
-- Google+: https://plus.google.com/105588163414303246956
-- Google Play: https://play.google.com/store/apps/details?id=cgeo.geocaching
-- Live status: http://status.cgeo.org/
+- Official c:geo website: http://www.cgeo.org/
+
