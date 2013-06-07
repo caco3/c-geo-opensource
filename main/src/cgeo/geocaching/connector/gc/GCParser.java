@@ -54,6 +54,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.EnumSet;
+import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.Locale;
 import java.util.Set;
@@ -166,8 +167,34 @@ public abstract class GCParser {
 
             // cache direction - image
             if (Settings.getLoadDirImg()) {
-                cache.setDirectionImg(Network.decode(BaseUtils.getMatch(row, GCConstants.PATTERN_SEARCH_DIRECTION, true, 1, cache.getDirectionImg(), true)));
+                final String direction = BaseUtils.getMatch(row, GCConstants.PATTERN_SEARCH_DIRECTION_DISTANCE, false, 1, null, false);
+                if (direction != null) {
+                    cache.setDirectionImg(direction);
+                }
             }
+
+            // cache distance - estimated distance for basic members
+            final String distance = BaseUtils.getMatch(row, GCConstants.PATTERN_SEARCH_DIRECTION_DISTANCE, false, 2, null, false);
+            if (distance != null) {
+                cache.setDistance(DistanceParser.parseDistance(distance, Settings.isUseMetricUnits()));
+            }
+
+            // difficulty/terrain
+            final MatcherWrapper matcherDT = new MatcherWrapper(GCConstants.PATTERN_SEARCH_DIFFICULTY_TERRAIN, row);
+            if (matcherDT.find()) {
+                final Float difficulty = parseStars(matcherDT.group(1));
+                if (difficulty != null) {
+                    cache.setDifficulty(difficulty);
+                }
+                final Float terrain = parseStars(matcherDT.group(3));
+                if (terrain != null) {
+                    cache.setTerrain(terrain);
+                }
+            }
+
+            // size
+            final String container = BaseUtils.getMatch(row, GCConstants.PATTERN_SEARCH_CONTAINER, false, 1, null, false);
+            cache.setSize(CacheSize.getById(container));
 
             // cache inventory
             final MatcherWrapper matcherTbs = new MatcherWrapper(GCConstants.PATTERN_SEARCH_TRACKABLES, row);
@@ -291,12 +318,17 @@ public abstract class GCParser {
             final Set<Geocache> caches = searchResult.getCachesFromSearchResult(LoadFlags.LOAD_CACHE_OR_DB);
             for (Geocache cache : caches) {
                 if (cache.getCoords() == null && StringUtils.isNotEmpty(cache.getDirectionImg())) {
-                    DirectionImage.getDrawable(cache.getGeocode(), cache.getDirectionImg());
+                    DirectionImage.getDrawable(cache.getDirectionImg());
                 }
             }
         }
 
         return searchResult;
+    }
+
+    private static Float parseStars(final String value) {
+        float floatValue = Float.parseFloat(StringUtils.replaceChars(value, ',', '.'));
+        return floatValue >= 0.5 && floatValue <= 5.0 ? floatValue : null;
     }
 
     static SearchResult parseCache(final String page, final CancellableHandler handler) {
@@ -941,12 +973,18 @@ public abstract class GCParser {
                 "__EVENTARGUMENT", "",
                 "__LASTFOCUS", "",
                 "ctl00$ContentBody$LogBookPanel1$ddLogType", Integer.toString(logType.id),
+                "ctl00$ContentBody$LogBookPanel1$uxDateVisited", Login.getCustomGcDateFormat().format(new GregorianCalendar(year, month - 1, day).getTime()),
+                "ctl00$ContentBody$LogBookPanel1$uxDateVisited$Month", Integer.toString(month),
+                "ctl00$ContentBody$LogBookPanel1$uxDateVisited$Day", Integer.toString(day),
+                "ctl00$ContentBody$LogBookPanel1$uxDateVisited$Year", Integer.toString(year),
                 "ctl00$ContentBody$LogBookPanel1$DateTimeLogged", String.format("%02d", month) + "/" + String.format("%02d", day) + "/" + String.format("%04d", year),
                 "ctl00$ContentBody$LogBookPanel1$DateTimeLogged$Month", Integer.toString(month),
                 "ctl00$ContentBody$LogBookPanel1$DateTimeLogged$Day", Integer.toString(day),
                 "ctl00$ContentBody$LogBookPanel1$DateTimeLogged$Year", Integer.toString(year),
-                "ctl00$ContentBody$LogBookPanel1$uxLogInfo", logInfo,
                 "ctl00$ContentBody$LogBookPanel1$LogButton", "Submit Log Entry",
+                "ctl00$ContentBody$LogBookPanel1$uxLogInfo", logInfo,
+                "ctl00$ContentBody$LogBookPanel1$btnSubmitLog", "Submit Log Entry",
+                "ctl00$ContentBody$LogBookPanel1$uxLogCreationSource", "Old",
                 "ctl00$ContentBody$uxVistOtherListingGC", "");
         Login.putViewstates(params, viewstates);
         if (trackables != null && !trackables.isEmpty()) { //  we have some trackables to proceed
@@ -1128,14 +1166,21 @@ public abstract class GCParser {
         Login.putViewstates(params, viewstates);
         if (currentDate.get(Calendar.YEAR) == year && (currentDate.get(Calendar.MONTH) + 1) == month && currentDate.get(Calendar.DATE) == day) {
             params.put("ctl00$ContentBody$LogBookPanel1$DateTimeLogged", "");
+            params.put("ctl00$ContentBody$LogBookPanel1$uxDateVisited", "");
         } else {
             params.put("ctl00$ContentBody$LogBookPanel1$DateTimeLogged", Integer.toString(month) + "/" + Integer.toString(day) + "/" + Integer.toString(year));
+            params.put("ctl00$ContentBody$LogBookPanel1$uxDateVisited", Login.getCustomGcDateFormat().format(new GregorianCalendar(year, month - 1, day).getTime()));
         }
         params.put(
                 "ctl00$ContentBody$LogBookPanel1$DateTimeLogged$Day", Integer.toString(day),
                 "ctl00$ContentBody$LogBookPanel1$DateTimeLogged$Month", Integer.toString(month),
                 "ctl00$ContentBody$LogBookPanel1$DateTimeLogged$Year", Integer.toString(year),
+                "ctl00$ContentBody$LogBookPanel1$uxDateVisited$Day", Integer.toString(day),
+                "ctl00$ContentBody$LogBookPanel1$uxDateVisited$Month", Integer.toString(month),
+                "ctl00$ContentBody$LogBookPanel1$uxDateVisited$Year", Integer.toString(year),
                 "ctl00$ContentBody$LogBookPanel1$uxLogInfo", logInfo,
+                "ctl00$ContentBody$LogBookPanel1$btnSubmitLog", "Submit Log Entry",
+                "ctl00$ContentBody$uxVistOtherTrackableTB", "",
                 "ctl00$ContentBody$LogBookPanel1$LogButton", "Submit Log Entry",
                 "ctl00$ContentBody$uxVistOtherListingGC", "");
 
@@ -1559,8 +1604,8 @@ public abstract class GCParser {
                 final JSONArray images = entry.getJSONArray("Images");
                 for (int i = 0; i < images.length(); i++) {
                     final JSONObject image = images.getJSONObject(i);
-                    String url = "http://img.geocaching.com/cache/log/" + image.getString("FileName");
-                    String title = image.getString("Name");
+                    final String url = "http://img.geocaching.com/cache/log/large/" + image.getString("FileName");
+                    final String title = image.getString("Name");
                     final Image logImage = new Image(url, title);
                     logDone.addLogImage(logImage);
                 }

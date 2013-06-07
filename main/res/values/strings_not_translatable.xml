@@ -88,6 +88,24 @@
 
   <!-- changelog -->
   <string name="changelog" translatable="false">\n
+    <b>2013.06.05</b>\n
+    <b>Bugfixing:</b>\n
+    · Adaption to changes on gc.com (Logging date could be wrong in some cases)\n
+    \n
+    \n
+    <b>2013.05.31</b>\n
+    <b>Bugfixing:</b>\n
+    · Adaption to changes on gc.com (cache and TB log not possible, cache attributes not shown)\n
+    · Pictures in logs are now loaded in standard resolution like on the website to improve performance\n
+    · Corrected missing information and performance issues on nearby search for basic members\n
+    \n
+    \n
+    <b>2013.05.22</b>\n
+    <b>Bugfixing:</b>\n
+    · Fixed and improved nearby search for basic members after gc.com changes\n
+    · Avoid inconsistency of logbook while pictures are loaded in the background\n
+    \n
+    \n
     <b>2013.05.18-3</b>\n
     · Initial Port to BB10\n
     · Removed Help button in toolbars\n
@@ -154,7 +172,7 @@
     · Corrections for light scheme on Adnroid 2.x devices\n
     · Avoid crash if logging page is opened while not connected correctly\n
      \n
-    <a href="https://github.com/cgeo/c-geo-opensource/issues?milestone=9&amp;state=closed">Detailed list of all changes</a>\n
+    <a href="https://github.com/cgeo/cgeo/issues?milestone=9&amp;state=closed">Detailed list of all changes</a>\n
     \n
     <b>Known Limitations/Bugs:</b>\n
     · Live map:\n
