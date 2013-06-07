@@ -281,8 +281,8 @@
 
   <!-- next things -->
   <string name="legal_note">For at benytte Geocaching.com, skal betingelserne i <a href="http://www.geocaching.com/about/termsofuse.aspx">"Groundspeak disclaimer"</a> accepteres.</string>
-  <string name="support">Support: <a href="mailto:support@cgeo.org">support@cgeo.org</a></string>
-  <string name="website">Hjemmeside: <a href="http://cgeo.org/">cgeo.org</a></string>
+  <string name="support">Support: <a href="mailto:george@ruinelli.ch">george@ruinelli.ch</a></string>
+  <string name="website">Hjemmeside: <a href="http://www.ruinelli.ch/cgeo">www.ruinelli.ch/cgeo</a></string>
   <string name="facebook">Facebook: <a href="http://www.facebook.com/pages/cgeo/297269860090">c:geo page</a></string>
   <string name="twitter">Twitter: <a href="http://twitter.com/android_gc">@android_GC</a></string>
   <string name="about_twitter">Skal <b>c:geo</b> sende status til Twitter hvergang du logger en cache?</string>

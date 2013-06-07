@@ -38,7 +38,7 @@ public class AboutActivity extends AbstractActivity {
      *            unused here but needed since this method is referenced from XML layout
      */
     public void support(View view) {
-        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:support@cgeo.org")));
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:george@ruinelli.ch")));
     }
 
     /**
@@ -46,7 +46,7 @@ public class AboutActivity extends AbstractActivity {
      *            unused here but needed since this method is referenced from XML layout
      */
     public void website(View view) {
-        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.cgeo.org/")));
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ruinelli.ch/cgeo")));
     }
 
     /**

@@ -852,10 +852,10 @@
   <string name="export_gpx_info">GPX filen kommer att exporteras till %1$s med datum och tid i filnamnet.</string>
   <string name="export_gpx_to">Skicka exporterad GPX till</string>
 
-  <!-- next things -->
+  <!-- next things --> 
   <string name="legal_note">För att använda tjänster hos Geocaching.com, måste regler och villkor i <a href="http://www.geocaching.com/about/termsofuse.aspx">Groundspeaks avtal</a> godkännas.</string>
-  <string name="support">Support: <a href="mailto:support@cgeo.org">support@cgeo.org</a></string>
-  <string name="website">Hemsida: <a href="http://cgeo.org/">cgeo.org</a></string>
+  <string name="support">Support: <a href="mailto:george@ruinelli.ch">george@ruinelli.ch</a></string>
+  <string name="website">Hemsida: <a href="http://www.ruinelli.ch/cgeo">www.ruinelli.ch/cgeo</a></string>
   <string name="facebook">Facebook: <a href="http://www.facebook.com/pages/cgeo/297269860090">c:geo</a></string>
   <string name="twitter">Twitter: <a href="http://twitter.com/android_gc">@android_GC</a></string>
   <string name="about_twitter">Ska <b>c:geo</b> publicera ny status på Twitter varje gång en cache loggas?</string>

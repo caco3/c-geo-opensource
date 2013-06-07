@@ -1047,8 +1047,8 @@
   <string name="legal_note">Pour utiliser les services de Geocaching.com, vous devez accepter les termes et conditions de la <a href="http://www.geocaching.com/about/termsofuse.aspx">mise en garde de Groundspeak</a>.</string>
   <string name="quote">Pour faciliter le géocaching.</string>
   <string name="powered_by">carnero</string>
-  <string name="support">support: <a href="mailto:support@cgeo.org">support@cgeo.org</a></string>
-  <string name="website">site: <a href="http://cgeo.org/">cgeo.org</a></string>
+  <string name="support">support: <a href="mailto:george@ruinelli.ch">george@ruinelli.ch</a></string>
+  <string name="website">site: <a href="http://www.ruinelli.ch/cgeo">www.ruinelli.ch/cgeo</a></string>
   <string name="facebook">facebook: <a href="http://www.facebook.com/pages/cgeo/297269860090">page c:geo</a></string>
   <string name="twitter">twitter: <a href="http://twitter.com/android_gc">@android_GC</a></string>
   <string name="nutshellmanual">Manuel: <a href="http://manual.cgeo.org/">c:geo en bref</a></string>
