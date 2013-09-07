@@ -6,23 +6,11 @@
 
     <LinearLayout style="@style/action_bar" >
 
-        <ImageView
-            style="@style/action_bar_back"
-            android:onClick="goBack" />
+        <include layout="@layout/actionbar_title" />
 
-        <View style="@style/action_bar_separator" />
+        <include layout="@layout/actionbar_progress" />
 
-        <TextView style="@style/action_bar_title" />
-
-        <ProgressBar
-            style="@style/action_bar_progress"
-            android:visibility="gone" />
-        
-        <include layout="@layout/actionbar_button_menu" />
-
-        <ImageSwitcher
-            android:id="@+id/my_position"
-            style="@style/action_bar_action" />
+        <include layout="@layout/actionbar_button_myposition" />
     </LinearLayout>
 
     <include layout="@layout/filter_bar" />
@@ -45,7 +33,7 @@
             android:scrollHorizontally="true"
             android:singleLine="true"
             android:textColor="@color/text_icon"
-            android:textSize="12dip"
+            android:textSize="12sp"
             android:visibility="gone" />
 
         <view

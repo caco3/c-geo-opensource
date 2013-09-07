@@ -117,19 +117,6 @@ public class MapsforgeMapActivity024 extends MapActivity implements MapActivityI
         mapBase.goHome(view);
     }
 
-    // close activity and go back
-    @Override
-    public void goBack(View view) {
-        finish();
-    }
-
-    // open menu
-    @Override
-    public void showMenu(View view) {
-        openOptionsMenu();
-    }
-
-
     @Override
     public void showFilterMenu(View view) {
         // do nothing, the filter bar only shows the global filter

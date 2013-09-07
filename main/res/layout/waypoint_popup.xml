@@ -7,16 +7,9 @@
 
     <LinearLayout style="@style/action_bar" >
 
-        <TextView style="@style/action_bar_title" />
-        
-        <include layout="@layout/actionbar_button_menu" />
+        <include layout="@layout/actionbar_title_no_home" />
 
-        <ImageView
-            android:id="@+id/defaultNavigation"
-            style="@style/action_bar_action"
-            android:longClickable="true"
-            android:onClick="goDefaultNavigation"
-            android:src="@drawable/actionbar_compass_dark" />
+        <include layout="@layout/actionbar_button_compass" />
     </LinearLayout>
 
     <ScrollView
@@ -47,7 +40,6 @@
                 <Button
                     android:id="@+id/edit"
                     style="@style/button_small"
-                    android:minHeight="30dp"
                     android:text="@string/waypoint_edit" />
             </LinearLayout>
 
@@ -72,7 +64,6 @@
                 <Button
                     android:id="@+id/more_details"
                     style="@style/button_small"
-                    android:minHeight="30dp"
                     android:text="@string/popup_more" />
             </LinearLayout>
         </LinearLayout>

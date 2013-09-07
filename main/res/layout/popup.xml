@@ -7,16 +7,9 @@
 
     <LinearLayout style="@style/action_bar" >
 
-        <TextView style="@style/action_bar_title" />
+        <include layout="@layout/actionbar_title_no_home" />
 
-        <include layout="@layout/actionbar_button_menu" />
-
-        <ImageView
-            android:id="@+id/defaultNavigation"
-            style="@style/action_bar_action"
-            android:longClickable="true"
-            android:onClick="goDefaultNavigation"
-            android:src="@drawable/actionbar_compass_dark" />
+        <include layout="@layout/actionbar_button_compass" />
     </LinearLayout>
 
     <ScrollView
@@ -44,7 +37,6 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:minHeight="30dp"
                 android:text="@string/popup_more" />
 
             <RelativeLayout style="@style/separator_horizontal_layout" >
@@ -67,13 +59,12 @@
                     android:paddingRight="3dip"
                     android:textColor="?text_color"
                     android:textIsSelectable="false"
-                    android:textSize="14dip" />
+                    android:textSize="14sp" />
 
                 <Button
                     android:id="@+id/offline_refresh"
                     style="@style/button_small"
                     android:layout_width="60dip"
-                        android:minHeight="30dp"
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="71dip"
                     android:text="@string/cache_offline_refresh"
@@ -83,7 +74,6 @@
                     android:id="@+id/offline_store"
                     style="@style/button_small"
                     android:layout_width="60dip"
-                    android:minHeight="30dp"
                     android:layout_alignParentRight="true"
                     android:text="@string/cache_offline_store" />
             </RelativeLayout>
