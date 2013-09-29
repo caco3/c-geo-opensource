@@ -1,0 +1,2699 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment: Fragment()
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity: FragmentActivity()
+android.support.v4.app.FragmentListActivity: FragmentListActivity()
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.os.ParcelableCompat
+android.support.v4.os.ParcelableCompat: ParcelableCompat()
+android.support.v4.os.ParcelableCompat: android.os.Parcelable$Creator newCreator(android.support.v4.os.ParcelableCompatCreatorCallbacks)
+android.support.v4.os.ParcelableCompat$CompatCreator
+android.support.v4.os.ParcelableCompat$CompatCreator: android.support.v4.os.ParcelableCompatCreatorCallbacks mCallbacks
+android.support.v4.os.ParcelableCompat$CompatCreator: ParcelableCompat$CompatCreator(android.support.v4.os.ParcelableCompatCreatorCallbacks)
+android.support.v4.os.ParcelableCompat$CompatCreator: java.lang.Object createFromParcel(android.os.Parcel)
+android.support.v4.os.ParcelableCompat$CompatCreator: java.lang.Object[] newArray(int)
+android.support.v4.os.ParcelableCompatCreatorCallbacks
+android.support.v4.os.ParcelableCompatCreatorCallbacks: java.lang.Object createFromParcel(android.os.Parcel,java.lang.ClassLoader)
+android.support.v4.os.ParcelableCompatCreatorCallbacks: java.lang.Object[] newArray(int)
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2: android.support.v4.os.ParcelableCompatCreatorCallbacks mCallbacks
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2: ParcelableCompatCreatorHoneycombMR2(android.support.v4.os.ParcelableCompatCreatorCallbacks)
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2: java.lang.Object createFromParcel(android.os.Parcel)
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2: java.lang.Object createFromParcel(android.os.Parcel,java.lang.ClassLoader)
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2: java.lang.Object[] newArray(int)
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2Stub
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2Stub: ParcelableCompatCreatorHoneycombMR2Stub()
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2Stub: android.os.Parcelable$Creator instantiate(android.support.v4.os.ParcelableCompatCreatorCallbacks)
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context)
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: void setCurrentItem(int,boolean)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+butterknife.Views$Finder: butterknife.Views$Finder[] values()
+butterknife.Views$Finder: butterknife.Views$Finder valueOf(java.lang.String)
+cgeo.geocaching.AboutActivity
+cgeo.geocaching.AboutActivity: AboutActivity()
+cgeo.geocaching.AboutActivity$ChangeLogViewCreator$$ViewInjector
+cgeo.geocaching.AboutActivity$ChangeLogViewCreator$$ViewInjector: AboutActivity$ChangeLogViewCreator$$ViewInjector()
+cgeo.geocaching.AboutActivity$ChangeLogViewCreator$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.AboutActivity$ChangeLogViewCreator,java.lang.Object)
+cgeo.geocaching.AboutActivity$ContributorsViewCreator$$ViewInjector
+cgeo.geocaching.AboutActivity$ContributorsViewCreator$$ViewInjector: AboutActivity$ContributorsViewCreator$$ViewInjector()
+cgeo.geocaching.AboutActivity$ContributorsViewCreator$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.AboutActivity$ContributorsViewCreator,java.lang.Object)
+cgeo.geocaching.AboutActivity$HelpViewCreator$$ViewInjector
+cgeo.geocaching.AboutActivity$HelpViewCreator$$ViewInjector: AboutActivity$HelpViewCreator$$ViewInjector()
+cgeo.geocaching.AboutActivity$HelpViewCreator$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.AboutActivity$HelpViewCreator,java.lang.Object)
+cgeo.geocaching.AboutActivity$LicenseViewCreator$$ViewInjector
+cgeo.geocaching.AboutActivity$LicenseViewCreator$$ViewInjector: AboutActivity$LicenseViewCreator$$ViewInjector()
+cgeo.geocaching.AboutActivity$LicenseViewCreator$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.AboutActivity$LicenseViewCreator,java.lang.Object)
+cgeo.geocaching.AboutActivity$Page: cgeo.geocaching.AboutActivity$Page[] values()
+cgeo.geocaching.AboutActivity$Page: cgeo.geocaching.AboutActivity$Page valueOf(java.lang.String)
+cgeo.geocaching.AboutActivity$VersionViewCreator$$ViewInjector
+cgeo.geocaching.AboutActivity$VersionViewCreator$$ViewInjector: AboutActivity$VersionViewCreator$$ViewInjector()
+cgeo.geocaching.AboutActivity$VersionViewCreator$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.AboutActivity$VersionViewCreator,java.lang.Object)
+cgeo.geocaching.AbstractLoggingActivity
+cgeo.geocaching.AbstractLoggingActivity: AbstractLoggingActivity()
+cgeo.geocaching.AbstractPopupActivity
+cgeo.geocaching.AbstractPopupActivity: AbstractPopupActivity(int)
+cgeo.geocaching.AbstractPopupActivity: void showNavigationMenu()
+cgeo.geocaching.AbstractPopupActivity: void goDefaultNavigation(android.view.View)
+cgeo.geocaching.AddressListActivity
+cgeo.geocaching.AddressListActivity: AddressListActivity()
+cgeo.geocaching.BuildConfig
+cgeo.geocaching.CacheCache
+cgeo.geocaching.CacheDetailActivity
+cgeo.geocaching.CacheDetailActivity: CacheDetailActivity()
+cgeo.geocaching.CacheDetailActivity: void goDefaultNavigation(android.view.View)
+cgeo.geocaching.CacheDetailActivity: void showNavigationMenu(android.view.View)
+cgeo.geocaching.CacheDetailActivity$DescriptionViewCreator
+cgeo.geocaching.CacheDetailActivity$DescriptionViewCreator$$ViewInjector
+cgeo.geocaching.CacheDetailActivity$DescriptionViewCreator$$ViewInjector: CacheDetailActivity$DescriptionViewCreator$$ViewInjector()
+cgeo.geocaching.CacheDetailActivity$DescriptionViewCreator$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.CacheDetailActivity$DescriptionViewCreator,java.lang.Object)
+cgeo.geocaching.CacheDetailActivity$Page
+cgeo.geocaching.CacheDetailActivity$Page: cgeo.geocaching.CacheDetailActivity$Page[] values()
+cgeo.geocaching.CacheDetailActivity$Page: cgeo.geocaching.CacheDetailActivity$Page valueOf(java.lang.String)
+cgeo.geocaching.CachePopup
+cgeo.geocaching.CachePopup: CachePopup()
+cgeo.geocaching.CachePopup: void showNavigationMenu()
+cgeo.geocaching.CompassActivity
+cgeo.geocaching.CompassActivity: CompassActivity()
+cgeo.geocaching.CompassActivity$$ViewInjector
+cgeo.geocaching.CompassActivity$$ViewInjector: CompassActivity$$ViewInjector()
+cgeo.geocaching.CompassActivity$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.CompassActivity,java.lang.Object)
+cgeo.geocaching.Destination
+cgeo.geocaching.DirectionProvider
+cgeo.geocaching.EditWaypointActivity
+cgeo.geocaching.EditWaypointActivity: EditWaypointActivity()
+cgeo.geocaching.EditWaypointActivity_
+cgeo.geocaching.EditWaypointActivity_: EditWaypointActivity_()
+cgeo.geocaching.EditWaypointActivity_: void setContentView(android.view.View)
+cgeo.geocaching.EditWaypointActivity_$IntentBuilder_
+cgeo.geocaching.GeoDataProvider$GeoData
+cgeo.geocaching.Geocache
+cgeo.geocaching.GpxFileListActivity
+cgeo.geocaching.GpxFileListActivity: GpxFileListActivity()
+cgeo.geocaching.ICache
+cgeo.geocaching.ICoordinates
+cgeo.geocaching.IGeoData
+cgeo.geocaching.ILogable
+cgeo.geocaching.IWaypoint
+cgeo.geocaching.Image
+cgeo.geocaching.Image: android.os.Parcelable$Creator CREATOR
+cgeo.geocaching.ImageSelectActivity
+cgeo.geocaching.ImageSelectActivity: ImageSelectActivity()
+cgeo.geocaching.ImageSelectActivity$$ViewInjector
+cgeo.geocaching.ImageSelectActivity$$ViewInjector: ImageSelectActivity$$ViewInjector()
+cgeo.geocaching.ImageSelectActivity$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.ImageSelectActivity,java.lang.Object)
+cgeo.geocaching.ImagesActivity
+cgeo.geocaching.ImagesActivity: ImagesActivity()
+cgeo.geocaching.Intents
+cgeo.geocaching.LogCacheActivity
+cgeo.geocaching.LogCacheActivity: LogCacheActivity()
+cgeo.geocaching.LogEntry
+cgeo.geocaching.LogTrackableActivity
+cgeo.geocaching.LogTrackableActivity: LogTrackableActivity()
+cgeo.geocaching.LogTrackableActivity$$ViewInjector
+cgeo.geocaching.LogTrackableActivity$$ViewInjector: LogTrackableActivity$$ViewInjector()
+cgeo.geocaching.LogTrackableActivity$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.LogTrackableActivity,java.lang.Object)
+cgeo.geocaching.MainActivity
+cgeo.geocaching.MainActivity: MainActivity()
+cgeo.geocaching.MainActivity: void cgeoFindOnMap(android.view.View)
+cgeo.geocaching.MainActivity: void cgeoFindNearest(android.view.View)
+cgeo.geocaching.MainActivity: void cgeoFindByOffline(android.view.View)
+cgeo.geocaching.MainActivity: void cgeoSearch(android.view.View)
+cgeo.geocaching.MainActivity: void cgeoPoint(android.view.View)
+cgeo.geocaching.MainActivity: void cgeoFilter(android.view.View)
+cgeo.geocaching.MainActivity: void cgeoNavSettings(android.view.View)
+cgeo.geocaching.MainActivity: void showAbout(android.view.View)
+cgeo.geocaching.MainActivity: void goSearch(android.view.View)
+cgeo.geocaching.MainActivity$$ViewInjector
+cgeo.geocaching.MainActivity$$ViewInjector: MainActivity$$ViewInjector()
+cgeo.geocaching.MainActivity$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.MainActivity,java.lang.Object)
+cgeo.geocaching.NavigateAnyPointActivity
+cgeo.geocaching.NavigateAnyPointActivity: NavigateAnyPointActivity()
+cgeo.geocaching.NavigateAnyPointActivity$$ViewInjector
+cgeo.geocaching.NavigateAnyPointActivity$$ViewInjector: NavigateAnyPointActivity$$ViewInjector()
+cgeo.geocaching.NavigateAnyPointActivity$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.NavigateAnyPointActivity,java.lang.Object)
+cgeo.geocaching.NavigateAnyPointActivity$ViewHolder
+cgeo.geocaching.NavigateAnyPointActivity$ViewHolder$$ViewInjector
+cgeo.geocaching.NavigateAnyPointActivity$ViewHolder$$ViewInjector: NavigateAnyPointActivity$ViewHolder$$ViewInjector()
+cgeo.geocaching.NavigateAnyPointActivity$ViewHolder$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.NavigateAnyPointActivity$ViewHolder,java.lang.Object)
+cgeo.geocaching.PersonalNote
+cgeo.geocaching.R
+cgeo.geocaching.R$array
+cgeo.geocaching.R$array: int attribute_ids
+cgeo.geocaching.R$array: int distance_units
+cgeo.geocaching.R$array: int log_image_scale_values
+cgeo.geocaching.R$array: int log_image_scales
+cgeo.geocaching.R$array: int waypoint_coordinate_formats
+cgeo.geocaching.R$attr
+cgeo.geocaching.R$attr: int actionbar_compass
+cgeo.geocaching.R$attr: int background_color
+cgeo.geocaching.R$attr: int background_color_notice
+cgeo.geocaching.R$attr: int background_color_transparent
+cgeo.geocaching.R$attr: int button
+cgeo.geocaching.R$attr: int button_color_disabled
+cgeo.geocaching.R$attr: int button_color_enabled
+cgeo.geocaching.R$attr: int clipPadding
+cgeo.geocaching.R$attr: int close
+cgeo.geocaching.R$attr: int compass
+cgeo.geocaching.R$attr: int favorite
+cgeo.geocaching.R$attr: int favorite_g
+cgeo.geocaching.R$attr: int favorite_o
+cgeo.geocaching.R$attr: int favorite_r
+cgeo.geocaching.R$attr: int footerColor
+cgeo.geocaching.R$attr: int footerIndicatorHeight
+cgeo.geocaching.R$attr: int footerIndicatorStyle
+cgeo.geocaching.R$attr: int footerIndicatorUnderlinePadding
+cgeo.geocaching.R$attr: int footerLineHeight
+cgeo.geocaching.R$attr: int footerPadding
+cgeo.geocaching.R$attr: int input
+cgeo.geocaching.R$attr: int inventory
+cgeo.geocaching.R$attr: int just_color
+cgeo.geocaching.R$attr: int log_img_icon
+cgeo.geocaching.R$attr: int progressSpinnerLarge
+cgeo.geocaching.R$attr: int selectedBold
+cgeo.geocaching.R$attr: int selectedColor
+cgeo.geocaching.R$attr: int separator_color
+cgeo.geocaching.R$attr: int settings_arrow
+cgeo.geocaching.R$attr: int settings_cloud
+cgeo.geocaching.R$attr: int settings_details
+cgeo.geocaching.R$attr: int settings_eye
+cgeo.geocaching.R$attr: int settings_info_icon
+cgeo.geocaching.R$attr: int settings_map
+cgeo.geocaching.R$attr: int settings_nut
+cgeo.geocaching.R$attr: int settings_pen
+cgeo.geocaching.R$attr: int settings_sdcard
+cgeo.geocaching.R$attr: int skin
+cgeo.geocaching.R$attr: int text
+cgeo.geocaching.R$attr: int textColor
+cgeo.geocaching.R$attr: int textSize
+cgeo.geocaching.R$attr: int text_color
+cgeo.geocaching.R$attr: int text_color_grey
+cgeo.geocaching.R$attr: int text_color_headline
+cgeo.geocaching.R$attr: int text_color_hint
+cgeo.geocaching.R$attr: int text_color_link
+cgeo.geocaching.R$attr: int title
+cgeo.geocaching.R$attr: int titlePadding
+cgeo.geocaching.R$attr: int topPadding
+cgeo.geocaching.R$attr: int url
+cgeo.geocaching.R$attr: int urlButton
+cgeo.geocaching.R$attr: int vpiTitlePageIndicatorStyle
+cgeo.geocaching.R$bool
+cgeo.geocaching.R$bool: int default_title_indicator_selected_bold
+cgeo.geocaching.R$color
+cgeo.geocaching.R$color: int archived_cache_color
+cgeo.geocaching.R$color: int background_dark
+cgeo.geocaching.R$color: int background_dark_notice
+cgeo.geocaching.R$color: int background_dark_transparent
+cgeo.geocaching.R$color: int background_light
+cgeo.geocaching.R$color: int background_light_notice
+cgeo.geocaching.R$color: int background_light_transparent
+cgeo.geocaching.R$color: int button_disabled
+cgeo.geocaching.R$color: int button_enabled
+cgeo.geocaching.R$color: int default_title_indicator_footer_color
+cgeo.geocaching.R$color: int default_title_indicator_selected_color
+cgeo.geocaching.R$color: int default_title_indicator_text_color
+cgeo.geocaching.R$color: int just_black
+cgeo.geocaching.R$color: int just_white
+cgeo.geocaching.R$color: int link
+cgeo.geocaching.R$color: int separator_dark
+cgeo.geocaching.R$color: int separator_light
+cgeo.geocaching.R$color: int text_dark
+cgeo.geocaching.R$color: int text_grey_dark
+cgeo.geocaching.R$color: int text_grey_light
+cgeo.geocaching.R$color: int text_headline_dark
+cgeo.geocaching.R$color: int text_headline_light
+cgeo.geocaching.R$color: int text_hint_dark
+cgeo.geocaching.R$color: int text_hint_light
+cgeo.geocaching.R$color: int text_icon
+cgeo.geocaching.R$color: int text_light
+cgeo.geocaching.R$color: int vpi__background_holo_dark
+cgeo.geocaching.R$color: int vpi__background_holo_light
+cgeo.geocaching.R$color: int vpi__bright_foreground_disabled_holo_dark
+cgeo.geocaching.R$color: int vpi__bright_foreground_disabled_holo_light
+cgeo.geocaching.R$color: int vpi__bright_foreground_holo_dark
+cgeo.geocaching.R$color: int vpi__bright_foreground_holo_light
+cgeo.geocaching.R$color: int vpi__bright_foreground_inverse_holo_dark
+cgeo.geocaching.R$color: int vpi__bright_foreground_inverse_holo_light
+cgeo.geocaching.R$dimen
+cgeo.geocaching.R$dimen: int actionbar_height
+cgeo.geocaching.R$dimen: int actionbar_separator_height
+cgeo.geocaching.R$dimen: int actionbar_separator_width
+cgeo.geocaching.R$dimen: int app_defaultsize_h
+cgeo.geocaching.R$dimen: int app_defaultsize_w
+cgeo.geocaching.R$dimen: int default_title_indicator_clip_padding
+cgeo.geocaching.R$dimen: int default_title_indicator_footer_indicator_height
+cgeo.geocaching.R$dimen: int default_title_indicator_footer_indicator_underline_padding
+cgeo.geocaching.R$dimen: int default_title_indicator_footer_line_height
+cgeo.geocaching.R$dimen: int default_title_indicator_footer_padding
+cgeo.geocaching.R$dimen: int default_title_indicator_text_size
+cgeo.geocaching.R$dimen: int default_title_indicator_title_padding
+cgeo.geocaching.R$dimen: int default_title_indicator_top_padding
+cgeo.geocaching.R$drawable
+cgeo.geocaching.R$drawable: int action_button_dark
+cgeo.geocaching.R$drawable: int action_button_dark_default
+cgeo.geocaching.R$drawable: int action_button_dark_off
+cgeo.geocaching.R$drawable: int action_button_dark_pressed
+cgeo.geocaching.R$drawable: int action_button_dark_selected
+cgeo.geocaching.R$drawable: int action_button_light
+cgeo.geocaching.R$drawable: int action_button_light_default
+cgeo.geocaching.R$drawable: int action_button_light_off
+cgeo.geocaching.R$drawable: int action_button_light_pressed
+cgeo.geocaching.R$drawable: int action_button_light_selected
+cgeo.geocaching.R$drawable: int actionbar_background
+cgeo.geocaching.R$drawable: int actionbar_button
+cgeo.geocaching.R$drawable: int actionbar_button_pressed
+cgeo.geocaching.R$drawable: int actionbar_button_selected
+cgeo.geocaching.R$drawable: int actionbar_cgeo
+cgeo.geocaching.R$drawable: int actionbar_compass_dark
+cgeo.geocaching.R$drawable: int actionbar_compass_light
+cgeo.geocaching.R$drawable: int actionbar_home
+cgeo.geocaching.R$drawable: int actionbar_map
+cgeo.geocaching.R$drawable: int actionbar_mylocation_off
+cgeo.geocaching.R$drawable: int actionbar_mylocation_on
+cgeo.geocaching.R$drawable: int actionbar_search
+cgeo.geocaching.R$drawable: int actionbar_separator
+cgeo.geocaching.R$drawable: int attribute__strikethru
+cgeo.geocaching.R$drawable: int attribute_abandonedbuilding
+cgeo.geocaching.R$drawable: int attribute_aircraft
+cgeo.geocaching.R$drawable: int attribute_all_seasons
+cgeo.geocaching.R$drawable: int attribute_arithmetic
+cgeo.geocaching.R$drawable: int attribute_ask_owner
+cgeo.geocaching.R$drawable: int attribute_available
+cgeo.geocaching.R$drawable: int attribute_bicycles
+cgeo.geocaching.R$drawable: int attribute_boat
+cgeo.geocaching.R$drawable: int attribute_breeding
+cgeo.geocaching.R$drawable: int attribute_campfires
+cgeo.geocaching.R$drawable: int attribute_camping
+cgeo.geocaching.R$drawable: int attribute_cave
+cgeo.geocaching.R$drawable: int attribute_cliff
+cgeo.geocaching.R$drawable: int attribute_climbing
+cgeo.geocaching.R$drawable: int attribute_compass
+cgeo.geocaching.R$drawable: int attribute_cow
+cgeo.geocaching.R$drawable: int attribute_danger
+cgeo.geocaching.R$drawable: int attribute_dangerousanimals
+cgeo.geocaching.R$drawable: int attribute_day
+cgeo.geocaching.R$drawable: int attribute_dogs
+cgeo.geocaching.R$drawable: int attribute_easy_climbing
+cgeo.geocaching.R$drawable: int attribute_fee
+cgeo.geocaching.R$drawable: int attribute_field_puzzle
+cgeo.geocaching.R$drawable: int attribute_firstaid
+cgeo.geocaching.R$drawable: int attribute_flashlight
+cgeo.geocaching.R$drawable: int attribute_food
+cgeo.geocaching.R$drawable: int attribute_frontyard
+cgeo.geocaching.R$drawable: int attribute_fuel
+cgeo.geocaching.R$drawable: int attribute_geotour
+cgeo.geocaching.R$drawable: int attribute_hike_long
+cgeo.geocaching.R$drawable: int attribute_hike_med
+cgeo.geocaching.R$drawable: int attribute_hike_short
+cgeo.geocaching.R$drawable: int attribute_hiking
+cgeo.geocaching.R$drawable: int attribute_hills
+cgeo.geocaching.R$drawable: int attribute_horses
+cgeo.geocaching.R$drawable: int attribute_hunting
+cgeo.geocaching.R$drawable: int attribute_in_water
+cgeo.geocaching.R$drawable: int attribute_inside
+cgeo.geocaching.R$drawable: int attribute_investigation
+cgeo.geocaching.R$drawable: int attribute_jeeps
+cgeo.geocaching.R$drawable: int attribute_kids
+cgeo.geocaching.R$drawable: int attribute_landf
+cgeo.geocaching.R$drawable: int attribute_letterbox
+cgeo.geocaching.R$drawable: int attribute_link_only
+cgeo.geocaching.R$drawable: int attribute_maintenance
+cgeo.geocaching.R$drawable: int attribute_mine
+cgeo.geocaching.R$drawable: int attribute_motorcycles
+cgeo.geocaching.R$drawable: int attribute_moving_target
+cgeo.geocaching.R$drawable: int attribute_night
+cgeo.geocaching.R$drawable: int attribute_nightcache
+cgeo.geocaching.R$drawable: int attribute_no_gps
+cgeo.geocaching.R$drawable: int attribute_oc_only
+cgeo.geocaching.R$drawable: int attribute_onehour
+cgeo.geocaching.R$drawable: int attribute_other_cache
+cgeo.geocaching.R$drawable: int attribute_overnight
+cgeo.geocaching.R$drawable: int attribute_parking
+cgeo.geocaching.R$drawable: int attribute_parkngrab
+cgeo.geocaching.R$drawable: int attribute_partnership
+cgeo.geocaching.R$drawable: int attribute_phone
+cgeo.geocaching.R$drawable: int attribute_picnic
+cgeo.geocaching.R$drawable: int attribute_poi
+cgeo.geocaching.R$drawable: int attribute_poisonoak
+cgeo.geocaching.R$drawable: int attribute_public
+cgeo.geocaching.R$drawable: int attribute_puzzle
+cgeo.geocaching.R$drawable: int attribute_quads
+cgeo.geocaching.R$drawable: int attribute_railway
+cgeo.geocaching.R$drawable: int attribute_rappelling
+cgeo.geocaching.R$drawable: int attribute_restrooms
+cgeo.geocaching.R$drawable: int attribute_rv
+cgeo.geocaching.R$drawable: int attribute_s_tool
+cgeo.geocaching.R$drawable: int attribute_scenic
+cgeo.geocaching.R$drawable: int attribute_scuba
+cgeo.geocaching.R$drawable: int attribute_seasonal
+cgeo.geocaching.R$drawable: int attribute_skiis
+cgeo.geocaching.R$drawable: int attribute_snow_proof
+cgeo.geocaching.R$drawable: int attribute_snowmobiles
+cgeo.geocaching.R$drawable: int attribute_snowshoes
+cgeo.geocaching.R$drawable: int attribute_specific_times
+cgeo.geocaching.R$drawable: int attribute_stealth
+cgeo.geocaching.R$drawable: int attribute_stroller
+cgeo.geocaching.R$drawable: int attribute_swamp
+cgeo.geocaching.R$drawable: int attribute_swimming
+cgeo.geocaching.R$drawable: int attribute_syringe
+cgeo.geocaching.R$drawable: int attribute_teamwork
+cgeo.geocaching.R$drawable: int attribute_thorn
+cgeo.geocaching.R$drawable: int attribute_ticks
+cgeo.geocaching.R$drawable: int attribute_tide
+cgeo.geocaching.R$drawable: int attribute_touristok
+cgeo.geocaching.R$drawable: int attribute_treeclimbing
+cgeo.geocaching.R$drawable: int attribute_unknown
+cgeo.geocaching.R$drawable: int attribute_uv
+cgeo.geocaching.R$drawable: int attribute_wading
+cgeo.geocaching.R$drawable: int attribute_water
+cgeo.geocaching.R$drawable: int attribute_webcam
+cgeo.geocaching.R$drawable: int attribute_wheelchair
+cgeo.geocaching.R$drawable: int attribute_winter
+cgeo.geocaching.R$drawable: int attribute_wirelessbeacon
+cgeo.geocaching.R$drawable: int cgeo
+cgeo.geocaching.R$drawable: int cgeo_logo
+cgeo.geocaching.R$drawable: int compass_arrow
+cgeo.geocaching.R$drawable: int compass_arrow_mini_black
+cgeo.geocaching.R$drawable: int compass_arrow_mini_white
+cgeo.geocaching.R$drawable: int compass_overlay
+cgeo.geocaching.R$drawable: int compass_rose
+cgeo.geocaching.R$drawable: int compass_underlay
+cgeo.geocaching.R$drawable: int count_bcg
+cgeo.geocaching.R$drawable: int favorite_background_dark
+cgeo.geocaching.R$drawable: int favorite_background_green_dark
+cgeo.geocaching.R$drawable: int favorite_background_green_light
+cgeo.geocaching.R$drawable: int favorite_background_light
+cgeo.geocaching.R$drawable: int favorite_background_orange_dark
+cgeo.geocaching.R$drawable: int favorite_background_orange_light
+cgeo.geocaching.R$drawable: int favorite_background_red_dark
+cgeo.geocaching.R$drawable: int favorite_background_red_light
+cgeo.geocaching.R$drawable: int filter_bar_background
+cgeo.geocaching.R$drawable: int helper_barcode
+cgeo.geocaching.R$drawable: int helper_bcg
+cgeo.geocaching.R$drawable: int helper_bluetoothgps
+cgeo.geocaching.R$drawable: int helper_gpsstatus
+cgeo.geocaching.R$drawable: int helper_locus
+cgeo.geocaching.R$drawable: int helper_pocketquery
+cgeo.geocaching.R$drawable: int ic_menu_add
+cgeo.geocaching.R$drawable: int ic_menu_agenda
+cgeo.geocaching.R$drawable: int ic_menu_barcode
+cgeo.geocaching.R$drawable: int ic_menu_circle
+cgeo.geocaching.R$drawable: int ic_menu_clear_playlist
+cgeo.geocaching.R$drawable: int ic_menu_compass
+cgeo.geocaching.R$drawable: int ic_menu_delete
+cgeo.geocaching.R$drawable: int ic_menu_edit
+cgeo.geocaching.R$drawable: int ic_menu_emoticons
+cgeo.geocaching.R$drawable: int ic_menu_filter
+cgeo.geocaching.R$drawable: int ic_menu_globe
+cgeo.geocaching.R$drawable: int ic_menu_info_details
+cgeo.geocaching.R$drawable: int ic_menu_mapmode
+cgeo.geocaching.R$drawable: int ic_menu_mark
+cgeo.geocaching.R$drawable: int ic_menu_more
+cgeo.geocaching.R$drawable: int ic_menu_myplaces
+cgeo.geocaching.R$drawable: int ic_menu_preferences
+cgeo.geocaching.R$drawable: int ic_menu_recent_history
+cgeo.geocaching.R$drawable: int ic_menu_refresh
+cgeo.geocaching.R$drawable: int ic_menu_rotate
+cgeo.geocaching.R$drawable: int ic_menu_save
+cgeo.geocaching.R$drawable: int ic_menu_set_as
+cgeo.geocaching.R$drawable: int ic_menu_share
+cgeo.geocaching.R$drawable: int ic_menu_shopping
+cgeo.geocaching.R$drawable: int ic_menu_sort_alphabetically
+cgeo.geocaching.R$drawable: int ic_menu_sort_by_size
+cgeo.geocaching.R$drawable: int ic_menu_start_conversation
+cgeo.geocaching.R$drawable: int ic_menu_trail
+cgeo.geocaching.R$drawable: int icon_bcg
+cgeo.geocaching.R$drawable: int image_no_placement
+cgeo.geocaching.R$drawable: int image_not_loaded
+cgeo.geocaching.R$drawable: int input_bcg_dark
+cgeo.geocaching.R$drawable: int input_bcg_light
+cgeo.geocaching.R$drawable: int inventory_background_dark
+cgeo.geocaching.R$drawable: int inventory_background_light
+cgeo.geocaching.R$drawable: int log_img_dark
+cgeo.geocaching.R$drawable: int log_img_light
+cgeo.geocaching.R$drawable: int main_any
+cgeo.geocaching.R$drawable: int main_any_default
+cgeo.geocaching.R$drawable: int main_any_pressed
+cgeo.geocaching.R$drawable: int main_any_selected
+cgeo.geocaching.R$drawable: int main_filter
+cgeo.geocaching.R$drawable: int main_filter_default
+cgeo.geocaching.R$drawable: int main_filter_pressed
+cgeo.geocaching.R$drawable: int main_filter_selected
+cgeo.geocaching.R$drawable: int main_live
+cgeo.geocaching.R$drawable: int main_live_default
+cgeo.geocaching.R$drawable: int main_live_pressed
+cgeo.geocaching.R$drawable: int main_live_selected
+cgeo.geocaching.R$drawable: int main_nearby
+cgeo.geocaching.R$drawable: int main_nearby_default
+cgeo.geocaching.R$drawable: int main_nearby_disabled
+cgeo.geocaching.R$drawable: int main_nearby_pressed
+cgeo.geocaching.R$drawable: int main_nearby_selected
+cgeo.geocaching.R$drawable: int main_overlay_pressed
+cgeo.geocaching.R$drawable: int main_overlay_selected
+cgeo.geocaching.R$drawable: int main_search
+cgeo.geocaching.R$drawable: int main_search_default
+cgeo.geocaching.R$drawable: int main_search_pressed
+cgeo.geocaching.R$drawable: int main_search_selected
+cgeo.geocaching.R$drawable: int main_stored
+cgeo.geocaching.R$drawable: int main_stored_default
+cgeo.geocaching.R$drawable: int main_stored_pressed
+cgeo.geocaching.R$drawable: int main_stored_selected
+cgeo.geocaching.R$drawable: int map_close_dark
+cgeo.geocaching.R$drawable: int map_close_light
+cgeo.geocaching.R$drawable: int mark_gray
+cgeo.geocaching.R$drawable: int mark_green
+cgeo.geocaching.R$drawable: int mark_green_more
+cgeo.geocaching.R$drawable: int mark_green_orange
+cgeo.geocaching.R$drawable: int mark_orange
+cgeo.geocaching.R$drawable: int mark_red
+cgeo.geocaching.R$drawable: int mark_red_more
+cgeo.geocaching.R$drawable: int marker
+cgeo.geocaching.R$drawable: int marker_disabled
+cgeo.geocaching.R$drawable: int marker_disabled_oc
+cgeo.geocaching.R$drawable: int marker_disabled_other
+cgeo.geocaching.R$drawable: int marker_found
+cgeo.geocaching.R$drawable: int marker_found_offline
+cgeo.geocaching.R$drawable: int marker_notreliable
+cgeo.geocaching.R$drawable: int marker_oc
+cgeo.geocaching.R$drawable: int marker_other
+cgeo.geocaching.R$drawable: int marker_own
+cgeo.geocaching.R$drawable: int marker_personalnote
+cgeo.geocaching.R$drawable: int marker_stored
+cgeo.geocaching.R$drawable: int marker_transparent
+cgeo.geocaching.R$drawable: int marker_usermodifiedcoords
+cgeo.geocaching.R$drawable: int my_location_chevron
+cgeo.geocaching.R$drawable: int settings_arrow_black
+cgeo.geocaching.R$drawable: int settings_arrow_white
+cgeo.geocaching.R$drawable: int settings_cloud_black
+cgeo.geocaching.R$drawable: int settings_cloud_white
+cgeo.geocaching.R$drawable: int settings_details_black
+cgeo.geocaching.R$drawable: int settings_details_white
+cgeo.geocaching.R$drawable: int settings_eye_black
+cgeo.geocaching.R$drawable: int settings_eye_white
+cgeo.geocaching.R$drawable: int settings_info_icon_black
+cgeo.geocaching.R$drawable: int settings_info_icon_white
+cgeo.geocaching.R$drawable: int settings_map_black
+cgeo.geocaching.R$drawable: int settings_map_white
+cgeo.geocaching.R$drawable: int settings_nut_black
+cgeo.geocaching.R$drawable: int settings_nut_white
+cgeo.geocaching.R$drawable: int settings_pen_black
+cgeo.geocaching.R$drawable: int settings_pen_white
+cgeo.geocaching.R$drawable: int settings_sdcard_black
+cgeo.geocaching.R$drawable: int settings_sdcard_white
+cgeo.geocaching.R$drawable: int star_half
+cgeo.geocaching.R$drawable: int star_off
+cgeo.geocaching.R$drawable: int star_on
+cgeo.geocaching.R$drawable: int tick
+cgeo.geocaching.R$drawable: int trackable_all
+cgeo.geocaching.R$drawable: int type_ape
+cgeo.geocaching.R$drawable: int type_cito
+cgeo.geocaching.R$drawable: int type_earth
+cgeo.geocaching.R$drawable: int type_event
+cgeo.geocaching.R$drawable: int type_hq
+cgeo.geocaching.R$drawable: int type_letterbox
+cgeo.geocaching.R$drawable: int type_mega
+cgeo.geocaching.R$drawable: int type_multi
+cgeo.geocaching.R$drawable: int type_mystery
+cgeo.geocaching.R$drawable: int type_traditional
+cgeo.geocaching.R$drawable: int type_unknown
+cgeo.geocaching.R$drawable: int type_virtual
+cgeo.geocaching.R$drawable: int type_webcam
+cgeo.geocaching.R$drawable: int type_wherigo
+cgeo.geocaching.R$drawable: int waypoint_flag
+cgeo.geocaching.R$drawable: int waypoint_pkg
+cgeo.geocaching.R$drawable: int waypoint_puzzle
+cgeo.geocaching.R$drawable: int waypoint_stage
+cgeo.geocaching.R$drawable: int waypoint_trailhead
+cgeo.geocaching.R$drawable: int waypoint_waypoint
+cgeo.geocaching.R$id
+cgeo.geocaching.R$id: int ButtonLat
+cgeo.geocaching.R$id: int ButtonLon
+cgeo.geocaching.R$id: int CheckBox
+cgeo.geocaching.R$id: int EditTextLatDeg
+cgeo.geocaching.R$id: int EditTextLatMin
+cgeo.geocaching.R$id: int EditTextLatSec
+cgeo.geocaching.R$id: int EditTextLatSecFrac
+cgeo.geocaching.R$id: int EditTextLonDeg
+cgeo.geocaching.R$id: int EditTextLonMin
+cgeo.geocaching.R$id: int EditTextLonSec
+cgeo.geocaching.R$id: int EditTextLonSecFrac
+cgeo.geocaching.R$id: int LatSeparator1
+cgeo.geocaching.R$id: int LatSeparator2
+cgeo.geocaching.R$id: int LatSeparator3
+cgeo.geocaching.R$id: int LonSeparator1
+cgeo.geocaching.R$id: int LonSeparator2
+cgeo.geocaching.R$id: int LonSeparator3
+cgeo.geocaching.R$id: int TextView01
+cgeo.geocaching.R$id: int about_version_string
+cgeo.geocaching.R$id: int action
+cgeo.geocaching.R$id: int actionbar_progress
+cgeo.geocaching.R$id: int actionbar_title
+cgeo.geocaching.R$id: int add_to_favpoint
+cgeo.geocaching.R$id: int add_to_watchlist
+cgeo.geocaching.R$id: int add_waypoint
+cgeo.geocaching.R$id: int added
+cgeo.geocaching.R$id: int addition
+cgeo.geocaching.R$id: int address
+cgeo.geocaching.R$id: int advanced_button
+cgeo.geocaching.R$id: int any_button
+cgeo.geocaching.R$id: int app_layout
+cgeo.geocaching.R$id: int apps_list
+cgeo.geocaching.R$id: int attribute_descriptions
+cgeo.geocaching.R$id: int attribute_descriptions_textview
+cgeo.geocaching.R$id: int attribute_image
+cgeo.geocaching.R$id: int attribute_images
+cgeo.geocaching.R$id: int attributes_box
+cgeo.geocaching.R$id: int attributes_innerbox
+cgeo.geocaching.R$id: int auth_1
+cgeo.geocaching.R$id: int auth_2
+cgeo.geocaching.R$id: int author
+cgeo.geocaching.R$id: int bearing
+cgeo.geocaching.R$id: int buttonLatitude
+cgeo.geocaching.R$id: int buttonLongitude
+cgeo.geocaching.R$id: int button_map
+cgeo.geocaching.R$id: int button_recaptcha_refresh
+cgeo.geocaching.R$id: int cache
+cgeo.geocaching.R$id: int cacheinfo
+cgeo.geocaching.R$id: int camera
+cgeo.geocaching.R$id: int cancel
+cgeo.geocaching.R$id: int caption
+cgeo.geocaching.R$id: int change_list
+cgeo.geocaching.R$id: int changebutton
+cgeo.geocaching.R$id: int changelog_master
+cgeo.geocaching.R$id: int changelog_release
+cgeo.geocaching.R$id: int checkbox
+cgeo.geocaching.R$id: int clear
+cgeo.geocaching.R$id: int contributors
+cgeo.geocaching.R$id: int coordTable
+cgeo.geocaching.R$id: int coordinates
+cgeo.geocaching.R$id: int count_or_location
+cgeo.geocaching.R$id: int current
+cgeo.geocaching.R$id: int date
+cgeo.geocaching.R$id: int defaultNavigation
+cgeo.geocaching.R$id: int description
+cgeo.geocaching.R$id: int destination
+cgeo.geocaching.R$id: int detail_box
+cgeo.geocaching.R$id: int details
+cgeo.geocaching.R$id: int details_box
+cgeo.geocaching.R$id: int details_list
+cgeo.geocaching.R$id: int details_list_box
+cgeo.geocaching.R$id: int direction
+cgeo.geocaching.R$id: int dirimg
+cgeo.geocaching.R$id: int display_geocode
+cgeo.geocaching.R$id: int display_trackable
+cgeo.geocaching.R$id: int distance
+cgeo.geocaching.R$id: int distanceUnit
+cgeo.geocaching.R$id: int donate
+cgeo.geocaching.R$id: int done
+cgeo.geocaching.R$id: int edit
+cgeo.geocaching.R$id: int edit_box
+cgeo.geocaching.R$id: int edit_note
+cgeo.geocaching.R$id: int edit_personalnote
+cgeo.geocaching.R$id: int facebook
+cgeo.geocaching.R$id: int faq
+cgeo.geocaching.R$id: int favorite
+cgeo.geocaching.R$id: int favpoint_box
+cgeo.geocaching.R$id: int favpoint_text
+cgeo.geocaching.R$id: int filename
+cgeo.geocaching.R$id: int filepath
+cgeo.geocaching.R$id: int filter_bar
+cgeo.geocaching.R$id: int filter_button
+cgeo.geocaching.R$id: int filter_button_title
+cgeo.geocaching.R$id: int filter_text
+cgeo.geocaching.R$id: int geocode
+cgeo.geocaching.R$id: int goal
+cgeo.geocaching.R$id: int goal_box
+cgeo.geocaching.R$id: int heading
+cgeo.geocaching.R$id: int hint
+cgeo.geocaching.R$id: int hint_box
+cgeo.geocaching.R$id: int hint_spoilerlink
+cgeo.geocaching.R$id: int historyList
+cgeo.geocaching.R$id: int image
+cgeo.geocaching.R$id: int imageView1
+cgeo.geocaching.R$id: int image_box
+cgeo.geocaching.R$id: int image_btn
+cgeo.geocaching.R$id: int image_open_browser
+cgeo.geocaching.R$id: int image_open_file
+cgeo.geocaching.R$id: int image_preview
+cgeo.geocaching.R$id: int info
+cgeo.geocaching.R$id: int info1
+cgeo.geocaching.R$id: int info2
+cgeo.geocaching.R$id: int info_area
+cgeo.geocaching.R$id: int inventory
+cgeo.geocaching.R$id: int inventory_box
+cgeo.geocaching.R$id: int inventory_changeall
+cgeo.geocaching.R$id: int keyword
+cgeo.geocaching.R$id: int label
+cgeo.geocaching.R$id: int latitude
+cgeo.geocaching.R$id: int license
+cgeo.geocaching.R$id: int license_box
+cgeo.geocaching.R$id: int license_text
+cgeo.geocaching.R$id: int linearLayout1
+cgeo.geocaching.R$id: int linearLayout2
+cgeo.geocaching.R$id: int list_box
+cgeo.geocaching.R$id: int list_text
+cgeo.geocaching.R$id: int live_map_hint_hide
+cgeo.geocaching.R$id: int live_map_scroll
+cgeo.geocaching.R$id: int live_map_text
+cgeo.geocaching.R$id: int loading
+cgeo.geocaching.R$id: int log
+cgeo.geocaching.R$id: int logImageScale
+cgeo.geocaching.R$id: int log_images
+cgeo.geocaching.R$id: int log_layout
+cgeo.geocaching.R$id: int log_mark
+cgeo.geocaching.R$id: int log_password
+cgeo.geocaching.R$id: int log_password_box
+cgeo.geocaching.R$id: int log_status_mark
+cgeo.geocaching.R$id: int longdesc
+cgeo.geocaching.R$id: int longitude
+cgeo.geocaching.R$id: int mainscreen
+cgeo.geocaching.R$id: int map
+cgeo.geocaching.R$id: int map_image
+cgeo.geocaching.R$id: int map_preview
+cgeo.geocaching.R$id: int map_preview_box
+cgeo.geocaching.R$id: int mapfile_item
+cgeo.geocaching.R$id: int mapfilename
+cgeo.geocaching.R$id: int mapfilepath
+cgeo.geocaching.R$id: int maps_list
+cgeo.geocaching.R$id: int market
+cgeo.geocaching.R$id: int menu_about
+cgeo.geocaching.R$id: int menu_as_list
+cgeo.geocaching.R$id: int menu_browser_trackable
+cgeo.geocaching.R$id: int menu_caches_around
+cgeo.geocaching.R$id: int menu_circle_mode
+cgeo.geocaching.R$id: int menu_clear_history
+cgeo.geocaching.R$id: int menu_default_navigation
+cgeo.geocaching.R$id: int menu_edit_destination
+cgeo.geocaching.R$id: int menu_group_map_sources
+cgeo.geocaching.R$id: int menu_group_strategy
+cgeo.geocaching.R$id: int menu_helpers
+cgeo.geocaching.R$id: int menu_history
+cgeo.geocaching.R$id: int menu_log_touch
+cgeo.geocaching.R$id: int menu_log_visit
+cgeo.geocaching.R$id: int menu_log_visit_offline
+cgeo.geocaching.R$id: int menu_map
+cgeo.geocaching.R$id: int menu_map_live
+cgeo.geocaching.R$id: int menu_mycaches_mode
+cgeo.geocaching.R$id: int menu_navigate
+cgeo.geocaching.R$id: int menu_refresh
+cgeo.geocaching.R$id: int menu_scan
+cgeo.geocaching.R$id: int menu_search_own_caches
+cgeo.geocaching.R$id: int menu_select_destination
+cgeo.geocaching.R$id: int menu_select_mapview
+cgeo.geocaching.R$id: int menu_settings
+cgeo.geocaching.R$id: int menu_show_in_browser
+cgeo.geocaching.R$id: int menu_signature
+cgeo.geocaching.R$id: int menu_smilies
+cgeo.geocaching.R$id: int menu_store_caches
+cgeo.geocaching.R$id: int menu_strategy_auto
+cgeo.geocaching.R$id: int menu_strategy_detailed
+cgeo.geocaching.R$id: int menu_strategy_fast
+cgeo.geocaching.R$id: int menu_strategy_fastest
+cgeo.geocaching.R$id: int menu_switch_compass_gps
+cgeo.geocaching.R$id: int menu_templates
+cgeo.geocaching.R$id: int menu_theme_mode
+cgeo.geocaching.R$id: int menu_trail_mode
+cgeo.geocaching.R$id: int menu_tts_start
+cgeo.geocaching.R$id: int menu_tts_stop
+cgeo.geocaching.R$id: int mfmap
+cgeo.geocaching.R$id: int mfmap_old
+cgeo.geocaching.R$id: int modify_cache_coordinates_group
+cgeo.geocaching.R$id: int modify_cache_coordinates_local
+cgeo.geocaching.R$id: int modify_cache_coordinates_local_and_remote
+cgeo.geocaching.R$id: int modify_cache_coordinates_nothing
+cgeo.geocaching.R$id: int more_caches
+cgeo.geocaching.R$id: int more_details
+cgeo.geocaching.R$id: int more_details_box
+cgeo.geocaching.R$id: int my_position
+cgeo.geocaching.R$id: int name
+cgeo.geocaching.R$id: int nav_accuracy
+cgeo.geocaching.R$id: int nav_location
+cgeo.geocaching.R$id: int nav_satellites
+cgeo.geocaching.R$id: int nav_type
+cgeo.geocaching.R$id: int nearest
+cgeo.geocaching.R$id: int none
+cgeo.geocaching.R$id: int note
+cgeo.geocaching.R$id: int number
+cgeo.geocaching.R$id: int nutshellmanual
+cgeo.geocaching.R$id: int offline_box
+cgeo.geocaching.R$id: int offline_count
+cgeo.geocaching.R$id: int offline_refresh
+cgeo.geocaching.R$id: int offline_store
+cgeo.geocaching.R$id: int offline_text
+cgeo.geocaching.R$id: int one_cache
+cgeo.geocaching.R$id: int onlynew
+cgeo.geocaching.R$id: int owner
+cgeo.geocaching.R$id: int pager_indicator
+cgeo.geocaching.R$id: int personalnote
+cgeo.geocaching.R$id: int personalnote_box
+cgeo.geocaching.R$id: int picker
+cgeo.geocaching.R$id: int pin
+cgeo.geocaching.R$id: int pin_button
+cgeo.geocaching.R$id: int post
+cgeo.geocaching.R$id: int progress_bar
+cgeo.geocaching.R$id: int relativeLayout1
+cgeo.geocaching.R$id: int remove_from_favpoint
+cgeo.geocaching.R$id: int remove_from_watchlist
+cgeo.geocaching.R$id: int rose
+cgeo.geocaching.R$id: int save
+cgeo.geocaching.R$id: int scroller
+cgeo.geocaching.R$id: int scroller_child
+cgeo.geocaching.R$id: int search_address
+cgeo.geocaching.R$id: int search_coordinates
+cgeo.geocaching.R$id: int search_keyword
+cgeo.geocaching.R$id: int search_offline
+cgeo.geocaching.R$id: int search_owner
+cgeo.geocaching.R$id: int search_username
+cgeo.geocaching.R$id: int share
+cgeo.geocaching.R$id: int shortdesc
+cgeo.geocaching.R$id: int show_description
+cgeo.geocaching.R$id: int signature_dialog_text
+cgeo.geocaching.R$id: int signature_templates
+cgeo.geocaching.R$id: int simple_dir_chooser_cancel
+cgeo.geocaching.R$id: int simple_dir_chooser_ok
+cgeo.geocaching.R$id: int simple_dir_chooser_path
+cgeo.geocaching.R$id: int simple_way_point_latitude
+cgeo.geocaching.R$id: int simple_way_point_longitude
+cgeo.geocaching.R$id: int spinnerCoordinateFormats
+cgeo.geocaching.R$id: int spoiler_list
+cgeo.geocaching.R$id: int stars
+cgeo.geocaching.R$id: int start
+cgeo.geocaching.R$id: int status
+cgeo.geocaching.R$id: int status_icon
+cgeo.geocaching.R$id: int status_message
+cgeo.geocaching.R$id: int stored
+cgeo.geocaching.R$id: int submenu_modes
+cgeo.geocaching.R$id: int submenu_strategy
+cgeo.geocaching.R$id: int support
+cgeo.geocaching.R$id: int tableRow1
+cgeo.geocaching.R$id: int tableRow2
+cgeo.geocaching.R$id: int text
+cgeo.geocaching.R$id: int textPreferenceSummary
+cgeo.geocaching.R$id: int textPreferenceText
+cgeo.geocaching.R$id: int title
+cgeo.geocaching.R$id: int titleLayout
+cgeo.geocaching.R$id: int trackable
+cgeo.geocaching.R$id: int trackable_image
+cgeo.geocaching.R$id: int trackcode
+cgeo.geocaching.R$id: int tracking
+cgeo.geocaching.R$id: int triangle
+cgeo.geocaching.R$id: int tweet
+cgeo.geocaching.R$id: int tweet_box
+cgeo.geocaching.R$id: int twitter
+cgeo.geocaching.R$id: int type
+cgeo.geocaching.R$id: int underline
+cgeo.geocaching.R$id: int upload
+cgeo.geocaching.R$id: int upload_personalnote
+cgeo.geocaching.R$id: int username
+cgeo.geocaching.R$id: int value
+cgeo.geocaching.R$id: int viewpager
+cgeo.geocaching.R$id: int watchlist_box
+cgeo.geocaching.R$id: int watchlist_text
+cgeo.geocaching.R$id: int waypoint_details_list
+cgeo.geocaching.R$id: int waypoints
+cgeo.geocaching.R$id: int website
+cgeo.geocaching.R$id: int wpDefaultNavigation
+cgeo.geocaching.R$id: int wp_threshold_seekbar
+cgeo.geocaching.R$id: int wp_threshold_value_view
+cgeo.geocaching.R$id: int wpt_visited_checkbox
+cgeo.geocaching.R$integer
+cgeo.geocaching.R$integer: int default_title_indicator_footer_indicator_style
+cgeo.geocaching.R$layout
+cgeo.geocaching.R$layout: int about_changes_page
+cgeo.geocaching.R$layout: int about_contributors_page
+cgeo.geocaching.R$layout: int about_help_page
+cgeo.geocaching.R$layout: int about_license_page
+cgeo.geocaching.R$layout: int about_version_page
+cgeo.geocaching.R$layout: int actionbar
+cgeo.geocaching.R$layout: int actionbar_button_compass
+cgeo.geocaching.R$layout: int actionbar_button_map
+cgeo.geocaching.R$layout: int actionbar_button_myposition
+cgeo.geocaching.R$layout: int actionbar_button_search
+cgeo.geocaching.R$layout: int actionbar_progress
+cgeo.geocaching.R$layout: int actionbar_title
+cgeo.geocaching.R$layout: int actionbar_title_no_home
+cgeo.geocaching.R$layout: int addresslist_activity
+cgeo.geocaching.R$layout: int addresslist_item
+cgeo.geocaching.R$layout: int attribute_descriptions
+cgeo.geocaching.R$layout: int attribute_image
+cgeo.geocaching.R$layout: int authorization_activity
+cgeo.geocaching.R$layout: int cache_image_item
+cgeo.geocaching.R$layout: int cache_information_item
+cgeo.geocaching.R$layout: int cachedetail_activity
+cgeo.geocaching.R$layout: int cachedetail_description_page
+cgeo.geocaching.R$layout: int cachedetail_details_page
+cgeo.geocaching.R$layout: int cachedetail_images_page
+cgeo.geocaching.R$layout: int cachedetail_inventory_page
+cgeo.geocaching.R$layout: int cachedetail_waypoints_page
+cgeo.geocaching.R$layout: int cacheslist_activity
+cgeo.geocaching.R$layout: int cacheslist_footer
+cgeo.geocaching.R$layout: int cacheslist_item
+cgeo.geocaching.R$layout: int compass_activity
+cgeo.geocaching.R$layout: int coordinatesinput_dialog
+cgeo.geocaching.R$layout: int date
+cgeo.geocaching.R$layout: int editwaypoint_activity
+cgeo.geocaching.R$layout: int fieldnote_export_dialog
+cgeo.geocaching.R$layout: int filter_bar
+cgeo.geocaching.R$layout: int fragment_edit_note
+cgeo.geocaching.R$layout: int gpx
+cgeo.geocaching.R$layout: int gpx_export_dialog
+cgeo.geocaching.R$layout: int gpx_item
+cgeo.geocaching.R$layout: int image_item
+cgeo.geocaching.R$layout: int images_activity
+cgeo.geocaching.R$layout: int imageselect_activity
+cgeo.geocaching.R$layout: int list_create_dialog
+cgeo.geocaching.R$layout: int livemapinfo
+cgeo.geocaching.R$layout: int log_signature_preference_dialog
+cgeo.geocaching.R$layout: int logcache_activity
+cgeo.geocaching.R$layout: int logcache_trackable_item
+cgeo.geocaching.R$layout: int logs_item
+cgeo.geocaching.R$layout: int logs_page
+cgeo.geocaching.R$layout: int logtrackable_activity
+cgeo.geocaching.R$layout: int main_activity
+cgeo.geocaching.R$layout: int main_activity_connectorstatus
+cgeo.geocaching.R$layout: int map_google
+cgeo.geocaching.R$layout: int map_mapsforge
+cgeo.geocaching.R$layout: int map_mapsforge_old
+cgeo.geocaching.R$layout: int mapfile_item
+cgeo.geocaching.R$layout: int navigateanypoint_activity
+cgeo.geocaching.R$layout: int navigateanypoint_header
+cgeo.geocaching.R$layout: int popup
+cgeo.geocaching.R$layout: int preference_info_icon
+cgeo.geocaching.R$layout: int recaptcha_dialog
+cgeo.geocaching.R$layout: int search_activity
+cgeo.geocaching.R$layout: int simple_dir_chooser
+cgeo.geocaching.R$layout: int simple_dir_item
+cgeo.geocaching.R$layout: int simple_list_item_1
+cgeo.geocaching.R$layout: int simple_way_point
+cgeo.geocaching.R$layout: int star_image
+cgeo.geocaching.R$layout: int staticmaps_activity
+cgeo.geocaching.R$layout: int staticmaps_activity_item
+cgeo.geocaching.R$layout: int status
+cgeo.geocaching.R$layout: int text_preference
+cgeo.geocaching.R$layout: int trackable_details_view
+cgeo.geocaching.R$layout: int trackable_image
+cgeo.geocaching.R$layout: int usefulapps_activity
+cgeo.geocaching.R$layout: int usefulapps_item
+cgeo.geocaching.R$layout: int viewpager_activity
+cgeo.geocaching.R$layout: int waypoint_item
+cgeo.geocaching.R$layout: int waypoint_popup
+cgeo.geocaching.R$layout: int wp_threshold_preference
+cgeo.geocaching.R$menu
+cgeo.geocaching.R$menu: int abstract_logging_activity
+cgeo.geocaching.R$menu: int abstract_popup_activity
+cgeo.geocaching.R$menu: int compass_activity_options
+cgeo.geocaching.R$menu: int images_list_context
+cgeo.geocaching.R$menu: int logging_ui
+cgeo.geocaching.R$menu: int main_activity_options
+cgeo.geocaching.R$menu: int map_activity
+cgeo.geocaching.R$menu: int navigate_any_point_activity_options
+cgeo.geocaching.R$menu: int search_activity_options
+cgeo.geocaching.R$menu: int static_maps_activity_options
+cgeo.geocaching.R$menu: int trackable_activity
+cgeo.geocaching.R$plurals
+cgeo.geocaching.R$plurals: int cache_counts
+cgeo.geocaching.R$plurals: int caches_eta_mins
+cgeo.geocaching.R$plurals: int days_ago
+cgeo.geocaching.R$plurals: int tts_feet
+cgeo.geocaching.R$plurals: int tts_kilometers
+cgeo.geocaching.R$plurals: int tts_meters
+cgeo.geocaching.R$plurals: int tts_miles
+cgeo.geocaching.R$plurals: int waypoints
+cgeo.geocaching.R$raw
+cgeo.geocaching.R$raw: int license
+cgeo.geocaching.R$string
+cgeo.geocaching.R$string: int about
+cgeo.geocaching.R$string: int about_apache_license
+cgeo.geocaching.R$string: int about_auth_1
+cgeo.geocaching.R$string: int about_auth_1_oc
+cgeo.geocaching.R$string: int about_auth_2
+cgeo.geocaching.R$string: int about_auth_2_oc
+cgeo.geocaching.R$string: int about_changelog
+cgeo.geocaching.R$string: int about_contributors
+cgeo.geocaching.R$string: int about_donate
+cgeo.geocaching.R$string: int about_donation_more
+cgeo.geocaching.R$string: int about_help
+cgeo.geocaching.R$string: int about_license
+cgeo.geocaching.R$string: int about_twitter
+cgeo.geocaching.R$string: int about_version
+cgeo.geocaching.R$string: int action_bar_share_title
+cgeo.geocaching.R$string: int addon_download_prompt
+cgeo.geocaching.R$string: int addon_missing_title
+cgeo.geocaching.R$string: int advanced_search_button
+cgeo.geocaching.R$string: int all_types
+cgeo.geocaching.R$string: int any_button
+cgeo.geocaching.R$string: int ape
+cgeo.geocaching.R$string: int app_name
+cgeo.geocaching.R$string: int attribute_abandonedbuilding_no
+cgeo.geocaching.R$string: int attribute_abandonedbuilding_yes
+cgeo.geocaching.R$string: int attribute_aircraft_no
+cgeo.geocaching.R$string: int attribute_aircraft_yes
+cgeo.geocaching.R$string: int attribute_all_seasons_no
+cgeo.geocaching.R$string: int attribute_all_seasons_yes
+cgeo.geocaching.R$string: int attribute_arithmetic_no
+cgeo.geocaching.R$string: int attribute_arithmetic_yes
+cgeo.geocaching.R$string: int attribute_ask_owner_no
+cgeo.geocaching.R$string: int attribute_ask_owner_yes
+cgeo.geocaching.R$string: int attribute_available_no
+cgeo.geocaching.R$string: int attribute_available_yes
+cgeo.geocaching.R$string: int attribute_bicycles_no
+cgeo.geocaching.R$string: int attribute_bicycles_yes
+cgeo.geocaching.R$string: int attribute_boat_no
+cgeo.geocaching.R$string: int attribute_boat_yes
+cgeo.geocaching.R$string: int attribute_breeding_no
+cgeo.geocaching.R$string: int attribute_breeding_yes
+cgeo.geocaching.R$string: int attribute_campfires_no
+cgeo.geocaching.R$string: int attribute_campfires_yes
+cgeo.geocaching.R$string: int attribute_camping_no
+cgeo.geocaching.R$string: int attribute_camping_yes
+cgeo.geocaching.R$string: int attribute_cave_no
+cgeo.geocaching.R$string: int attribute_cave_yes
+cgeo.geocaching.R$string: int attribute_cliff_no
+cgeo.geocaching.R$string: int attribute_cliff_yes
+cgeo.geocaching.R$string: int attribute_climbing_no
+cgeo.geocaching.R$string: int attribute_climbing_yes
+cgeo.geocaching.R$string: int attribute_compass_no
+cgeo.geocaching.R$string: int attribute_compass_yes
+cgeo.geocaching.R$string: int attribute_cow_no
+cgeo.geocaching.R$string: int attribute_cow_yes
+cgeo.geocaching.R$string: int attribute_danger_no
+cgeo.geocaching.R$string: int attribute_danger_yes
+cgeo.geocaching.R$string: int attribute_dangerousanimals_no
+cgeo.geocaching.R$string: int attribute_dangerousanimals_yes
+cgeo.geocaching.R$string: int attribute_day_no
+cgeo.geocaching.R$string: int attribute_day_yes
+cgeo.geocaching.R$string: int attribute_dogs_no
+cgeo.geocaching.R$string: int attribute_dogs_yes
+cgeo.geocaching.R$string: int attribute_easy_climbing_no
+cgeo.geocaching.R$string: int attribute_easy_climbing_yes
+cgeo.geocaching.R$string: int attribute_fee_no
+cgeo.geocaching.R$string: int attribute_fee_yes
+cgeo.geocaching.R$string: int attribute_field_puzzle_no
+cgeo.geocaching.R$string: int attribute_field_puzzle_yes
+cgeo.geocaching.R$string: int attribute_firstaid_no
+cgeo.geocaching.R$string: int attribute_firstaid_yes
+cgeo.geocaching.R$string: int attribute_flashlight_no
+cgeo.geocaching.R$string: int attribute_flashlight_yes
+cgeo.geocaching.R$string: int attribute_food_no
+cgeo.geocaching.R$string: int attribute_food_yes
+cgeo.geocaching.R$string: int attribute_frontyard_no
+cgeo.geocaching.R$string: int attribute_frontyard_yes
+cgeo.geocaching.R$string: int attribute_fuel_no
+cgeo.geocaching.R$string: int attribute_fuel_yes
+cgeo.geocaching.R$string: int attribute_geotour_no
+cgeo.geocaching.R$string: int attribute_geotour_yes
+cgeo.geocaching.R$string: int attribute_hike_long_no
+cgeo.geocaching.R$string: int attribute_hike_long_yes
+cgeo.geocaching.R$string: int attribute_hike_med_no
+cgeo.geocaching.R$string: int attribute_hike_med_yes
+cgeo.geocaching.R$string: int attribute_hike_short_no
+cgeo.geocaching.R$string: int attribute_hike_short_yes
+cgeo.geocaching.R$string: int attribute_hiking_no
+cgeo.geocaching.R$string: int attribute_hiking_yes
+cgeo.geocaching.R$string: int attribute_hills_no
+cgeo.geocaching.R$string: int attribute_hills_yes
+cgeo.geocaching.R$string: int attribute_horses_no
+cgeo.geocaching.R$string: int attribute_horses_yes
+cgeo.geocaching.R$string: int attribute_hunting_no
+cgeo.geocaching.R$string: int attribute_hunting_yes
+cgeo.geocaching.R$string: int attribute_in_water_no
+cgeo.geocaching.R$string: int attribute_in_water_yes
+cgeo.geocaching.R$string: int attribute_inside_no
+cgeo.geocaching.R$string: int attribute_inside_yes
+cgeo.geocaching.R$string: int attribute_investigation_no
+cgeo.geocaching.R$string: int attribute_investigation_yes
+cgeo.geocaching.R$string: int attribute_jeeps_no
+cgeo.geocaching.R$string: int attribute_jeeps_yes
+cgeo.geocaching.R$string: int attribute_kids_no
+cgeo.geocaching.R$string: int attribute_kids_yes
+cgeo.geocaching.R$string: int attribute_landf_no
+cgeo.geocaching.R$string: int attribute_landf_yes
+cgeo.geocaching.R$string: int attribute_letterbox_no
+cgeo.geocaching.R$string: int attribute_letterbox_yes
+cgeo.geocaching.R$string: int attribute_link_only_no
+cgeo.geocaching.R$string: int attribute_link_only_yes
+cgeo.geocaching.R$string: int attribute_mine_no
+cgeo.geocaching.R$string: int attribute_mine_yes
+cgeo.geocaching.R$string: int attribute_motorcycles_no
+cgeo.geocaching.R$string: int attribute_motorcycles_yes
+cgeo.geocaching.R$string: int attribute_moving_target_no
+cgeo.geocaching.R$string: int attribute_moving_target_yes
+cgeo.geocaching.R$string: int attribute_night_no
+cgeo.geocaching.R$string: int attribute_night_yes
+cgeo.geocaching.R$string: int attribute_nightcache_no
+cgeo.geocaching.R$string: int attribute_nightcache_yes
+cgeo.geocaching.R$string: int attribute_no_gps_no
+cgeo.geocaching.R$string: int attribute_no_gps_yes
+cgeo.geocaching.R$string: int attribute_oc_only_no
+cgeo.geocaching.R$string: int attribute_oc_only_yes
+cgeo.geocaching.R$string: int attribute_onehour_no
+cgeo.geocaching.R$string: int attribute_onehour_yes
+cgeo.geocaching.R$string: int attribute_other_cache_no
+cgeo.geocaching.R$string: int attribute_other_cache_yes
+cgeo.geocaching.R$string: int attribute_overnight_no
+cgeo.geocaching.R$string: int attribute_overnight_yes
+cgeo.geocaching.R$string: int attribute_parking_no
+cgeo.geocaching.R$string: int attribute_parking_yes
+cgeo.geocaching.R$string: int attribute_parkngrab_no
+cgeo.geocaching.R$string: int attribute_parkngrab_yes
+cgeo.geocaching.R$string: int attribute_partnership_no
+cgeo.geocaching.R$string: int attribute_partnership_yes
+cgeo.geocaching.R$string: int attribute_phone_no
+cgeo.geocaching.R$string: int attribute_phone_yes
+cgeo.geocaching.R$string: int attribute_picnic_no
+cgeo.geocaching.R$string: int attribute_picnic_yes
+cgeo.geocaching.R$string: int attribute_poi_no
+cgeo.geocaching.R$string: int attribute_poi_yes
+cgeo.geocaching.R$string: int attribute_poisonoak_no
+cgeo.geocaching.R$string: int attribute_poisonoak_yes
+cgeo.geocaching.R$string: int attribute_public_no
+cgeo.geocaching.R$string: int attribute_public_yes
+cgeo.geocaching.R$string: int attribute_puzzle_no
+cgeo.geocaching.R$string: int attribute_puzzle_yes
+cgeo.geocaching.R$string: int attribute_quads_no
+cgeo.geocaching.R$string: int attribute_quads_yes
+cgeo.geocaching.R$string: int attribute_railway_no
+cgeo.geocaching.R$string: int attribute_railway_yes
+cgeo.geocaching.R$string: int attribute_rappelling_no
+cgeo.geocaching.R$string: int attribute_rappelling_yes
+cgeo.geocaching.R$string: int attribute_restrooms_no
+cgeo.geocaching.R$string: int attribute_restrooms_yes
+cgeo.geocaching.R$string: int attribute_rv_no
+cgeo.geocaching.R$string: int attribute_rv_yes
+cgeo.geocaching.R$string: int attribute_s_tool_no
+cgeo.geocaching.R$string: int attribute_s_tool_yes
+cgeo.geocaching.R$string: int attribute_scenic_no
+cgeo.geocaching.R$string: int attribute_scenic_yes
+cgeo.geocaching.R$string: int attribute_scuba_no
+cgeo.geocaching.R$string: int attribute_scuba_yes
+cgeo.geocaching.R$string: int attribute_seasonal_no
+cgeo.geocaching.R$string: int attribute_seasonal_yes
+cgeo.geocaching.R$string: int attribute_skiis_no
+cgeo.geocaching.R$string: int attribute_skiis_yes
+cgeo.geocaching.R$string: int attribute_snow_proof_no
+cgeo.geocaching.R$string: int attribute_snow_proof_yes
+cgeo.geocaching.R$string: int attribute_snowmobiles_no
+cgeo.geocaching.R$string: int attribute_snowmobiles_yes
+cgeo.geocaching.R$string: int attribute_snowshoes_no
+cgeo.geocaching.R$string: int attribute_snowshoes_yes
+cgeo.geocaching.R$string: int attribute_specific_times_no
+cgeo.geocaching.R$string: int attribute_specific_times_yes
+cgeo.geocaching.R$string: int attribute_stealth_no
+cgeo.geocaching.R$string: int attribute_stealth_yes
+cgeo.geocaching.R$string: int attribute_stroller_no
+cgeo.geocaching.R$string: int attribute_stroller_yes
+cgeo.geocaching.R$string: int attribute_swamp_no
+cgeo.geocaching.R$string: int attribute_swamp_yes
+cgeo.geocaching.R$string: int attribute_swimming_no
+cgeo.geocaching.R$string: int attribute_swimming_yes
+cgeo.geocaching.R$string: int attribute_syringe_no
+cgeo.geocaching.R$string: int attribute_syringe_yes
+cgeo.geocaching.R$string: int attribute_teamwork_no
+cgeo.geocaching.R$string: int attribute_teamwork_yes
+cgeo.geocaching.R$string: int attribute_thorn_no
+cgeo.geocaching.R$string: int attribute_thorn_yes
+cgeo.geocaching.R$string: int attribute_ticks_no
+cgeo.geocaching.R$string: int attribute_ticks_yes
+cgeo.geocaching.R$string: int attribute_tide_no
+cgeo.geocaching.R$string: int attribute_tide_yes
+cgeo.geocaching.R$string: int attribute_touristok_no
+cgeo.geocaching.R$string: int attribute_touristok_yes
+cgeo.geocaching.R$string: int attribute_treeclimbing_no
+cgeo.geocaching.R$string: int attribute_treeclimbing_yes
+cgeo.geocaching.R$string: int attribute_unknown_no
+cgeo.geocaching.R$string: int attribute_unknown_yes
+cgeo.geocaching.R$string: int attribute_uv_no
+cgeo.geocaching.R$string: int attribute_uv_yes
+cgeo.geocaching.R$string: int attribute_wading_no
+cgeo.geocaching.R$string: int attribute_wading_yes
+cgeo.geocaching.R$string: int attribute_water_no
+cgeo.geocaching.R$string: int attribute_water_yes
+cgeo.geocaching.R$string: int attribute_webcam_no
+cgeo.geocaching.R$string: int attribute_webcam_yes
+cgeo.geocaching.R$string: int attribute_wheelchair_no
+cgeo.geocaching.R$string: int attribute_wheelchair_yes
+cgeo.geocaching.R$string: int attribute_winter_no
+cgeo.geocaching.R$string: int attribute_winter_yes
+cgeo.geocaching.R$string: int attribute_wirelessbeacon_no
+cgeo.geocaching.R$string: int attribute_wirelessbeacon_yes
+cgeo.geocaching.R$string: int auth_again
+cgeo.geocaching.R$string: int auth_again_oc
+cgeo.geocaching.R$string: int auth_authorize
+cgeo.geocaching.R$string: int auth_authorize_oc
+cgeo.geocaching.R$string: int auth_dialog_completed
+cgeo.geocaching.R$string: int auth_dialog_completed_oc
+cgeo.geocaching.R$string: int auth_dialog_pin_message
+cgeo.geocaching.R$string: int auth_dialog_pin_message_oc
+cgeo.geocaching.R$string: int auth_dialog_pin_title
+cgeo.geocaching.R$string: int auth_dialog_pin_title_oc
+cgeo.geocaching.R$string: int auth_dialog_wait
+cgeo.geocaching.R$string: int auth_dialog_wait_oc
+cgeo.geocaching.R$string: int auth_finish
+cgeo.geocaching.R$string: int auth_finish_oc
+cgeo.geocaching.R$string: int auth_ocde
+cgeo.geocaching.R$string: int auth_ocpl
+cgeo.geocaching.R$string: int auth_pin_hint
+cgeo.geocaching.R$string: int auth_pin_hint_oc
+cgeo.geocaching.R$string: int auth_start
+cgeo.geocaching.R$string: int auth_start_oc
+cgeo.geocaching.R$string: int auth_twitter
+cgeo.geocaching.R$string: int block
+cgeo.geocaching.R$string: int cache
+cgeo.geocaching.R$string: int cache_attributes
+cgeo.geocaching.R$string: int cache_clear_history
+cgeo.geocaching.R$string: int cache_coordinates
+cgeo.geocaching.R$string: int cache_coordinates_no
+cgeo.geocaching.R$string: int cache_coordinates_original
+cgeo.geocaching.R$string: int cache_description
+cgeo.geocaching.R$string: int cache_description_long
+cgeo.geocaching.R$string: int cache_description_table_note
+cgeo.geocaching.R$string: int cache_dialog_favorite_add_message
+cgeo.geocaching.R$string: int cache_dialog_favorite_add_title
+cgeo.geocaching.R$string: int cache_dialog_favorite_remove_message
+cgeo.geocaching.R$string: int cache_dialog_favorite_remove_title
+cgeo.geocaching.R$string: int cache_dialog_loading_details
+cgeo.geocaching.R$string: int cache_dialog_loading_details_status_cache
+cgeo.geocaching.R$string: int cache_dialog_loading_details_status_details
+cgeo.geocaching.R$string: int cache_dialog_loading_details_status_gcvote
+cgeo.geocaching.R$string: int cache_dialog_loading_details_status_loadpage
+cgeo.geocaching.R$string: int cache_dialog_loading_details_status_logs
+cgeo.geocaching.R$string: int cache_dialog_loading_details_status_render
+cgeo.geocaching.R$string: int cache_dialog_loading_details_status_spoilers
+cgeo.geocaching.R$string: int cache_dialog_loading_details_status_waypoints
+cgeo.geocaching.R$string: int cache_dialog_offline_drop_message
+cgeo.geocaching.R$string: int cache_dialog_offline_drop_title
+cgeo.geocaching.R$string: int cache_dialog_offline_save_message
+cgeo.geocaching.R$string: int cache_dialog_offline_save_title
+cgeo.geocaching.R$string: int cache_dialog_refresh_message
+cgeo.geocaching.R$string: int cache_dialog_refresh_title
+cgeo.geocaching.R$string: int cache_dialog_watchlist_add_message
+cgeo.geocaching.R$string: int cache_dialog_watchlist_add_title
+cgeo.geocaching.R$string: int cache_dialog_watchlist_remove_message
+cgeo.geocaching.R$string: int cache_dialog_watchlist_remove_title
+cgeo.geocaching.R$string: int cache_difficulty
+cgeo.geocaching.R$string: int cache_distance
+cgeo.geocaching.R$string: int cache_event
+cgeo.geocaching.R$string: int cache_favorite
+cgeo.geocaching.R$string: int cache_favpoint_add
+cgeo.geocaching.R$string: int cache_favpoint_not_on
+cgeo.geocaching.R$string: int cache_favpoint_on
+cgeo.geocaching.R$string: int cache_favpoint_remove
+cgeo.geocaching.R$string: int cache_geocode
+cgeo.geocaching.R$string: int cache_hidden
+cgeo.geocaching.R$string: int cache_hint
+cgeo.geocaching.R$string: int cache_image
+cgeo.geocaching.R$string: int cache_image_open_browser
+cgeo.geocaching.R$string: int cache_image_open_file
+cgeo.geocaching.R$string: int cache_images
+cgeo.geocaching.R$string: int cache_images_title
+cgeo.geocaching.R$string: int cache_inventory
+cgeo.geocaching.R$string: int cache_license
+cgeo.geocaching.R$string: int cache_list_change
+cgeo.geocaching.R$string: int cache_list_text
+cgeo.geocaching.R$string: int cache_list_unknown
+cgeo.geocaching.R$string: int cache_listed_on
+cgeo.geocaching.R$string: int cache_location
+cgeo.geocaching.R$string: int cache_log_image_default_title
+cgeo.geocaching.R$string: int cache_log_images_title
+cgeo.geocaching.R$string: int cache_log_offline
+cgeo.geocaching.R$string: int cache_log_types
+cgeo.geocaching.R$string: int cache_logs
+cgeo.geocaching.R$string: int cache_logsfriends
+cgeo.geocaching.R$string: int cache_menu_around
+cgeo.geocaching.R$string: int cache_menu_browser
+cgeo.geocaching.R$string: int cache_menu_cachebeacon
+cgeo.geocaching.R$string: int cache_menu_details
+cgeo.geocaching.R$string: int cache_menu_download_map_static
+cgeo.geocaching.R$string: int cache_menu_event
+cgeo.geocaching.R$string: int cache_menu_gcc
+cgeo.geocaching.R$string: int cache_menu_map
+cgeo.geocaching.R$string: int cache_menu_map_ext
+cgeo.geocaching.R$string: int cache_menu_map_static
+cgeo.geocaching.R$string: int cache_menu_maps_directions
+cgeo.geocaching.R$string: int cache_menu_move_list
+cgeo.geocaching.R$string: int cache_menu_navigate
+cgeo.geocaching.R$string: int cache_menu_navigation_bike
+cgeo.geocaching.R$string: int cache_menu_navigation_drive
+cgeo.geocaching.R$string: int cache_menu_navigation_walk
+cgeo.geocaching.R$string: int cache_menu_navigon
+cgeo.geocaching.R$string: int cache_menu_oruxmaps
+cgeo.geocaching.R$string: int cache_menu_radar
+cgeo.geocaching.R$string: int cache_menu_refresh
+cgeo.geocaching.R$string: int cache_menu_rmaps
+cgeo.geocaching.R$string: int cache_menu_share
+cgeo.geocaching.R$string: int cache_menu_spoilers
+cgeo.geocaching.R$string: int cache_menu_streetview
+cgeo.geocaching.R$string: int cache_menu_sygic
+cgeo.geocaching.R$string: int cache_menu_visit
+cgeo.geocaching.R$string: int cache_menu_visit_offline
+cgeo.geocaching.R$string: int cache_menu_whereyougo
+cgeo.geocaching.R$string: int cache_name
+cgeo.geocaching.R$string: int cache_offline
+cgeo.geocaching.R$string: int cache_offline_drop
+cgeo.geocaching.R$string: int cache_offline_not_ready
+cgeo.geocaching.R$string: int cache_offline_refresh
+cgeo.geocaching.R$string: int cache_offline_store
+cgeo.geocaching.R$string: int cache_offline_stored
+cgeo.geocaching.R$string: int cache_offline_time_about
+cgeo.geocaching.R$string: int cache_offline_time_days
+cgeo.geocaching.R$string: int cache_offline_time_hour
+cgeo.geocaching.R$string: int cache_offline_time_hours
+cgeo.geocaching.R$string: int cache_offline_time_mins
+cgeo.geocaching.R$string: int cache_offline_time_mins_few
+cgeo.geocaching.R$string: int cache_own_rating
+cgeo.geocaching.R$string: int cache_owner
+cgeo.geocaching.R$string: int cache_personal_note
+cgeo.geocaching.R$string: int cache_personal_note_edit
+cgeo.geocaching.R$string: int cache_personal_note_store
+cgeo.geocaching.R$string: int cache_personal_note_unstored
+cgeo.geocaching.R$string: int cache_personal_note_upload
+cgeo.geocaching.R$string: int cache_personal_note_upload_cancelled
+cgeo.geocaching.R$string: int cache_personal_note_upload_done
+cgeo.geocaching.R$string: int cache_personal_note_uploading
+cgeo.geocaching.R$string: int cache_premium
+cgeo.geocaching.R$string: int cache_rating
+cgeo.geocaching.R$string: int cache_rating_of
+cgeo.geocaching.R$string: int cache_remove_from_history
+cgeo.geocaching.R$string: int cache_share_field
+cgeo.geocaching.R$string: int cache_size
+cgeo.geocaching.R$string: int cache_size_large
+cgeo.geocaching.R$string: int cache_size_micro
+cgeo.geocaching.R$string: int cache_size_notchosen
+cgeo.geocaching.R$string: int cache_size_other
+cgeo.geocaching.R$string: int cache_size_regular
+cgeo.geocaching.R$string: int cache_size_small
+cgeo.geocaching.R$string: int cache_size_unknown
+cgeo.geocaching.R$string: int cache_size_virtual
+cgeo.geocaching.R$string: int cache_spoiler_images_title
+cgeo.geocaching.R$string: int cache_status
+cgeo.geocaching.R$string: int cache_status_archived
+cgeo.geocaching.R$string: int cache_status_disabled
+cgeo.geocaching.R$string: int cache_status_found
+cgeo.geocaching.R$string: int cache_status_not_premium
+cgeo.geocaching.R$string: int cache_status_not_stored
+cgeo.geocaching.R$string: int cache_status_offline_log
+cgeo.geocaching.R$string: int cache_status_premium
+cgeo.geocaching.R$string: int cache_status_stored
+cgeo.geocaching.R$string: int cache_terrain
+cgeo.geocaching.R$string: int cache_time_full_hours
+cgeo.geocaching.R$string: int cache_type
+cgeo.geocaching.R$string: int cache_watchlist_add
+cgeo.geocaching.R$string: int cache_watchlist_not_on
+cgeo.geocaching.R$string: int cache_watchlist_on
+cgeo.geocaching.R$string: int cache_watchlist_remove
+cgeo.geocaching.R$string: int cache_waypoints
+cgeo.geocaching.R$string: int cache_waypoints_add
+cgeo.geocaching.R$string: int caches_clear_offlinelogs
+cgeo.geocaching.R$string: int caches_clear_offlinelogs_progress
+cgeo.geocaching.R$string: int caches_delete_events
+cgeo.geocaching.R$string: int caches_downloading
+cgeo.geocaching.R$string: int caches_drop_all
+cgeo.geocaching.R$string: int caches_drop_all_and_list
+cgeo.geocaching.R$string: int caches_drop_all_ask
+cgeo.geocaching.R$string: int caches_drop_progress
+cgeo.geocaching.R$string: int caches_drop_selected
+cgeo.geocaching.R$string: int caches_drop_selected_ask
+cgeo.geocaching.R$string: int caches_drop_stored
+cgeo.geocaching.R$string: int caches_eta_ltm
+cgeo.geocaching.R$string: int caches_filter
+cgeo.geocaching.R$string: int caches_filter_clear
+cgeo.geocaching.R$string: int caches_filter_distance
+cgeo.geocaching.R$string: int caches_filter_modified
+cgeo.geocaching.R$string: int caches_filter_origin
+cgeo.geocaching.R$string: int caches_filter_size
+cgeo.geocaching.R$string: int caches_filter_title
+cgeo.geocaching.R$string: int caches_filter_track
+cgeo.geocaching.R$string: int caches_filter_type
+cgeo.geocaching.R$string: int caches_history
+cgeo.geocaching.R$string: int caches_manage
+cgeo.geocaching.R$string: int caches_map_locus
+cgeo.geocaching.R$string: int caches_map_locus_export
+cgeo.geocaching.R$string: int caches_more_caches
+cgeo.geocaching.R$string: int caches_more_caches_currently
+cgeo.geocaching.R$string: int caches_more_caches_loading
+cgeo.geocaching.R$string: int caches_more_caches_no
+cgeo.geocaching.R$string: int caches_move_all
+cgeo.geocaching.R$string: int caches_move_selected
+cgeo.geocaching.R$string: int caches_nearby
+cgeo.geocaching.R$string: int caches_nearby_button
+cgeo.geocaching.R$string: int caches_no_cache
+cgeo.geocaching.R$string: int caches_on_map
+cgeo.geocaching.R$string: int caches_recaptcha_continue
+cgeo.geocaching.R$string: int caches_recaptcha_explanation
+cgeo.geocaching.R$string: int caches_recaptcha_hint
+cgeo.geocaching.R$string: int caches_recaptcha_title
+cgeo.geocaching.R$string: int caches_refresh_all
+cgeo.geocaching.R$string: int caches_refresh_selected
+cgeo.geocaching.R$string: int caches_removing_from_history
+cgeo.geocaching.R$string: int caches_select_invert
+cgeo.geocaching.R$string: int caches_select_mode
+cgeo.geocaching.R$string: int caches_select_mode_exit
+cgeo.geocaching.R$string: int caches_sort
+cgeo.geocaching.R$string: int caches_sort_date_hidden
+cgeo.geocaching.R$string: int caches_sort_date_logged
+cgeo.geocaching.R$string: int caches_sort_difficulty
+cgeo.geocaching.R$string: int caches_sort_distance
+cgeo.geocaching.R$string: int caches_sort_favorites
+cgeo.geocaching.R$string: int caches_sort_finds
+cgeo.geocaching.R$string: int caches_sort_geocode
+cgeo.geocaching.R$string: int caches_sort_inventory
+cgeo.geocaching.R$string: int caches_sort_name
+cgeo.geocaching.R$string: int caches_sort_rating
+cgeo.geocaching.R$string: int caches_sort_size
+cgeo.geocaching.R$string: int caches_sort_state
+cgeo.geocaching.R$string: int caches_sort_storage
+cgeo.geocaching.R$string: int caches_sort_terrain
+cgeo.geocaching.R$string: int caches_sort_title
+cgeo.geocaching.R$string: int caches_sort_vote
+cgeo.geocaching.R$string: int caches_store_offline
+cgeo.geocaching.R$string: int caches_store_selected
+cgeo.geocaching.R$string: int changelog_master
+cgeo.geocaching.R$string: int changelog_release
+cgeo.geocaching.R$string: int cito
+cgeo.geocaching.R$string: int clipboard_copy_ok
+cgeo.geocaching.R$string: int compass_title
+cgeo.geocaching.R$string: int contributors
+cgeo.geocaching.R$string: int destination_select
+cgeo.geocaching.R$string: int destination_set
+cgeo.geocaching.R$string: int detail
+cgeo.geocaching.R$string: int earth
+cgeo.geocaching.R$string: int err_acquire_image_failed
+cgeo.geocaching.R$string: int err_application_no
+cgeo.geocaching.R$string: int err_auth_initialize
+cgeo.geocaching.R$string: int err_auth_process
+cgeo.geocaching.R$string: int err_cannot_log_visit
+cgeo.geocaching.R$string: int err_comm
+cgeo.geocaching.R$string: int err_detail_cache
+cgeo.geocaching.R$string: int err_detail_cache_find
+cgeo.geocaching.R$string: int err_detail_cache_find_any
+cgeo.geocaching.R$string: int err_detail_cache_find_some
+cgeo.geocaching.R$string: int err_detail_cache_forgot
+cgeo.geocaching.R$string: int err_detail_google_maps_limit_reached
+cgeo.geocaching.R$string: int err_detail_no_map_static
+cgeo.geocaching.R$string: int err_detail_no_spoiler
+cgeo.geocaching.R$string: int err_detail_not_load_map_static
+cgeo.geocaching.R$string: int err_detail_open
+cgeo.geocaching.R$string: int err_detail_still_working
+cgeo.geocaching.R$string: int err_download_fail
+cgeo.geocaching.R$string: int err_dwld_details_failed
+cgeo.geocaching.R$string: int err_favorite_failed
+cgeo.geocaching.R$string: int err_license
+cgeo.geocaching.R$string: int err_load_descr_failed
+cgeo.geocaching.R$string: int err_location_unknown
+cgeo.geocaching.R$string: int err_log_failed_server
+cgeo.geocaching.R$string: int err_log_load_data
+cgeo.geocaching.R$string: int err_log_load_data_again
+cgeo.geocaching.R$string: int err_log_load_data_still
+cgeo.geocaching.R$string: int err_log_post_failed
+cgeo.geocaching.R$string: int err_logimage_post_failed
+cgeo.geocaching.R$string: int err_login
+cgeo.geocaching.R$string: int err_login_failed
+cgeo.geocaching.R$string: int err_login_failed_toast
+cgeo.geocaching.R$string: int err_maintenance
+cgeo.geocaching.R$string: int err_missing_auth
+cgeo.geocaching.R$string: int err_missing_device_name
+cgeo.geocaching.R$string: int err_none
+cgeo.geocaching.R$string: int err_parse
+cgeo.geocaching.R$string: int err_parse_dist
+cgeo.geocaching.R$string: int err_parse_lat
+cgeo.geocaching.R$string: int err_parse_lat_lon
+cgeo.geocaching.R$string: int err_parse_lon
+cgeo.geocaching.R$string: int err_point_bear_and_dist
+cgeo.geocaching.R$string: int err_point_bear_and_dist_title
+cgeo.geocaching.R$string: int err_point_curr_position_unavailable
+cgeo.geocaching.R$string: int err_point_no_position_given
+cgeo.geocaching.R$string: int err_point_no_position_given_title
+cgeo.geocaching.R$string: int err_point_unknown_position
+cgeo.geocaching.R$string: int err_premium_only
+cgeo.geocaching.R$string: int err_search_address_forgot
+cgeo.geocaching.R$string: int err_select_logimage_failed
+cgeo.geocaching.R$string: int err_server
+cgeo.geocaching.R$string: int err_start
+cgeo.geocaching.R$string: int err_tb_details_open
+cgeo.geocaching.R$string: int err_tb_display
+cgeo.geocaching.R$string: int err_tb_find
+cgeo.geocaching.R$string: int err_tb_find_that
+cgeo.geocaching.R$string: int err_tb_forgot_saw
+cgeo.geocaching.R$string: int err_tts_lang_not_supported
+cgeo.geocaching.R$string: int err_unknown
+cgeo.geocaching.R$string: int err_unpublished
+cgeo.geocaching.R$string: int err_unvalidated_account
+cgeo.geocaching.R$string: int err_watchlist_failed
+cgeo.geocaching.R$string: int err_watchlist_still_managing
+cgeo.geocaching.R$string: int err_waypoint_add_failed
+cgeo.geocaching.R$string: int err_waypoint_cache_unknown
+cgeo.geocaching.R$string: int err_wrong
+cgeo.geocaching.R$string: int event
+cgeo.geocaching.R$string: int export
+cgeo.geocaching.R$string: int export_exportedto
+cgeo.geocaching.R$string: int export_failed
+cgeo.geocaching.R$string: int export_fieldnotes
+cgeo.geocaching.R$string: int export_fieldnotes_creating
+cgeo.geocaching.R$string: int export_fieldnotes_info
+cgeo.geocaching.R$string: int export_fieldnotes_onlynew
+cgeo.geocaching.R$string: int export_fieldnotes_upload
+cgeo.geocaching.R$string: int export_fieldnotes_upload_success
+cgeo.geocaching.R$string: int export_fieldnotes_uploading
+cgeo.geocaching.R$string: int export_gpx
+cgeo.geocaching.R$string: int export_gpx_info
+cgeo.geocaching.R$string: int export_gpx_to
+cgeo.geocaching.R$string: int facebook
+cgeo.geocaching.R$string: int faq
+cgeo.geocaching.R$string: int file_list_no_files
+cgeo.geocaching.R$string: int file_searching
+cgeo.geocaching.R$string: int file_searching_in
+cgeo.geocaching.R$string: int file_searching_sdcard_in
+cgeo.geocaching.R$string: int file_title_searching
+cgeo.geocaching.R$string: int gchq
+cgeo.geocaching.R$string: int geokret_type_book_or_media
+cgeo.geocaching.R$string: int geokret_type_coin
+cgeo.geocaching.R$string: int geokret_type_human
+cgeo.geocaching.R$string: int geokret_type_post
+cgeo.geocaching.R$string: int geokret_type_traditional
+cgeo.geocaching.R$string: int gps
+cgeo.geocaching.R$string: int gpx_import_caches_imported
+cgeo.geocaching.R$string: int gpx_import_canceled
+cgeo.geocaching.R$string: int gpx_import_delete_message
+cgeo.geocaching.R$string: int gpx_import_delete_title
+cgeo.geocaching.R$string: int gpx_import_error_io
+cgeo.geocaching.R$string: int gpx_import_error_parser
+cgeo.geocaching.R$string: int gpx_import_error_unexpected
+cgeo.geocaching.R$string: int gpx_import_loading_caches
+cgeo.geocaching.R$string: int gpx_import_loading_waypoints
+cgeo.geocaching.R$string: int gpx_import_select_list_title
+cgeo.geocaching.R$string: int gpx_import_static_maps_skipped
+cgeo.geocaching.R$string: int gpx_import_store_static_maps
+cgeo.geocaching.R$string: int gpx_import_title
+cgeo.geocaching.R$string: int gpx_import_title_caches_import_failed
+cgeo.geocaching.R$string: int gpx_import_title_caches_imported
+cgeo.geocaching.R$string: int gpx_import_title_reading_file
+cgeo.geocaching.R$string: int gpx_import_title_static_maps
+cgeo.geocaching.R$string: int helper_barcode_description
+cgeo.geocaching.R$string: int helper_barcode_title
+cgeo.geocaching.R$string: int helper_bluetoothgps_description
+cgeo.geocaching.R$string: int helper_bluetoothgps_title
+cgeo.geocaching.R$string: int helper_calendar_description
+cgeo.geocaching.R$string: int helper_calendar_missing
+cgeo.geocaching.R$string: int helper_calendar_title
+cgeo.geocaching.R$string: int helper_gpsstatus_description
+cgeo.geocaching.R$string: int helper_gpsstatus_title
+cgeo.geocaching.R$string: int helper_locus_description
+cgeo.geocaching.R$string: int helper_locus_title
+cgeo.geocaching.R$string: int helper_pocketquery_description
+cgeo.geocaching.R$string: int helper_pocketquery_title
+cgeo.geocaching.R$string: int helpers
+cgeo.geocaching.R$string: int info_log_cleared
+cgeo.geocaching.R$string: int info_log_posted
+cgeo.geocaching.R$string: int info_log_saved
+cgeo.geocaching.R$string: int info_log_type_changed
+cgeo.geocaching.R$string: int info_select_logimage_cancelled
+cgeo.geocaching.R$string: int info_stored_image
+cgeo.geocaching.R$string: int info_storing_static_maps
+cgeo.geocaching.R$string: int init_address
+cgeo.geocaching.R$string: int init_autoload
+cgeo.geocaching.R$string: int init_backup
+cgeo.geocaching.R$string: int init_backup_backup
+cgeo.geocaching.R$string: int init_backup_failed
+cgeo.geocaching.R$string: int init_backup_last
+cgeo.geocaching.R$string: int init_backup_last_no
+cgeo.geocaching.R$string: int init_backup_note
+cgeo.geocaching.R$string: int init_backup_restore
+cgeo.geocaching.R$string: int init_backup_running
+cgeo.geocaching.R$string: int init_backup_success
+cgeo.geocaching.R$string: int init_backup_unnecessary
+cgeo.geocaching.R$string: int init_captcha
+cgeo.geocaching.R$string: int init_choose_list
+cgeo.geocaching.R$string: int init_dbmove_dbmove
+cgeo.geocaching.R$string: int init_dbmove_failed
+cgeo.geocaching.R$string: int init_dbmove_running
+cgeo.geocaching.R$string: int init_dbmove_success
+cgeo.geocaching.R$string: int init_dbonsdcard
+cgeo.geocaching.R$string: int init_dbonsdcard_note
+cgeo.geocaching.R$string: int init_dbonsdcard_title
+cgeo.geocaching.R$string: int init_debug
+cgeo.geocaching.R$string: int init_debug_note
+cgeo.geocaching.R$string: int init_debug_title
+cgeo.geocaching.R$string: int init_default_navigation_tool
+cgeo.geocaching.R$string: int init_default_navigation_tool_2_description
+cgeo.geocaching.R$string: int init_default_navigation_tool_description
+cgeo.geocaching.R$string: int init_default_navigation_tool_select
+cgeo.geocaching.R$string: int init_disabled
+cgeo.geocaching.R$string: int init_exclude
+cgeo.geocaching.R$string: int init_friendlogswanted
+cgeo.geocaching.R$string: int init_gcvote
+cgeo.geocaching.R$string: int init_gpx_exportdir
+cgeo.geocaching.R$string: int init_gpx_importdir
+cgeo.geocaching.R$string: int init_livelist
+cgeo.geocaching.R$string: int init_loaddirectionimg
+cgeo.geocaching.R$string: int init_log_offline
+cgeo.geocaching.R$string: int init_login
+cgeo.geocaching.R$string: int init_login_popup
+cgeo.geocaching.R$string: int init_login_popup_failed
+cgeo.geocaching.R$string: int init_login_popup_failed_reason
+cgeo.geocaching.R$string: int init_login_popup_not_authorized
+cgeo.geocaching.R$string: int init_login_popup_ok
+cgeo.geocaching.R$string: int init_login_popup_working
+cgeo.geocaching.R$string: int init_map_directory_description
+cgeo.geocaching.R$string: int init_mapsource_select
+cgeo.geocaching.R$string: int init_maptrail
+cgeo.geocaching.R$string: int init_navigation_menu_description
+cgeo.geocaching.R$string: int init_oc
+cgeo.geocaching.R$string: int init_oc_de_description
+cgeo.geocaching.R$string: int init_oc_pl
+cgeo.geocaching.R$string: int init_oc_pl_description
+cgeo.geocaching.R$string: int init_offline
+cgeo.geocaching.R$string: int init_offline_wp
+cgeo.geocaching.R$string: int init_openlastdetailspage
+cgeo.geocaching.R$string: int init_password
+cgeo.geocaching.R$string: int init_plain_logs
+cgeo.geocaching.R$string: int init_ratingwanted
+cgeo.geocaching.R$string: int init_register_oc_de
+cgeo.geocaching.R$string: int init_register_oc_pl
+cgeo.geocaching.R$string: int init_rendertheme_folder
+cgeo.geocaching.R$string: int init_reregister_oc_de
+cgeo.geocaching.R$string: int init_reregister_oc_pl
+cgeo.geocaching.R$string: int init_restore_confirm
+cgeo.geocaching.R$string: int init_restore_failed
+cgeo.geocaching.R$string: int init_restore_running
+cgeo.geocaching.R$string: int init_restore_success
+cgeo.geocaching.R$string: int init_save_log_img
+cgeo.geocaching.R$string: int init_secondary_navigation_tool
+cgeo.geocaching.R$string: int init_sendToCgeo
+cgeo.geocaching.R$string: int init_sendToCgeo_description
+cgeo.geocaching.R$string: int init_sendToCgeo_name
+cgeo.geocaching.R$string: int init_sendToCgeo_register
+cgeo.geocaching.R$string: int init_sendToCgeo_register_fail
+cgeo.geocaching.R$string: int init_sendToCgeo_register_ok
+cgeo.geocaching.R$string: int init_sendToCgeo_registering
+cgeo.geocaching.R$string: int init_share_after_export
+cgeo.geocaching.R$string: int init_showwaypoint_description
+cgeo.geocaching.R$string: int init_showwaypoints
+cgeo.geocaching.R$string: int init_sigautoinsert
+cgeo.geocaching.R$string: int init_signature
+cgeo.geocaching.R$string: int init_signature_help_text
+cgeo.geocaching.R$string: int init_signature_template_button
+cgeo.geocaching.R$string: int init_signature_template_date
+cgeo.geocaching.R$string: int init_signature_template_datetime
+cgeo.geocaching.R$string: int init_signature_template_number
+cgeo.geocaching.R$string: int init_signature_template_owner
+cgeo.geocaching.R$string: int init_signature_template_time
+cgeo.geocaching.R$string: int init_signature_template_user
+cgeo.geocaching.R$string: int init_skin
+cgeo.geocaching.R$string: int init_summary_address
+cgeo.geocaching.R$string: int init_summary_autoload
+cgeo.geocaching.R$string: int init_summary_captcha
+cgeo.geocaching.R$string: int init_summary_choose_list
+cgeo.geocaching.R$string: int init_summary_disabled
+cgeo.geocaching.R$string: int init_summary_exclude
+cgeo.geocaching.R$string: int init_summary_friendlogswanted
+cgeo.geocaching.R$string: int init_summary_livelist
+cgeo.geocaching.R$string: int init_summary_loaddirectionimg
+cgeo.geocaching.R$string: int init_summary_log_offline
+cgeo.geocaching.R$string: int init_summary_maptrail
+cgeo.geocaching.R$string: int init_summary_offline
+cgeo.geocaching.R$string: int init_summary_offline_wp
+cgeo.geocaching.R$string: int init_summary_openlastdetailspage
+cgeo.geocaching.R$string: int init_summary_plain_logs
+cgeo.geocaching.R$string: int init_summary_ratingwanted
+cgeo.geocaching.R$string: int init_summary_save_log_img
+cgeo.geocaching.R$string: int init_summary_skin
+cgeo.geocaching.R$string: int init_summary_trackautovisit
+cgeo.geocaching.R$string: int init_summary_units
+cgeo.geocaching.R$string: int init_summary_use_native_ua
+cgeo.geocaching.R$string: int init_summary_useenglish
+cgeo.geocaching.R$string: int init_trackautovisit
+cgeo.geocaching.R$string: int init_twitter
+cgeo.geocaching.R$string: int init_twitter_authorize
+cgeo.geocaching.R$string: int init_twitter_reauthorize
+cgeo.geocaching.R$string: int init_units
+cgeo.geocaching.R$string: int init_use_native_ua
+cgeo.geocaching.R$string: int init_useenglish
+cgeo.geocaching.R$string: int init_username
+cgeo.geocaching.R$string: int latitude
+cgeo.geocaching.R$string: int letterbox
+cgeo.geocaching.R$string: int license
+cgeo.geocaching.R$string: int license_dismiss
+cgeo.geocaching.R$string: int license_show
+cgeo.geocaching.R$string: int list_all_lists
+cgeo.geocaching.R$string: int list_dialog_cancel
+cgeo.geocaching.R$string: int list_dialog_create
+cgeo.geocaching.R$string: int list_dialog_create_err
+cgeo.geocaching.R$string: int list_dialog_create_ok
+cgeo.geocaching.R$string: int list_dialog_create_title
+cgeo.geocaching.R$string: int list_dialog_remove
+cgeo.geocaching.R$string: int list_dialog_remove_description
+cgeo.geocaching.R$string: int list_dialog_remove_err
+cgeo.geocaching.R$string: int list_dialog_remove_ok
+cgeo.geocaching.R$string: int list_dialog_remove_title
+cgeo.geocaching.R$string: int list_dialog_rename
+cgeo.geocaching.R$string: int list_dialog_rename_title
+cgeo.geocaching.R$string: int list_inbox
+cgeo.geocaching.R$string: int list_menu
+cgeo.geocaching.R$string: int list_menu_all_lists
+cgeo.geocaching.R$string: int list_menu_change
+cgeo.geocaching.R$string: int list_menu_create
+cgeo.geocaching.R$string: int list_menu_drop
+cgeo.geocaching.R$string: int list_menu_rename
+cgeo.geocaching.R$string: int list_title
+cgeo.geocaching.R$string: int live_map_button
+cgeo.geocaching.R$string: int live_map_note_dontshow
+cgeo.geocaching.R$string: int live_map_notification
+cgeo.geocaching.R$string: int loc_gps
+cgeo.geocaching.R$string: int loc_gps_disabled
+cgeo.geocaching.R$string: int loc_last
+cgeo.geocaching.R$string: int loc_net
+cgeo.geocaching.R$string: int loc_no_addr
+cgeo.geocaching.R$string: int loc_sat
+cgeo.geocaching.R$string: int loc_trying
+cgeo.geocaching.R$string: int log_add
+cgeo.geocaching.R$string: int log_announcement
+cgeo.geocaching.R$string: int log_archived
+cgeo.geocaching.R$string: int log_attend
+cgeo.geocaching.R$string: int log_attended
+cgeo.geocaching.R$string: int log_clear
+cgeo.geocaching.R$string: int log_disabled
+cgeo.geocaching.R$string: int log_discovered
+cgeo.geocaching.R$string: int log_dnf
+cgeo.geocaching.R$string: int log_enabled
+cgeo.geocaching.R$string: int log_found
+cgeo.geocaching.R$string: int log_grabbed
+cgeo.geocaching.R$string: int log_hint_log_password
+cgeo.geocaching.R$string: int log_image
+cgeo.geocaching.R$string: int log_image_attach
+cgeo.geocaching.R$string: int log_image_camera
+cgeo.geocaching.R$string: int log_image_caption
+cgeo.geocaching.R$string: int log_image_description
+cgeo.geocaching.R$string: int log_image_edit
+cgeo.geocaching.R$string: int log_image_scale
+cgeo.geocaching.R$string: int log_image_stored
+cgeo.geocaching.R$string: int log_maintained
+cgeo.geocaching.R$string: int log_maintenance_needed
+cgeo.geocaching.R$string: int log_marked_missing
+cgeo.geocaching.R$string: int log_movecollection
+cgeo.geocaching.R$string: int log_moveinventory
+cgeo.geocaching.R$string: int log_needs_archived
+cgeo.geocaching.R$string: int log_new_log
+cgeo.geocaching.R$string: int log_new_log_text
+cgeo.geocaching.R$string: int log_no_rating
+cgeo.geocaching.R$string: int log_note
+cgeo.geocaching.R$string: int log_password_title
+cgeo.geocaching.R$string: int log_placed
+cgeo.geocaching.R$string: int log_post
+cgeo.geocaching.R$string: int log_post_no_rate
+cgeo.geocaching.R$string: int log_post_not_possible
+cgeo.geocaching.R$string: int log_post_rate
+cgeo.geocaching.R$string: int log_published
+cgeo.geocaching.R$string: int log_rating
+cgeo.geocaching.R$string: int log_retractlisting
+cgeo.geocaching.R$string: int log_retrieved
+cgeo.geocaching.R$string: int log_reviewer
+cgeo.geocaching.R$string: int log_save
+cgeo.geocaching.R$string: int log_saving
+cgeo.geocaching.R$string: int log_saving_and_uploading
+cgeo.geocaching.R$string: int log_smilies
+cgeo.geocaching.R$string: int log_stars_1
+cgeo.geocaching.R$string: int log_stars_15
+cgeo.geocaching.R$string: int log_stars_15_description
+cgeo.geocaching.R$string: int log_stars_1_description
+cgeo.geocaching.R$string: int log_stars_2
+cgeo.geocaching.R$string: int log_stars_25
+cgeo.geocaching.R$string: int log_stars_25_description
+cgeo.geocaching.R$string: int log_stars_2_description
+cgeo.geocaching.R$string: int log_stars_3
+cgeo.geocaching.R$string: int log_stars_35
+cgeo.geocaching.R$string: int log_stars_35_description
+cgeo.geocaching.R$string: int log_stars_3_description
+cgeo.geocaching.R$string: int log_stars_4
+cgeo.geocaching.R$string: int log_stars_45
+cgeo.geocaching.R$string: int log_stars_45_description
+cgeo.geocaching.R$string: int log_stars_4_description
+cgeo.geocaching.R$string: int log_stars_5
+cgeo.geocaching.R$string: int log_stars_5_description
+cgeo.geocaching.R$string: int log_tb_changeall
+cgeo.geocaching.R$string: int log_tb_drop
+cgeo.geocaching.R$string: int log_tb_nothing
+cgeo.geocaching.R$string: int log_tb_visit
+cgeo.geocaching.R$string: int log_today
+cgeo.geocaching.R$string: int log_unarchived
+cgeo.geocaching.R$string: int log_update
+cgeo.geocaching.R$string: int log_webcam
+cgeo.geocaching.R$string: int log_yesterday
+cgeo.geocaching.R$string: int longitude
+cgeo.geocaching.R$string: int lostfound
+cgeo.geocaching.R$string: int map_as_list
+cgeo.geocaching.R$string: int map_circles_hide
+cgeo.geocaching.R$string: int map_circles_show
+cgeo.geocaching.R$string: int map_file_select_title
+cgeo.geocaching.R$string: int map_live
+cgeo.geocaching.R$string: int map_live_disable
+cgeo.geocaching.R$string: int map_live_enable
+cgeo.geocaching.R$string: int map_map
+cgeo.geocaching.R$string: int map_modes
+cgeo.geocaching.R$string: int map_mycaches_hide
+cgeo.geocaching.R$string: int map_mycaches_show
+cgeo.geocaching.R$string: int map_source_google_map
+cgeo.geocaching.R$string: int map_source_google_satellite
+cgeo.geocaching.R$string: int map_source_osm_cyclemap
+cgeo.geocaching.R$string: int map_source_osm_mapnik
+cgeo.geocaching.R$string: int map_source_osm_offline
+cgeo.geocaching.R$string: int map_static_loading
+cgeo.geocaching.R$string: int map_static_title
+cgeo.geocaching.R$string: int map_strategy
+cgeo.geocaching.R$string: int map_strategy_auto
+cgeo.geocaching.R$string: int map_strategy_detailed
+cgeo.geocaching.R$string: int map_strategy_fast
+cgeo.geocaching.R$string: int map_strategy_fastest
+cgeo.geocaching.R$string: int map_strategy_title
+cgeo.geocaching.R$string: int map_theme_builtin
+cgeo.geocaching.R$string: int map_theme_select
+cgeo.geocaching.R$string: int map_token_err
+cgeo.geocaching.R$string: int map_trail_hide
+cgeo.geocaching.R$string: int map_trail_show
+cgeo.geocaching.R$string: int map_view_map
+cgeo.geocaching.R$string: int maps_api_key
+cgeo.geocaching.R$string: int market
+cgeo.geocaching.R$string: int mega
+cgeo.geocaching.R$string: int menu_about
+cgeo.geocaching.R$string: int menu_filter
+cgeo.geocaching.R$string: int menu_helpers
+cgeo.geocaching.R$string: int menu_history
+cgeo.geocaching.R$string: int menu_scan_geo
+cgeo.geocaching.R$string: int menu_settings
+cgeo.geocaching.R$string: int multi
+cgeo.geocaching.R$string: int mystery
+cgeo.geocaching.R$string: int navigation
+cgeo.geocaching.R$string: int navigation_direct_navigation
+cgeo.geocaching.R$string: int navigation_target
+cgeo.geocaching.R$string: int nutshellmanual
+cgeo.geocaching.R$string: int oc_de_okapi_consumer_key
+cgeo.geocaching.R$string: int oc_de_okapi_consumer_secret
+cgeo.geocaching.R$string: int oc_pl_okapi_consumer_key
+cgeo.geocaching.R$string: int oc_pl_okapi_consumer_secret
+cgeo.geocaching.R$string: int popup_more
+cgeo.geocaching.R$string: int powered_by
+cgeo.geocaching.R$string: int pref_anylatitude
+cgeo.geocaching.R$string: int pref_anylongitude
+cgeo.geocaching.R$string: int pref_autoloaddesc
+cgeo.geocaching.R$string: int pref_cachetype
+cgeo.geocaching.R$string: int pref_choose_list
+cgeo.geocaching.R$string: int pref_connectorGCActive
+cgeo.geocaching.R$string: int pref_connectorOCActive
+cgeo.geocaching.R$string: int pref_connectorOCPLActive
+cgeo.geocaching.R$string: int pref_cookiestore
+cgeo.geocaching.R$string: int pref_coordinputformat
+cgeo.geocaching.R$string: int pref_dbonsdcard
+cgeo.geocaching.R$string: int pref_debug
+cgeo.geocaching.R$string: int pref_defaultNavigationTool
+cgeo.geocaching.R$string: int pref_defaultNavigationTool2
+cgeo.geocaching.R$string: int pref_excludedisabled
+cgeo.geocaching.R$string: int pref_excludemine
+cgeo.geocaching.R$string: int pref_fakekey_basicmembers_screen
+cgeo.geocaching.R$string: int pref_fakekey_main_screen
+cgeo.geocaching.R$string: int pref_fakekey_navigation_menu_screen
+cgeo.geocaching.R$string: int pref_fakekey_ocde_authorization
+cgeo.geocaching.R$string: int pref_fakekey_ocpl_authorization
+cgeo.geocaching.R$string: int pref_fakekey_preference_backup
+cgeo.geocaching.R$string: int pref_fakekey_preference_backup_info
+cgeo.geocaching.R$string: int pref_fakekey_preference_restore
+cgeo.geocaching.R$string: int pref_fakekey_services_screen
+cgeo.geocaching.R$string: int pref_fakekey_twitter_authorization
+cgeo.geocaching.R$string: int pref_fieldnoteExportDate
+cgeo.geocaching.R$string: int pref_friendlogswanted
+cgeo.geocaching.R$string: int pref_gccustomdate
+cgeo.geocaching.R$string: int pref_gpxExportDir
+cgeo.geocaching.R$string: int pref_gpxImportDir
+cgeo.geocaching.R$string: int pref_help_shown
+cgeo.geocaching.R$string: int pref_hidelivemaphint
+cgeo.geocaching.R$string: int pref_lastdetailspage
+cgeo.geocaching.R$string: int pref_lastmaplat
+cgeo.geocaching.R$string: int pref_lastmaplon
+cgeo.geocaching.R$string: int pref_lastmapzoom
+cgeo.geocaching.R$string: int pref_lastusedlist
+cgeo.geocaching.R$string: int pref_livelist
+cgeo.geocaching.R$string: int pref_livemaphintshowcount
+cgeo.geocaching.R$string: int pref_livemapstrategy
+cgeo.geocaching.R$string: int pref_loaddirectionimg
+cgeo.geocaching.R$string: int pref_logImageScale
+cgeo.geocaching.R$string: int pref_log_offline
+cgeo.geocaching.R$string: int pref_logimages
+cgeo.geocaching.R$string: int pref_mapDirectory
+cgeo.geocaching.R$string: int pref_mapfile
+cgeo.geocaching.R$string: int pref_maplive
+cgeo.geocaching.R$string: int pref_mapsource
+cgeo.geocaching.R$string: int pref_maptrail
+cgeo.geocaching.R$string: int pref_memberstatus
+cgeo.geocaching.R$string: int pref_nativeUa
+cgeo.geocaching.R$string: int pref_navigation_menu_cache_beacon
+cgeo.geocaching.R$string: int pref_navigation_menu_compass
+cgeo.geocaching.R$string: int pref_navigation_menu_gcc
+cgeo.geocaching.R$string: int pref_navigation_menu_google_bike
+cgeo.geocaching.R$string: int pref_navigation_menu_google_maps
+cgeo.geocaching.R$string: int pref_navigation_menu_google_maps_directions
+cgeo.geocaching.R$string: int pref_navigation_menu_google_navigation
+cgeo.geocaching.R$string: int pref_navigation_menu_google_streetview
+cgeo.geocaching.R$string: int pref_navigation_menu_google_walk
+cgeo.geocaching.R$string: int pref_navigation_menu_internal_map
+cgeo.geocaching.R$string: int pref_navigation_menu_locus
+cgeo.geocaching.R$string: int pref_navigation_menu_navigon
+cgeo.geocaching.R$string: int pref_navigation_menu_oruxmaps
+cgeo.geocaching.R$string: int pref_navigation_menu_radar
+cgeo.geocaching.R$string: int pref_navigation_menu_rmaps
+cgeo.geocaching.R$string: int pref_navigation_menu_static_map
+cgeo.geocaching.R$string: int pref_navigation_menu_static_map_download
+cgeo.geocaching.R$string: int pref_navigation_menu_sygic
+cgeo.geocaching.R$string: int pref_navigation_menu_where_you_go
+cgeo.geocaching.R$string: int pref_ocde_tokenpublic
+cgeo.geocaching.R$string: int pref_ocde_tokensecret
+cgeo.geocaching.R$string: int pref_ocpl_tokenpublic
+cgeo.geocaching.R$string: int pref_ocpl_tokensecret
+cgeo.geocaching.R$string: int pref_offlinemaps
+cgeo.geocaching.R$string: int pref_offlinewpmaps
+cgeo.geocaching.R$string: int pref_opendetailslastpage
+cgeo.geocaching.R$string: int pref_pass_vote
+cgeo.geocaching.R$string: int pref_password
+cgeo.geocaching.R$string: int pref_plainLogs
+cgeo.geocaching.R$string: int pref_ratingwanted
+cgeo.geocaching.R$string: int pref_renderthemefile
+cgeo.geocaching.R$string: int pref_renderthemepath
+cgeo.geocaching.R$string: int pref_settingsversion
+cgeo.geocaching.R$string: int pref_shareafterexport
+cgeo.geocaching.R$string: int pref_showaddress
+cgeo.geocaching.R$string: int pref_showcaptcha
+cgeo.geocaching.R$string: int pref_showwaypointsthreshold
+cgeo.geocaching.R$string: int pref_sigautoinsert
+cgeo.geocaching.R$string: int pref_signature
+cgeo.geocaching.R$string: int pref_skin
+cgeo.geocaching.R$string: int pref_temp_ocde_token_public
+cgeo.geocaching.R$string: int pref_temp_ocde_token_secret
+cgeo.geocaching.R$string: int pref_temp_ocpl_token_public
+cgeo.geocaching.R$string: int pref_temp_ocpl_token_secret
+cgeo.geocaching.R$string: int pref_temp_twitter_token_public
+cgeo.geocaching.R$string: int pref_temp_twitter_token_secret
+cgeo.geocaching.R$string: int pref_trackableaction
+cgeo.geocaching.R$string: int pref_trackautovisit
+cgeo.geocaching.R$string: int pref_twitter
+cgeo.geocaching.R$string: int pref_twitter_token_public
+cgeo.geocaching.R$string: int pref_twitter_token_secret
+cgeo.geocaching.R$string: int pref_units
+cgeo.geocaching.R$string: int pref_usecompass
+cgeo.geocaching.R$string: int pref_useenglish
+cgeo.geocaching.R$string: int pref_username
+cgeo.geocaching.R$string: int pref_version
+cgeo.geocaching.R$string: int pref_webDeviceCode
+cgeo.geocaching.R$string: int pref_webDeviceName
+cgeo.geocaching.R$string: int quote
+cgeo.geocaching.R$string: int search
+cgeo.geocaching.R$string: int search_address
+cgeo.geocaching.R$string: int search_address_button
+cgeo.geocaching.R$string: int search_address_result
+cgeo.geocaching.R$string: int search_address_started
+cgeo.geocaching.R$string: int search_bar_desc
+cgeo.geocaching.R$string: int search_bar_hint
+cgeo.geocaching.R$string: int search_clear_history
+cgeo.geocaching.R$string: int search_coordinates
+cgeo.geocaching.R$string: int search_coordinates_button
+cgeo.geocaching.R$string: int search_destination
+cgeo.geocaching.R$string: int search_direction_rel
+cgeo.geocaching.R$string: int search_fbu
+cgeo.geocaching.R$string: int search_fbu_button
+cgeo.geocaching.R$string: int search_fbu_prefill
+cgeo.geocaching.R$string: int search_geo
+cgeo.geocaching.R$string: int search_geo_button
+cgeo.geocaching.R$string: int search_hbu
+cgeo.geocaching.R$string: int search_hbu_button
+cgeo.geocaching.R$string: int search_hbu_prefill
+cgeo.geocaching.R$string: int search_history
+cgeo.geocaching.R$string: int search_history_cleared
+cgeo.geocaching.R$string: int search_history_empty
+cgeo.geocaching.R$string: int search_kw
+cgeo.geocaching.R$string: int search_kw_button
+cgeo.geocaching.R$string: int search_kw_prefill
+cgeo.geocaching.R$string: int search_own_caches
+cgeo.geocaching.R$string: int search_remove_destination
+cgeo.geocaching.R$string: int search_tb
+cgeo.geocaching.R$string: int search_tb_button
+cgeo.geocaching.R$string: int search_tb_hint
+cgeo.geocaching.R$string: int sendToCgeo_download_fail
+cgeo.geocaching.R$string: int sendToCgeo_no_registration
+cgeo.geocaching.R$string: int settings_activate_gc
+cgeo.geocaching.R$string: int settings_activate_oc
+cgeo.geocaching.R$string: int settings_activate_oc_pl
+cgeo.geocaching.R$string: int settings_activate_twitter
+cgeo.geocaching.R$string: int settings_category_browser
+cgeo.geocaching.R$string: int settings_category_geocaching
+cgeo.geocaching.R$string: int settings_category_logging_other
+cgeo.geocaching.R$string: int settings_category_social
+cgeo.geocaching.R$string: int settings_facebook_login_url
+cgeo.geocaching.R$string: int settings_gc_legal_note
+cgeo.geocaching.R$string: int settings_gc_legal_note_url
+cgeo.geocaching.R$string: int settings_goto_url_button
+cgeo.geocaching.R$string: int settings_info_facebook_login
+cgeo.geocaching.R$string: int settings_info_facebook_login_title
+cgeo.geocaching.R$string: int settings_info_offline_maps
+cgeo.geocaching.R$string: int settings_info_offline_maps_title
+cgeo.geocaching.R$string: int settings_info_send2cgeo_title
+cgeo.geocaching.R$string: int settings_info_themes
+cgeo.geocaching.R$string: int settings_info_themes_title
+cgeo.geocaching.R$string: int settings_offline_maps_url
+cgeo.geocaching.R$string: int settings_send2cgeo_url
+cgeo.geocaching.R$string: int settings_themes_url
+cgeo.geocaching.R$string: int settings_title_appearance
+cgeo.geocaching.R$string: int settings_title_basicmembers
+cgeo.geocaching.R$string: int settings_title_cachedetails
+cgeo.geocaching.R$string: int settings_title_gc
+cgeo.geocaching.R$string: int settings_title_gpx
+cgeo.geocaching.R$string: int settings_title_logging
+cgeo.geocaching.R$string: int settings_title_map
+cgeo.geocaching.R$string: int settings_title_map_content
+cgeo.geocaching.R$string: int settings_title_map_data
+cgeo.geocaching.R$string: int settings_title_navigation
+cgeo.geocaching.R$string: int settings_title_navigation_menu
+cgeo.geocaching.R$string: int settings_title_offlinedata
+cgeo.geocaching.R$string: int settings_title_services
+cgeo.geocaching.R$string: int settings_title_system
+cgeo.geocaching.R$string: int settings_titlebar
+cgeo.geocaching.R$string: int simple_dir_chooser_current_path
+cgeo.geocaching.R$string: int simple_dir_chooser_title
+cgeo.geocaching.R$string: int status_closeout_warning
+cgeo.geocaching.R$string: int status_geocaching_change
+cgeo.geocaching.R$string: int status_geocaching_livemap
+cgeo.geocaching.R$string: int status_new_nightly
+cgeo.geocaching.R$string: int status_new_rc
+cgeo.geocaching.R$string: int status_new_release
+cgeo.geocaching.R$string: int stored_caches_button
+cgeo.geocaching.R$string: int support
+cgeo.geocaching.R$string: int trackable
+cgeo.geocaching.R$string: int trackable_browser_open
+cgeo.geocaching.R$string: int trackable_code
+cgeo.geocaching.R$string: int trackable_details
+cgeo.geocaching.R$string: int trackable_details_loading
+cgeo.geocaching.R$string: int trackable_distance
+cgeo.geocaching.R$string: int trackable_goal
+cgeo.geocaching.R$string: int trackable_image
+cgeo.geocaching.R$string: int trackable_log_touch
+cgeo.geocaching.R$string: int trackable_name
+cgeo.geocaching.R$string: int trackable_not_activated
+cgeo.geocaching.R$string: int trackable_origin
+cgeo.geocaching.R$string: int trackable_owner
+cgeo.geocaching.R$string: int trackable_released
+cgeo.geocaching.R$string: int trackable_spotted
+cgeo.geocaching.R$string: int trackable_spotted_at_user
+cgeo.geocaching.R$string: int trackable_spotted_in_cache
+cgeo.geocaching.R$string: int trackable_spotted_owner
+cgeo.geocaching.R$string: int trackable_spotted_unknown_location
+cgeo.geocaching.R$string: int trackable_touch
+cgeo.geocaching.R$string: int trackable_type
+cgeo.geocaching.R$string: int trackable_unknown
+cgeo.geocaching.R$string: int traditional
+cgeo.geocaching.R$string: int translate_length_warning
+cgeo.geocaching.R$string: int translate_to_english
+cgeo.geocaching.R$string: int translate_to_sys_lang
+cgeo.geocaching.R$string: int tts_oclock
+cgeo.geocaching.R$string: int tts_one_foot
+cgeo.geocaching.R$string: int tts_one_kilometer
+cgeo.geocaching.R$string: int tts_one_meter
+cgeo.geocaching.R$string: int tts_one_mile
+cgeo.geocaching.R$string: int tts_one_oclock
+cgeo.geocaching.R$string: int tts_service
+cgeo.geocaching.R$string: int tts_start
+cgeo.geocaching.R$string: int tts_stop
+cgeo.geocaching.R$string: int twitter
+cgeo.geocaching.R$string: int unit_ft
+cgeo.geocaching.R$string: int unit_km
+cgeo.geocaching.R$string: int unit_m
+cgeo.geocaching.R$string: int unit_mi
+cgeo.geocaching.R$string: int unit_yd
+cgeo.geocaching.R$string: int unknown
+cgeo.geocaching.R$string: int unknown_scan
+cgeo.geocaching.R$string: int use_compass
+cgeo.geocaching.R$string: int use_gps
+cgeo.geocaching.R$string: int user_menu_open_browser
+cgeo.geocaching.R$string: int user_menu_send_message
+cgeo.geocaching.R$string: int user_menu_title
+cgeo.geocaching.R$string: int user_menu_view_found
+cgeo.geocaching.R$string: int user_menu_view_hidden
+cgeo.geocaching.R$string: int virtual
+cgeo.geocaching.R$string: int visit_tweet
+cgeo.geocaching.R$string: int warn_deprecated_mapfile
+cgeo.geocaching.R$string: int warn_invalid_mapfile
+cgeo.geocaching.R$string: int warn_load_images
+cgeo.geocaching.R$string: int warn_log_text_fill
+cgeo.geocaching.R$string: int warn_no_cache_coord
+cgeo.geocaching.R$string: int warn_no_coordinates
+cgeo.geocaching.R$string: int warn_no_keyword
+cgeo.geocaching.R$string: int warn_no_username
+cgeo.geocaching.R$string: int warn_nonexistant_mapfile
+cgeo.geocaching.R$string: int warn_rendertheme_missing
+cgeo.geocaching.R$string: int warn_save_nothing
+cgeo.geocaching.R$string: int warn_search_help_address
+cgeo.geocaching.R$string: int warn_search_help_gccode
+cgeo.geocaching.R$string: int warn_search_help_keyword
+cgeo.geocaching.R$string: int warn_search_help_tb
+cgeo.geocaching.R$string: int warn_search_help_title
+cgeo.geocaching.R$string: int warn_search_help_user
+cgeo.geocaching.R$string: int waypoint
+cgeo.geocaching.R$string: int waypoint_add_title
+cgeo.geocaching.R$string: int waypoint_bearing
+cgeo.geocaching.R$string: int waypoint_being_saved
+cgeo.geocaching.R$string: int waypoint_cache_coordinates
+cgeo.geocaching.R$string: int waypoint_coordinate_formats_plain
+cgeo.geocaching.R$string: int waypoint_coordinates_being_reset_on_website
+cgeo.geocaching.R$string: int waypoint_coordinates_couldnt_be_modified_on_website
+cgeo.geocaching.R$string: int waypoint_coordinates_has_been_modified_on_website
+cgeo.geocaching.R$string: int waypoint_coordinates_has_been_reset_on_website
+cgeo.geocaching.R$string: int waypoint_coordinates_upload_error
+cgeo.geocaching.R$string: int waypoint_coordinates_uploading_to_website
+cgeo.geocaching.R$string: int waypoint_copy_of
+cgeo.geocaching.R$string: int waypoint_custom
+cgeo.geocaching.R$string: int waypoint_delete
+cgeo.geocaching.R$string: int waypoint_distance
+cgeo.geocaching.R$string: int waypoint_do_not_touch_cache_coordinates
+cgeo.geocaching.R$string: int waypoint_done
+cgeo.geocaching.R$string: int waypoint_duplicate
+cgeo.geocaching.R$string: int waypoint_edit
+cgeo.geocaching.R$string: int waypoint_edit_title
+cgeo.geocaching.R$string: int waypoint_loading
+cgeo.geocaching.R$string: int waypoint_localy_reset_cache_coords
+cgeo.geocaching.R$string: int waypoint_my_coordinates
+cgeo.geocaching.R$string: int waypoint_name
+cgeo.geocaching.R$string: int waypoint_note
+cgeo.geocaching.R$string: int waypoint_reset
+cgeo.geocaching.R$string: int waypoint_reset_cache_coords
+cgeo.geocaching.R$string: int waypoint_reset_local_and_remote_cache_coords
+cgeo.geocaching.R$string: int waypoint_save
+cgeo.geocaching.R$string: int waypoint_save_and_modify_on_website
+cgeo.geocaching.R$string: int waypoint_set_as_cache_coords
+cgeo.geocaching.R$string: int waypoint_visited
+cgeo.geocaching.R$string: int web_downloaded
+cgeo.geocaching.R$string: int web_downloading
+cgeo.geocaching.R$string: int web_import_title
+cgeo.geocaching.R$string: int web_import_waiting
+cgeo.geocaching.R$string: int webcam
+cgeo.geocaching.R$string: int website
+cgeo.geocaching.R$string: int wherigo
+cgeo.geocaching.R$string: int wp_final
+cgeo.geocaching.R$string: int wp_original
+cgeo.geocaching.R$string: int wp_pkg
+cgeo.geocaching.R$string: int wp_puzzle
+cgeo.geocaching.R$string: int wp_stage
+cgeo.geocaching.R$string: int wp_trailhead
+cgeo.geocaching.R$string: int wp_waypoint
+cgeo.geocaching.R$style
+cgeo.geocaching.R$style: int Theme_PageIndicatorDefaults
+cgeo.geocaching.R$style: int Widget
+cgeo.geocaching.R$style: int Widget_TitlePageIndicator
+cgeo.geocaching.R$style: int action_bar
+cgeo.geocaching.R$style: int action_bar_action
+cgeo.geocaching.R$style: int action_bar_icon_cgeo
+cgeo.geocaching.R$style: int action_bar_progress
+cgeo.geocaching.R$style: int action_bar_separator
+cgeo.geocaching.R$style: int action_bar_title
+cgeo.geocaching.R$style: int button
+cgeo.geocaching.R$style: int button_full
+cgeo.geocaching.R$style: int button_small
+cgeo.geocaching.R$style: int cgeo
+cgeo.geocaching.R$style: int cgeo_main
+cgeo.geocaching.R$style: int cgeo_popup
+cgeo.geocaching.R$style: int checkbox
+cgeo.geocaching.R$style: int checkbox_full
+cgeo.geocaching.R$style: int dark
+cgeo.geocaching.R$style: int edittext
+cgeo.geocaching.R$style: int edittext_dialog
+cgeo.geocaching.R$style: int edittext_full
+cgeo.geocaching.R$style: int filter_bar
+cgeo.geocaching.R$style: int filter_bar_image
+cgeo.geocaching.R$style: int filter_bar_text
+cgeo.geocaching.R$style: int icon_mainscreen
+cgeo.geocaching.R$style: int icon_mainscreen_cell
+cgeo.geocaching.R$style: int icon_mainscreen_cell_counter
+cgeo.geocaching.R$style: int icon_mainscreen_count
+cgeo.geocaching.R$style: int icon_mainscreen_row
+cgeo.geocaching.R$style: int icon_mainscreen_text
+cgeo.geocaching.R$style: int light
+cgeo.geocaching.R$style: int location_current
+cgeo.geocaching.R$style: int location_current_accuracy
+cgeo.geocaching.R$style: int location_current_satellites
+cgeo.geocaching.R$style: int location_current_style
+cgeo.geocaching.R$style: int location_current_type
+cgeo.geocaching.R$style: int logitem_author
+cgeo.geocaching.R$style: int logitem_mark
+cgeo.geocaching.R$style: int logitem_property
+cgeo.geocaching.R$style: int popup_dark
+cgeo.geocaching.R$style: int popup_light
+cgeo.geocaching.R$style: int radiobutton
+cgeo.geocaching.R$style: int radiobutton_wrap
+cgeo.geocaching.R$style: int separator_horizontal
+cgeo.geocaching.R$style: int separator_horizontal_headline
+cgeo.geocaching.R$style: int separator_horizontal_layout
+cgeo.geocaching.R$style: int settings
+cgeo.geocaching.R$style: int settings_light
+cgeo.geocaching.R$styleable
+cgeo.geocaching.R$styleable: int[] TitlePageIndicator
+cgeo.geocaching.R$styleable: int TitlePageIndicator_clipPadding
+cgeo.geocaching.R$styleable: int TitlePageIndicator_footerColor
+cgeo.geocaching.R$styleable: int TitlePageIndicator_footerIndicatorHeight
+cgeo.geocaching.R$styleable: int TitlePageIndicator_footerIndicatorStyle
+cgeo.geocaching.R$styleable: int TitlePageIndicator_footerIndicatorUnderlinePadding
+cgeo.geocaching.R$styleable: int TitlePageIndicator_footerLineHeight
+cgeo.geocaching.R$styleable: int TitlePageIndicator_footerPadding
+cgeo.geocaching.R$styleable: int TitlePageIndicator_selectedBold
+cgeo.geocaching.R$styleable: int TitlePageIndicator_selectedColor
+cgeo.geocaching.R$styleable: int TitlePageIndicator_textColor
+cgeo.geocaching.R$styleable: int TitlePageIndicator_textSize
+cgeo.geocaching.R$styleable: int TitlePageIndicator_titlePadding
+cgeo.geocaching.R$styleable: int TitlePageIndicator_topPadding
+cgeo.geocaching.R$styleable: int[] ViewPagerIndicator
+cgeo.geocaching.R$styleable: int ViewPagerIndicator_vpiTitlePageIndicatorStyle
+cgeo.geocaching.R$styleable: int[] cgCompassMini
+cgeo.geocaching.R$styleable: int cgCompassMini_skin
+cgeo.geocaching.R$xml
+cgeo.geocaching.R$xml: int preferences
+cgeo.geocaching.R$xml: int searchable
+cgeo.geocaching.SearchActivity
+cgeo.geocaching.SearchActivity: SearchActivity()
+cgeo.geocaching.SearchActivity$$ViewInjector
+cgeo.geocaching.SearchActivity$$ViewInjector: SearchActivity$$ViewInjector()
+cgeo.geocaching.SearchActivity$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.SearchActivity,java.lang.Object)
+cgeo.geocaching.SearchResult
+cgeo.geocaching.SearchResult: android.os.Parcelable$Creator CREATOR
+cgeo.geocaching.SelectMapfileActivity
+cgeo.geocaching.SelectMapfileActivity: SelectMapfileActivity()
+cgeo.geocaching.StaticMapsActivity
+cgeo.geocaching.StaticMapsActivity: StaticMapsActivity()
+cgeo.geocaching.StaticMapsActivity_
+cgeo.geocaching.StaticMapsActivity_: StaticMapsActivity_()
+cgeo.geocaching.StaticMapsActivity_: void setContentView(android.view.View)
+cgeo.geocaching.StaticMapsActivity_$IntentBuilder_
+cgeo.geocaching.StaticMapsProvider
+cgeo.geocaching.StatusFragment
+cgeo.geocaching.StatusFragment: StatusFragment()
+cgeo.geocaching.StoredList
+cgeo.geocaching.StoredList$UserInterface
+cgeo.geocaching.Trackable
+cgeo.geocaching.TrackableActivity
+cgeo.geocaching.TrackableActivity: TrackableActivity()
+cgeo.geocaching.TrackableActivity$DetailsViewCreator
+cgeo.geocaching.TrackableActivity$DetailsViewCreator$$ViewInjector
+cgeo.geocaching.TrackableActivity$DetailsViewCreator$$ViewInjector: TrackableActivity$DetailsViewCreator$$ViewInjector()
+cgeo.geocaching.TrackableActivity$DetailsViewCreator$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.TrackableActivity$DetailsViewCreator,java.lang.Object)
+cgeo.geocaching.TrackableActivity$Page
+cgeo.geocaching.TrackableActivity$Page: cgeo.geocaching.TrackableActivity$Page[] values()
+cgeo.geocaching.TrackableActivity$Page: cgeo.geocaching.TrackableActivity$Page valueOf(java.lang.String)
+cgeo.geocaching.TrackableLog
+cgeo.geocaching.UsefulAppsActivity
+cgeo.geocaching.UsefulAppsActivity: UsefulAppsActivity()
+cgeo.geocaching.UsefulAppsActivity$$ViewInjector
+cgeo.geocaching.UsefulAppsActivity$$ViewInjector: UsefulAppsActivity$$ViewInjector()
+cgeo.geocaching.UsefulAppsActivity$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.UsefulAppsActivity,java.lang.Object)
+cgeo.geocaching.UsefulAppsActivity$ViewHolder
+cgeo.geocaching.UsefulAppsActivity$ViewHolder$$ViewInjector
+cgeo.geocaching.UsefulAppsActivity$ViewHolder$$ViewInjector: UsefulAppsActivity$ViewHolder$$ViewInjector()
+cgeo.geocaching.UsefulAppsActivity$ViewHolder$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.UsefulAppsActivity$ViewHolder,java.lang.Object)
+cgeo.geocaching.Waypoint
+cgeo.geocaching.WaypointPopup
+cgeo.geocaching.WaypointPopup: WaypointPopup()
+cgeo.geocaching.WaypointPopup: void showNavigationMenu()
+cgeo.geocaching.WaypointPopup$$ViewInjector
+cgeo.geocaching.WaypointPopup$$ViewInjector: WaypointPopup$$ViewInjector()
+cgeo.geocaching.WaypointPopup$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.WaypointPopup,java.lang.Object)
+cgeo.geocaching.activity.AbstractActivity: AbstractActivity()
+cgeo.geocaching.activity.AbstractActivity: AbstractActivity(boolean)
+cgeo.geocaching.activity.AbstractActivity: void goHome(android.view.View)
+cgeo.geocaching.activity.AbstractListActivity: AbstractListActivity()
+cgeo.geocaching.activity.AbstractListActivity: AbstractListActivity(boolean)
+cgeo.geocaching.activity.AbstractListActivity: void goHome(android.view.View)
+cgeo.geocaching.activity.AbstractViewPagerActivity: AbstractViewPagerActivity()
+cgeo.geocaching.activity.ActivityMixin: void goHome(android.app.Activity)
+cgeo.geocaching.activity.FilteredActivity: void showFilterMenu(android.view.View)
+cgeo.geocaching.activity.IAbstractActivity: void goHome(android.view.View)
+cgeo.geocaching.apps.LocusDataStorageProvider
+cgeo.geocaching.apps.LocusDataStorageProvider: LocusDataStorageProvider()
+cgeo.geocaching.apps.cache.navi.NavigationAppFactory: void showNavigationMenu(android.app.Activity,cgeo.geocaching.Geocache,cgeo.geocaching.Waypoint,cgeo.geocaching.geopoint.Geopoint)
+cgeo.geocaching.apps.cache.navi.NavigationAppFactory: void showNavigationMenu(android.app.Activity,cgeo.geocaching.Geocache,cgeo.geocaching.Waypoint,cgeo.geocaching.geopoint.Geopoint,boolean,boolean)
+cgeo.geocaching.apps.cache.navi.NavigationAppFactory$NavigationAppsEnum: cgeo.geocaching.apps.cache.navi.NavigationAppFactory$NavigationAppsEnum[] values()
+cgeo.geocaching.apps.cache.navi.NavigationAppFactory$NavigationAppsEnum: cgeo.geocaching.apps.cache.navi.NavigationAppFactory$NavigationAppsEnum valueOf(java.lang.String)
+cgeo.geocaching.backup.CentralBackupAgent
+cgeo.geocaching.backup.CentralBackupAgent: CentralBackupAgent()
+cgeo.geocaching.cgData
+cgeo.geocaching.cgData$StorageLocation
+cgeo.geocaching.cgData$StorageLocation: cgeo.geocaching.cgData$StorageLocation[] values()
+cgeo.geocaching.cgData$StorageLocation: cgeo.geocaching.cgData$StorageLocation valueOf(java.lang.String)
+cgeo.geocaching.cgeoapplication
+cgeo.geocaching.cgeoapplication: cgeoapplication()
+cgeo.geocaching.cgeocaches
+cgeo.geocaching.cgeocaches: cgeocaches()
+cgeo.geocaching.cgeocaches: void showFilterMenu(android.view.View)
+cgeo.geocaching.cgeocaches: void selectList(android.view.View)
+cgeo.geocaching.cgeocaches: void goMap(android.view.View)
+cgeo.geocaching.connector.gc.GCSmiliesProvider$Smiley: cgeo.geocaching.connector.gc.GCSmiliesProvider$Smiley[] values()
+cgeo.geocaching.connector.gc.GCSmiliesProvider$Smiley: cgeo.geocaching.connector.gc.GCSmiliesProvider$Smiley valueOf(java.lang.String)
+cgeo.geocaching.connector.oc.OCApiConnector$ApiSupport: cgeo.geocaching.connector.oc.OCApiConnector$ApiSupport[] values()
+cgeo.geocaching.connector.oc.OCApiConnector$ApiSupport: cgeo.geocaching.connector.oc.OCApiConnector$ApiSupport valueOf(java.lang.String)
+cgeo.geocaching.connector.oc.OCApiConnector$OAuthLevel: cgeo.geocaching.connector.oc.OCApiConnector$OAuthLevel[] values()
+cgeo.geocaching.connector.oc.OCApiConnector$OAuthLevel: cgeo.geocaching.connector.oc.OCApiConnector$OAuthLevel valueOf(java.lang.String)
+cgeo.geocaching.connector.oc.OCAuthorizationActivity: OCAuthorizationActivity(cgeo.geocaching.connector.oc.IOCAuthParams)
+cgeo.geocaching.connector.oc.OCDEAuthorizationActivity
+cgeo.geocaching.connector.oc.OCDEAuthorizationActivity: OCDEAuthorizationActivity()
+cgeo.geocaching.connector.oc.OCPLAuthorizationActivity
+cgeo.geocaching.connector.oc.OCPLAuthorizationActivity: OCPLAuthorizationActivity()
+cgeo.geocaching.connector.oc.OkapiService: cgeo.geocaching.connector.oc.OkapiService[] values()
+cgeo.geocaching.connector.oc.OkapiService: cgeo.geocaching.connector.oc.OkapiService valueOf(java.lang.String)
+cgeo.geocaching.connector.oc.UserInfo$UserInfoStatus: cgeo.geocaching.connector.oc.UserInfo$UserInfoStatus[] values()
+cgeo.geocaching.connector.oc.UserInfo$UserInfoStatus: cgeo.geocaching.connector.oc.UserInfo$UserInfoStatus valueOf(java.lang.String)
+cgeo.geocaching.enumerations.CacheAttribute: cgeo.geocaching.enumerations.CacheAttribute[] values()
+cgeo.geocaching.enumerations.CacheAttribute: cgeo.geocaching.enumerations.CacheAttribute valueOf(java.lang.String)
+cgeo.geocaching.enumerations.CacheListType: cgeo.geocaching.enumerations.CacheListType[] values()
+cgeo.geocaching.enumerations.CacheListType: cgeo.geocaching.enumerations.CacheListType valueOf(java.lang.String)
+cgeo.geocaching.enumerations.CacheSize: cgeo.geocaching.enumerations.CacheSize[] values()
+cgeo.geocaching.enumerations.CacheSize: cgeo.geocaching.enumerations.CacheSize valueOf(java.lang.String)
+cgeo.geocaching.enumerations.CacheType: cgeo.geocaching.enumerations.CacheType[] values()
+cgeo.geocaching.enumerations.CacheType: cgeo.geocaching.enumerations.CacheType valueOf(java.lang.String)
+cgeo.geocaching.enumerations.LiveMapStrategy$Strategy: cgeo.geocaching.enumerations.LiveMapStrategy$Strategy[] values()
+cgeo.geocaching.enumerations.LiveMapStrategy$Strategy: cgeo.geocaching.enumerations.LiveMapStrategy$Strategy valueOf(java.lang.String)
+cgeo.geocaching.enumerations.LiveMapStrategy$StrategyFlag: cgeo.geocaching.enumerations.LiveMapStrategy$StrategyFlag[] values()
+cgeo.geocaching.enumerations.LiveMapStrategy$StrategyFlag: cgeo.geocaching.enumerations.LiveMapStrategy$StrategyFlag valueOf(java.lang.String)
+cgeo.geocaching.enumerations.LoadFlags$LoadFlag: cgeo.geocaching.enumerations.LoadFlags$LoadFlag[] values()
+cgeo.geocaching.enumerations.LoadFlags$LoadFlag: cgeo.geocaching.enumerations.LoadFlags$LoadFlag valueOf(java.lang.String)
+cgeo.geocaching.enumerations.LoadFlags$RemoveFlag: cgeo.geocaching.enumerations.LoadFlags$RemoveFlag[] values()
+cgeo.geocaching.enumerations.LoadFlags$RemoveFlag: cgeo.geocaching.enumerations.LoadFlags$RemoveFlag valueOf(java.lang.String)
+cgeo.geocaching.enumerations.LoadFlags$SaveFlag: cgeo.geocaching.enumerations.LoadFlags$SaveFlag[] values()
+cgeo.geocaching.enumerations.LoadFlags$SaveFlag: cgeo.geocaching.enumerations.LoadFlags$SaveFlag valueOf(java.lang.String)
+cgeo.geocaching.enumerations.LocationProviderType: cgeo.geocaching.enumerations.LocationProviderType[] values()
+cgeo.geocaching.enumerations.LocationProviderType: cgeo.geocaching.enumerations.LocationProviderType valueOf(java.lang.String)
+cgeo.geocaching.enumerations.LogType: cgeo.geocaching.enumerations.LogType[] values()
+cgeo.geocaching.enumerations.LogType: cgeo.geocaching.enumerations.LogType valueOf(java.lang.String)
+cgeo.geocaching.enumerations.LogTypeTrackable: cgeo.geocaching.enumerations.LogTypeTrackable[] values()
+cgeo.geocaching.enumerations.LogTypeTrackable: cgeo.geocaching.enumerations.LogTypeTrackable valueOf(java.lang.String)
+cgeo.geocaching.enumerations.StatusCode: cgeo.geocaching.enumerations.StatusCode[] values()
+cgeo.geocaching.enumerations.StatusCode: cgeo.geocaching.enumerations.StatusCode valueOf(java.lang.String)
+cgeo.geocaching.enumerations.WaypointType: cgeo.geocaching.enumerations.WaypointType[] values()
+cgeo.geocaching.enumerations.WaypointType: cgeo.geocaching.enumerations.WaypointType valueOf(java.lang.String)
+cgeo.geocaching.files.AbstractFileListActivity: AbstractFileListActivity(java.lang.String)
+cgeo.geocaching.files.AbstractFileListActivity: AbstractFileListActivity(java.lang.String[])
+cgeo.geocaching.files.SimpleDirChooser
+cgeo.geocaching.files.SimpleDirChooser: SimpleDirChooser()
+cgeo.geocaching.geopoint.Geopoint
+cgeo.geocaching.geopoint.Geopoint: android.os.Parcelable$Creator CREATOR
+cgeo.geocaching.geopoint.GeopointFormatter$Format: cgeo.geocaching.geopoint.GeopointFormatter$Format[] values()
+cgeo.geocaching.geopoint.GeopointFormatter$Format: cgeo.geocaching.geopoint.GeopointFormatter$Format valueOf(java.lang.String)
+cgeo.geocaching.geopoint.GeopointParser$LatLon: cgeo.geocaching.geopoint.GeopointParser$LatLon[] values()
+cgeo.geocaching.geopoint.GeopointParser$LatLon: cgeo.geocaching.geopoint.GeopointParser$LatLon valueOf(java.lang.String)
+cgeo.geocaching.loaders.AbstractSearchLoader$CacheListLoaderType: cgeo.geocaching.loaders.AbstractSearchLoader$CacheListLoaderType[] values()
+cgeo.geocaching.loaders.AbstractSearchLoader$CacheListLoaderType: cgeo.geocaching.loaders.AbstractSearchLoader$CacheListLoaderType valueOf(java.lang.String)
+cgeo.geocaching.maps.AbstractMap: void goHome(android.view.View)
+cgeo.geocaching.maps.CGeoMap: void goHome(android.view.View)
+cgeo.geocaching.maps.CGeoMap$MapMode: cgeo.geocaching.maps.CGeoMap$MapMode[] values()
+cgeo.geocaching.maps.CGeoMap$MapMode: cgeo.geocaching.maps.CGeoMap$MapMode valueOf(java.lang.String)
+cgeo.geocaching.maps.google.GoogleMapActivity
+cgeo.geocaching.maps.google.GoogleMapActivity: GoogleMapActivity()
+cgeo.geocaching.maps.google.GoogleMapActivity: void goHome(android.view.View)
+cgeo.geocaching.maps.google.GoogleMapActivity: void showFilterMenu(android.view.View)
+cgeo.geocaching.maps.google.GoogleMapView
+cgeo.geocaching.maps.google.GoogleMapView: GoogleMapView(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.maps.google.GoogleMapView: GoogleMapView(android.content.Context,android.util.AttributeSet,int)
+cgeo.geocaching.maps.google.GoogleMapView: GoogleMapView(android.content.Context,java.lang.String)
+cgeo.geocaching.maps.google.GoogleMapView: cgeo.geocaching.maps.interfaces.MapControllerImpl getMapController()
+cgeo.geocaching.maps.google.GoogleMapView: cgeo.geocaching.maps.interfaces.GeoPointImpl getMapViewCenter()
+cgeo.geocaching.maps.google.GoogleMapView: cgeo.geocaching.geopoint.Viewport getViewport()
+cgeo.geocaching.maps.google.GoogleMapView: cgeo.geocaching.maps.interfaces.MapProjectionImpl getMapProjection()
+cgeo.geocaching.maps.google.GoogleMapView: int getMapZoomLevel()
+cgeo.geocaching.maps.google.GoogleMapView: void setMapSource()
+cgeo.geocaching.maps.google.GoogleMapView: void setOnDragListener(cgeo.geocaching.maps.interfaces.OnMapDragListener)
+cgeo.geocaching.maps.google.GoogleMapView: void setMapTheme()
+cgeo.geocaching.maps.interfaces.MapActivityImpl: void goHome(android.view.View)
+cgeo.geocaching.maps.interfaces.OverlayImpl$OverlayType: cgeo.geocaching.maps.interfaces.OverlayImpl$OverlayType[] values()
+cgeo.geocaching.maps.interfaces.OverlayImpl$OverlayType: cgeo.geocaching.maps.interfaces.OverlayImpl$OverlayType valueOf(java.lang.String)
+cgeo.geocaching.maps.mapsforge.MapsforgeMapActivity
+cgeo.geocaching.maps.mapsforge.MapsforgeMapActivity: MapsforgeMapActivity()
+cgeo.geocaching.maps.mapsforge.MapsforgeMapActivity: void goHome(android.view.View)
+cgeo.geocaching.maps.mapsforge.MapsforgeMapActivity: void showFilterMenu(android.view.View)
+cgeo.geocaching.maps.mapsforge.MapsforgeMapView
+cgeo.geocaching.maps.mapsforge.MapsforgeMapView: MapsforgeMapView(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.maps.mapsforge.MapsforgeMapView: cgeo.geocaching.maps.interfaces.MapControllerImpl getMapController()
+cgeo.geocaching.maps.mapsforge.MapsforgeMapView: cgeo.geocaching.maps.interfaces.GeoPointImpl getMapViewCenter()
+cgeo.geocaching.maps.mapsforge.MapsforgeMapView: cgeo.geocaching.geopoint.Viewport getViewport()
+cgeo.geocaching.maps.mapsforge.MapsforgeMapView: cgeo.geocaching.maps.interfaces.MapProjectionImpl getMapProjection()
+cgeo.geocaching.maps.mapsforge.MapsforgeMapView: int getLatitudeSpan()
+cgeo.geocaching.maps.mapsforge.MapsforgeMapView: int getLongitudeSpan()
+cgeo.geocaching.maps.mapsforge.MapsforgeMapView: int getMapZoomLevel()
+cgeo.geocaching.maps.mapsforge.MapsforgeMapView: int getActualMapZoomLevel()
+cgeo.geocaching.maps.mapsforge.MapsforgeMapView: void setMapSource()
+cgeo.geocaching.maps.mapsforge.MapsforgeMapView: void setMapTheme()
+cgeo.geocaching.maps.mapsforge.MapsforgeMapView: void setOnDragListener(cgeo.geocaching.maps.interfaces.OnMapDragListener)
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapActivity024
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapActivity024: MapsforgeMapActivity024()
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapActivity024: void goHome(android.view.View)
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapActivity024: void showFilterMenu(android.view.View)
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapView024
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapView024: MapsforgeMapView024(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapView024: cgeo.geocaching.maps.interfaces.MapControllerImpl getMapController()
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapView024: cgeo.geocaching.maps.interfaces.GeoPointImpl getMapViewCenter()
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapView024: cgeo.geocaching.geopoint.Viewport getViewport()
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapView024: cgeo.geocaching.maps.interfaces.MapProjectionImpl getMapProjection()
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapView024: int getLatitudeSpan()
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapView024: int getLongitudeSpan()
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapView024: int getMapZoomLevel()
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapView024: int getActualMapZoomLevel()
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapView024: void setMapSource()
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapView024: void setOnDragListener(cgeo.geocaching.maps.interfaces.OnMapDragListener)
+cgeo.geocaching.maps.mapsforge.v024.MapsforgeMapView024: void setMapTheme()
+cgeo.geocaching.network.OAuthAuthorizationActivity: OAuthAuthorizationActivity(java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)
+cgeo.geocaching.settings.AuthorizeOcPreference
+cgeo.geocaching.settings.AuthorizeOcPreference: AuthorizeOcPreference(android.content.Context)
+cgeo.geocaching.settings.AuthorizeOcPreference: AuthorizeOcPreference(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.settings.AuthorizeOcPreference: AuthorizeOcPreference(android.content.Context,android.util.AttributeSet,int)
+cgeo.geocaching.settings.AuthorizeOcPreference$OCAuthorizations: cgeo.geocaching.settings.AuthorizeOcPreference$OCAuthorizations[] values()
+cgeo.geocaching.settings.AuthorizeOcPreference$OCAuthorizations: cgeo.geocaching.settings.AuthorizeOcPreference$OCAuthorizations valueOf(java.lang.String)
+cgeo.geocaching.settings.AuthorizeTwitterPreference
+cgeo.geocaching.settings.AuthorizeTwitterPreference: AuthorizeTwitterPreference(android.content.Context)
+cgeo.geocaching.settings.AuthorizeTwitterPreference: AuthorizeTwitterPreference(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.settings.AuthorizeTwitterPreference: AuthorizeTwitterPreference(android.content.Context,android.util.AttributeSet,int)
+cgeo.geocaching.settings.CheckBoxWithPopupPreference
+cgeo.geocaching.settings.CheckBoxWithPopupPreference: CheckBoxWithPopupPreference(android.content.Context)
+cgeo.geocaching.settings.CheckBoxWithPopupPreference: CheckBoxWithPopupPreference(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.settings.CheckBoxWithPopupPreference: CheckBoxWithPopupPreference(android.content.Context,android.util.AttributeSet,int)
+cgeo.geocaching.settings.CheckGcCredentialsPreference
+cgeo.geocaching.settings.CheckGcCredentialsPreference: CheckGcCredentialsPreference(android.content.Context)
+cgeo.geocaching.settings.CheckGcCredentialsPreference: CheckGcCredentialsPreference(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.settings.CheckGcCredentialsPreference: CheckGcCredentialsPreference(android.content.Context,android.util.AttributeSet,int)
+cgeo.geocaching.settings.EditPasswordPreference
+cgeo.geocaching.settings.EditPasswordPreference: EditPasswordPreference(android.content.Context)
+cgeo.geocaching.settings.EditPasswordPreference: EditPasswordPreference(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.settings.EditPasswordPreference: EditPasswordPreference(android.content.Context,android.util.AttributeSet,int)
+cgeo.geocaching.settings.InfoPreference
+cgeo.geocaching.settings.InfoPreference: InfoPreference(android.content.Context)
+cgeo.geocaching.settings.InfoPreference: InfoPreference(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.settings.InfoPreference: InfoPreference(android.content.Context,android.util.AttributeSet,int)
+cgeo.geocaching.settings.LogSignaturePreference
+cgeo.geocaching.settings.LogSignaturePreference: LogSignaturePreference(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.settings.LogSignaturePreference: LogSignaturePreference(android.content.Context,android.util.AttributeSet,int)
+cgeo.geocaching.settings.RegisterSend2CgeoPreference
+cgeo.geocaching.settings.RegisterSend2CgeoPreference: RegisterSend2CgeoPreference(android.content.Context)
+cgeo.geocaching.settings.RegisterSend2CgeoPreference: RegisterSend2CgeoPreference(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.settings.RegisterSend2CgeoPreference: RegisterSend2CgeoPreference(android.content.Context,android.util.AttributeSet,int)
+cgeo.geocaching.settings.Settings$CoordInputFormatEnum: cgeo.geocaching.settings.Settings$CoordInputFormatEnum[] values()
+cgeo.geocaching.settings.Settings$CoordInputFormatEnum: cgeo.geocaching.settings.Settings$CoordInputFormatEnum valueOf(java.lang.String)
+cgeo.geocaching.settings.SettingsActivity
+cgeo.geocaching.settings.SettingsActivity: SettingsActivity()
+cgeo.geocaching.settings.SettingsActivity$DirChooserType: cgeo.geocaching.settings.SettingsActivity$DirChooserType[] values()
+cgeo.geocaching.settings.SettingsActivity$DirChooserType: cgeo.geocaching.settings.SettingsActivity$DirChooserType valueOf(java.lang.String)
+cgeo.geocaching.settings.TextPreference
+cgeo.geocaching.settings.TextPreference: TextPreference(android.content.Context)
+cgeo.geocaching.settings.TextPreference: TextPreference(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.settings.TextPreference: TextPreference(android.content.Context,android.util.AttributeSet,int)
+cgeo.geocaching.settings.WpThresholdPreference
+cgeo.geocaching.settings.WpThresholdPreference: WpThresholdPreference(android.content.Context)
+cgeo.geocaching.settings.WpThresholdPreference: WpThresholdPreference(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.settings.WpThresholdPreference: WpThresholdPreference(android.content.Context,android.util.AttributeSet,int)
+cgeo.geocaching.speech.SpeechService
+cgeo.geocaching.speech.SpeechService: SpeechService()
+cgeo.geocaching.twitter.TwitterAuthorizationActivity
+cgeo.geocaching.twitter.TwitterAuthorizationActivity: TwitterAuthorizationActivity()
+cgeo.geocaching.ui.AddressListAdapter$ViewHolder$$ViewInjector
+cgeo.geocaching.ui.AddressListAdapter$ViewHolder$$ViewInjector: AddressListAdapter$ViewHolder$$ViewInjector()
+cgeo.geocaching.ui.AddressListAdapter$ViewHolder$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.ui.AddressListAdapter$ViewHolder,java.lang.Object)
+cgeo.geocaching.ui.CacheListAdapter$ViewHolder$$ViewInjector
+cgeo.geocaching.ui.CacheListAdapter$ViewHolder$$ViewInjector: CacheListAdapter$ViewHolder$$ViewInjector()
+cgeo.geocaching.ui.CacheListAdapter$ViewHolder$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.ui.CacheListAdapter$ViewHolder,java.lang.Object)
+cgeo.geocaching.ui.CompassMiniView
+cgeo.geocaching.ui.CompassMiniView: CompassMiniView(android.content.Context)
+cgeo.geocaching.ui.CompassMiniView: CompassMiniView(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.ui.CompassMiniView: void setTargetCoords(cgeo.geocaching.geopoint.Geopoint)
+cgeo.geocaching.ui.CompassView
+cgeo.geocaching.ui.CompassView: CompassView(android.content.Context)
+cgeo.geocaching.ui.CompassView: CompassView(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.ui.DistanceView
+cgeo.geocaching.ui.DistanceView: DistanceView(android.content.Context)
+cgeo.geocaching.ui.DistanceView: DistanceView(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.ui.DistanceView: DistanceView(android.content.Context,android.util.AttributeSet,int)
+cgeo.geocaching.ui.DistanceView: void setContent(cgeo.geocaching.geopoint.Geopoint)
+cgeo.geocaching.ui.DistanceView: void setDistance(java.lang.Float)
+cgeo.geocaching.ui.FileSelectionListAdapter$ViewHolder$$ViewInjector
+cgeo.geocaching.ui.FileSelectionListAdapter$ViewHolder$$ViewInjector: FileSelectionListAdapter$ViewHolder$$ViewInjector()
+cgeo.geocaching.ui.FileSelectionListAdapter$ViewHolder$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.ui.FileSelectionListAdapter$ViewHolder,java.lang.Object)
+cgeo.geocaching.ui.GPXListAdapter$ViewHolder$$ViewInjector
+cgeo.geocaching.ui.GPXListAdapter$ViewHolder$$ViewInjector: GPXListAdapter$ViewHolder$$ViewInjector()
+cgeo.geocaching.ui.GPXListAdapter$ViewHolder$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.ui.GPXListAdapter$ViewHolder,java.lang.Object)
+cgeo.geocaching.ui.ImagesList$ImageType: cgeo.geocaching.ui.ImagesList$ImageType[] values()
+cgeo.geocaching.ui.ImagesList$ImageType: cgeo.geocaching.ui.ImagesList$ImageType valueOf(java.lang.String)
+cgeo.geocaching.ui.IndexOutOfBoundsAvoidingTextView
+cgeo.geocaching.ui.IndexOutOfBoundsAvoidingTextView: IndexOutOfBoundsAvoidingTextView(android.content.Context,android.util.AttributeSet,int)
+cgeo.geocaching.ui.IndexOutOfBoundsAvoidingTextView: IndexOutOfBoundsAvoidingTextView(android.content.Context,android.util.AttributeSet)
+cgeo.geocaching.ui.IndexOutOfBoundsAvoidingTextView: IndexOutOfBoundsAvoidingTextView(android.content.Context)
+cgeo.geocaching.ui.IndexOutOfBoundsAvoidingTextView: void setGravity(int)
+cgeo.geocaching.ui.IndexOutOfBoundsAvoidingTextView: void setText(java.lang.CharSequence,android.widget.TextView$BufferType)
+cgeo.geocaching.ui.LoggingUI$SpecialLogType: cgeo.geocaching.ui.LoggingUI$SpecialLogType[] values()
+cgeo.geocaching.ui.LoggingUI$SpecialLogType: cgeo.geocaching.ui.LoggingUI$SpecialLogType valueOf(java.lang.String)
+cgeo.geocaching.ui.logs.LogViewHolder$$ViewInjector
+cgeo.geocaching.ui.logs.LogViewHolder$$ViewInjector: LogViewHolder$$ViewInjector()
+cgeo.geocaching.ui.logs.LogViewHolder$$ViewInjector: void inject(butterknife.Views$Finder,cgeo.geocaching.ui.logs.LogViewHolder,java.lang.Object)
+cgeo.geocaching.utils.LeastRecentlyUsedMap$OperationModes: cgeo.geocaching.utils.LeastRecentlyUsedMap$OperationModes[] values()
+cgeo.geocaching.utils.LeastRecentlyUsedMap$OperationModes: cgeo.geocaching.utils.LeastRecentlyUsedMap$OperationModes valueOf(java.lang.String)
+cgeo.geocaching.utils.UnknownTagsHandler$ListType: cgeo.geocaching.utils.UnknownTagsHandler$ListType[] values()
+cgeo.geocaching.utils.UnknownTagsHandler$ListType: cgeo.geocaching.utils.UnknownTagsHandler$ListType valueOf(java.lang.String)
+ch.boye.httpclientandroidlib.auth.AuthProtocolState: ch.boye.httpclientandroidlib.auth.AuthProtocolState[] values()
+ch.boye.httpclientandroidlib.auth.AuthProtocolState: ch.boye.httpclientandroidlib.auth.AuthProtocolState valueOf(java.lang.String)
+ch.boye.httpclientandroidlib.auth.ChallengeState: ch.boye.httpclientandroidlib.auth.ChallengeState[] values()
+ch.boye.httpclientandroidlib.auth.ChallengeState: ch.boye.httpclientandroidlib.auth.ChallengeState valueOf(java.lang.String)
+ch.boye.httpclientandroidlib.client.HttpClient
+ch.boye.httpclientandroidlib.client.HttpClient: ch.boye.httpclientandroidlib.params.HttpParams getParams()
+ch.boye.httpclientandroidlib.client.HttpClient: ch.boye.httpclientandroidlib.conn.ClientConnectionManager getConnectionManager()
+ch.boye.httpclientandroidlib.client.HttpClient: ch.boye.httpclientandroidlib.HttpResponse execute(ch.boye.httpclientandroidlib.client.methods.HttpUriRequest)
+ch.boye.httpclientandroidlib.client.HttpClient: ch.boye.httpclientandroidlib.HttpResponse execute(ch.boye.httpclientandroidlib.client.methods.HttpUriRequest,ch.boye.httpclientandroidlib.protocol.HttpContext)
+ch.boye.httpclientandroidlib.client.HttpClient: ch.boye.httpclientandroidlib.HttpResponse execute(ch.boye.httpclientandroidlib.HttpHost,ch.boye.httpclientandroidlib.HttpRequest)
+ch.boye.httpclientandroidlib.client.HttpClient: ch.boye.httpclientandroidlib.HttpResponse execute(ch.boye.httpclientandroidlib.HttpHost,ch.boye.httpclientandroidlib.HttpRequest,ch.boye.httpclientandroidlib.protocol.HttpContext)
+ch.boye.httpclientandroidlib.client.HttpClient: java.lang.Object execute(ch.boye.httpclientandroidlib.client.methods.HttpUriRequest,ch.boye.httpclientandroidlib.client.ResponseHandler)
+ch.boye.httpclientandroidlib.client.HttpClient: java.lang.Object execute(ch.boye.httpclientandroidlib.client.methods.HttpUriRequest,ch.boye.httpclientandroidlib.client.ResponseHandler,ch.boye.httpclientandroidlib.protocol.HttpContext)
+ch.boye.httpclientandroidlib.client.HttpClient: java.lang.Object execute(ch.boye.httpclientandroidlib.HttpHost,ch.boye.httpclientandroidlib.HttpRequest,ch.boye.httpclientandroidlib.client.ResponseHandler)
+ch.boye.httpclientandroidlib.client.HttpClient: java.lang.Object execute(ch.boye.httpclientandroidlib.HttpHost,ch.boye.httpclientandroidlib.HttpRequest,ch.boye.httpclientandroidlib.client.ResponseHandler,ch.boye.httpclientandroidlib.protocol.HttpContext)
+ch.boye.httpclientandroidlib.client.cache.CacheResponseStatus: ch.boye.httpclientandroidlib.client.cache.CacheResponseStatus[] values()
+ch.boye.httpclientandroidlib.client.cache.CacheResponseStatus: ch.boye.httpclientandroidlib.client.cache.CacheResponseStatus valueOf(java.lang.String)
+ch.boye.httpclientandroidlib.conn.routing.RouteInfo$LayerType: ch.boye.httpclientandroidlib.conn.routing.RouteInfo$LayerType[] values()
+ch.boye.httpclientandroidlib.conn.routing.RouteInfo$LayerType: ch.boye.httpclientandroidlib.conn.routing.RouteInfo$LayerType valueOf(java.lang.String)
+ch.boye.httpclientandroidlib.conn.routing.RouteInfo$TunnelType: ch.boye.httpclientandroidlib.conn.routing.RouteInfo$TunnelType[] values()
+ch.boye.httpclientandroidlib.conn.routing.RouteInfo$TunnelType: ch.boye.httpclientandroidlib.conn.routing.RouteInfo$TunnelType valueOf(java.lang.String)
+ch.boye.httpclientandroidlib.conn.scheme.Scheme
+ch.boye.httpclientandroidlib.conn.scheme.Scheme: java.lang.String name
+ch.boye.httpclientandroidlib.conn.scheme.Scheme: ch.boye.httpclientandroidlib.conn.scheme.SchemeSocketFactory socketFactory
+ch.boye.httpclientandroidlib.conn.scheme.Scheme: int defaultPort
+ch.boye.httpclientandroidlib.conn.scheme.Scheme: boolean layered
+ch.boye.httpclientandroidlib.conn.scheme.Scheme: java.lang.String stringRep
+ch.boye.httpclientandroidlib.conn.scheme.Scheme: Scheme(java.lang.String,int,ch.boye.httpclientandroidlib.conn.scheme.SchemeSocketFactory)
+ch.boye.httpclientandroidlib.conn.scheme.Scheme: Scheme(java.lang.String,ch.boye.httpclientandroidlib.conn.scheme.SocketFactory,int)
+ch.boye.httpclientandroidlib.conn.scheme.Scheme: int getDefaultPort()
+ch.boye.httpclientandroidlib.conn.scheme.Scheme: ch.boye.httpclientandroidlib.conn.scheme.SocketFactory getSocketFactory()
+ch.boye.httpclientandroidlib.conn.scheme.Scheme: ch.boye.httpclientandroidlib.conn.scheme.SchemeSocketFactory getSchemeSocketFactory()
+ch.boye.httpclientandroidlib.conn.scheme.Scheme: java.lang.String getName()
+ch.boye.httpclientandroidlib.conn.scheme.Scheme: boolean isLayered()
+ch.boye.httpclientandroidlib.conn.scheme.Scheme: int resolvePort(int)
+ch.boye.httpclientandroidlib.conn.scheme.Scheme: java.lang.String toString()
+ch.boye.httpclientandroidlib.conn.scheme.Scheme: boolean equals(java.lang.Object)
+ch.boye.httpclientandroidlib.conn.scheme.Scheme: int hashCode()
+ch.boye.httpclientandroidlib.entity.mime.HttpMultipartMode: ch.boye.httpclientandroidlib.entity.mime.HttpMultipartMode[] values()
+ch.boye.httpclientandroidlib.entity.mime.HttpMultipartMode: ch.boye.httpclientandroidlib.entity.mime.HttpMultipartMode valueOf(java.lang.String)
+ch.boye.httpclientandroidlib.impl.auth.NTLMScheme$State: ch.boye.httpclientandroidlib.impl.auth.NTLMScheme$State[] values()
+ch.boye.httpclientandroidlib.impl.auth.NTLMScheme$State: ch.boye.httpclientandroidlib.impl.auth.NTLMScheme$State valueOf(java.lang.String)
+ch.boye.httpclientandroidlib.impl.client.cache.RequestProtocolError: ch.boye.httpclientandroidlib.impl.client.cache.RequestProtocolError[] values()
+ch.boye.httpclientandroidlib.impl.client.cache.RequestProtocolError: ch.boye.httpclientandroidlib.impl.client.cache.RequestProtocolError valueOf(java.lang.String)
+ch.boye.httpclientandroidlib.params.HttpParams
+ch.boye.httpclientandroidlib.params.HttpParams: java.lang.Object getParameter(java.lang.String)
+ch.boye.httpclientandroidlib.params.HttpParams: ch.boye.httpclientandroidlib.params.HttpParams setParameter(java.lang.String,java.lang.Object)
+ch.boye.httpclientandroidlib.params.HttpParams: ch.boye.httpclientandroidlib.params.HttpParams copy()
+ch.boye.httpclientandroidlib.params.HttpParams: boolean removeParameter(java.lang.String)
+ch.boye.httpclientandroidlib.params.HttpParams: long getLongParameter(java.lang.String,long)
+ch.boye.httpclientandroidlib.params.HttpParams: ch.boye.httpclientandroidlib.params.HttpParams setLongParameter(java.lang.String,long)
+ch.boye.httpclientandroidlib.params.HttpParams: int getIntParameter(java.lang.String,int)
+ch.boye.httpclientandroidlib.params.HttpParams: ch.boye.httpclientandroidlib.params.HttpParams setIntParameter(java.lang.String,int)
+ch.boye.httpclientandroidlib.params.HttpParams: double getDoubleParameter(java.lang.String,double)
+ch.boye.httpclientandroidlib.params.HttpParams: ch.boye.httpclientandroidlib.params.HttpParams setDoubleParameter(java.lang.String,double)
+ch.boye.httpclientandroidlib.params.HttpParams: boolean getBooleanParameter(java.lang.String,boolean)
+ch.boye.httpclientandroidlib.params.HttpParams: ch.boye.httpclientandroidlib.params.HttpParams setBooleanParameter(java.lang.String,boolean)
+ch.boye.httpclientandroidlib.params.HttpParams: boolean isParameterTrue(java.lang.String)
+ch.boye.httpclientandroidlib.params.HttpParams: boolean isParameterFalse(java.lang.String)
+com.googlecode.androidannotations.annotations.sharedpreferences.SharedPref$Scope: com.googlecode.androidannotations.annotations.sharedpreferences.SharedPref$Scope[] values()
+com.googlecode.androidannotations.annotations.sharedpreferences.SharedPref$Scope: com.googlecode.androidannotations.annotations.sharedpreferences.SharedPref$Scope valueOf(java.lang.String)
+com.googlecode.androidannotations.api.Scope: com.googlecode.androidannotations.api.Scope[] values()
+com.googlecode.androidannotations.api.Scope: com.googlecode.androidannotations.api.Scope valueOf(java.lang.String)
+com.viewpagerindicator.TitlePageIndicator
+com.viewpagerindicator.TitlePageIndicator: TitlePageIndicator(android.content.Context)
+com.viewpagerindicator.TitlePageIndicator: TitlePageIndicator(android.content.Context,android.util.AttributeSet)
+com.viewpagerindicator.TitlePageIndicator: TitlePageIndicator(android.content.Context,android.util.AttributeSet,int)
+com.viewpagerindicator.TitlePageIndicator: int getFooterColor()
+com.viewpagerindicator.TitlePageIndicator: void setFooterColor(int)
+com.viewpagerindicator.TitlePageIndicator: float getFooterLineHeight()
+com.viewpagerindicator.TitlePageIndicator: void setFooterLineHeight(float)
+com.viewpagerindicator.TitlePageIndicator: float getFooterIndicatorHeight()
+com.viewpagerindicator.TitlePageIndicator: void setFooterIndicatorHeight(float)
+com.viewpagerindicator.TitlePageIndicator: float getFooterIndicatorPadding()
+com.viewpagerindicator.TitlePageIndicator: void setFooterIndicatorPadding(float)
+com.viewpagerindicator.TitlePageIndicator: com.viewpagerindicator.TitlePageIndicator$IndicatorStyle getFooterIndicatorStyle()
+com.viewpagerindicator.TitlePageIndicator: void setFooterIndicatorStyle(com.viewpagerindicator.TitlePageIndicator$IndicatorStyle)
+com.viewpagerindicator.TitlePageIndicator: int getSelectedColor()
+com.viewpagerindicator.TitlePageIndicator: void setSelectedColor(int)
+com.viewpagerindicator.TitlePageIndicator: void setSelectedBold(boolean)
+com.viewpagerindicator.TitlePageIndicator: int getTextColor()
+com.viewpagerindicator.TitlePageIndicator: void setTextColor(int)
+com.viewpagerindicator.TitlePageIndicator: float getTextSize()
+com.viewpagerindicator.TitlePageIndicator: void setTextSize(float)
+com.viewpagerindicator.TitlePageIndicator: float getTitlePadding()
+com.viewpagerindicator.TitlePageIndicator: void setTitlePadding(float)
+com.viewpagerindicator.TitlePageIndicator: float getTopPadding()
+com.viewpagerindicator.TitlePageIndicator: void setTopPadding(float)
+com.viewpagerindicator.TitlePageIndicator: float getClipPadding()
+com.viewpagerindicator.TitlePageIndicator: void setClipPadding(float)
+com.viewpagerindicator.TitlePageIndicator: void setViewPager(android.support.v4.view.ViewPager)
+com.viewpagerindicator.TitlePageIndicator: void setViewPager(android.support.v4.view.ViewPager,int)
+com.viewpagerindicator.TitlePageIndicator: void setCurrentItem(int)
+com.viewpagerindicator.TitlePageIndicator: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+com.viewpagerindicator.TitlePageIndicator$IndicatorStyle: com.viewpagerindicator.TitlePageIndicator$IndicatorStyle[] values()
+com.viewpagerindicator.TitlePageIndicator$IndicatorStyle: com.viewpagerindicator.TitlePageIndicator$IndicatorStyle valueOf(java.lang.String)
+com.viewpagerindicator.TitlePageIndicator$SavedState
+com.viewpagerindicator.TitlePageIndicator$SavedState: android.os.Parcelable$Creator CREATOR
+menion.android.locus.addon.publiclib.geoData.Point
+menion.android.locus.addon.publiclib.geoData.Point: android.os.Parcelable$Creator CREATOR
+menion.android.locus.addon.publiclib.geoData.PointGeocachingAttributes
+menion.android.locus.addon.publiclib.geoData.PointGeocachingAttributes: android.os.Parcelable$Creator CREATOR
+menion.android.locus.addon.publiclib.geoData.PointGeocachingData
+menion.android.locus.addon.publiclib.geoData.PointGeocachingData: android.os.Parcelable$Creator CREATOR
+menion.android.locus.addon.publiclib.geoData.PointGeocachingDataLog
+menion.android.locus.addon.publiclib.geoData.PointGeocachingDataLog: android.os.Parcelable$Creator CREATOR
+menion.android.locus.addon.publiclib.geoData.PointGeocachingDataTravelBug
+menion.android.locus.addon.publiclib.geoData.PointGeocachingDataTravelBug: android.os.Parcelable$Creator CREATOR
+menion.android.locus.addon.publiclib.geoData.PointGeocachingDataWaypoint
+menion.android.locus.addon.publiclib.geoData.PointGeocachingDataWaypoint: android.os.Parcelable$Creator CREATOR
+menion.android.locus.addon.publiclib.geoData.PointsData
+menion.android.locus.addon.publiclib.geoData.PointsData: android.os.Parcelable$Creator CREATOR
+org.apache.commons.lang3.JavaVersion: org.apache.commons.lang3.JavaVersion[] values()
+org.apache.commons.lang3.JavaVersion: org.apache.commons.lang3.JavaVersion valueOf(java.lang.String)
+org.apache.commons.lang3.Range$ComparableComparator: org.apache.commons.lang3.Range$ComparableComparator[] values()
+org.apache.commons.lang3.Range$ComparableComparator: org.apache.commons.lang3.Range$ComparableComparator valueOf(java.lang.String)
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION: org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION[] values()
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION: org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION valueOf(java.lang.String)
+org.mapsforge.android.maps.MapActivity: MapActivity()
+org.mapsforge.android.maps.MapScaleBar$TextField: org.mapsforge.android.maps.MapScaleBar$TextField[] values()
+org.mapsforge.android.maps.MapScaleBar$TextField: org.mapsforge.android.maps.MapScaleBar$TextField valueOf(java.lang.String)
+org.mapsforge.android.maps.MapView
+org.mapsforge.android.maps.MapView: MapView(android.content.Context)
+org.mapsforge.android.maps.MapView: MapView(android.content.Context,android.util.AttributeSet)
+org.mapsforge.android.maps.MapView: MapView(android.content.Context,org.mapsforge.android.maps.mapgenerator.MapGenerator)
+org.mapsforge.android.maps.MapView: MapView(android.content.Context,android.util.AttributeSet,org.mapsforge.android.maps.mapgenerator.MapGenerator)
+org.mapsforge.android.maps.MapView: org.mapsforge.android.maps.MapController getController()
+org.mapsforge.android.maps.MapView: org.mapsforge.android.maps.DebugSettings getDebugSettings()
+org.mapsforge.android.maps.MapView: org.mapsforge.android.maps.mapgenerator.TileCache getFileSystemTileCache()
+org.mapsforge.android.maps.MapView: org.mapsforge.android.maps.FpsCounter getFpsCounter()
+org.mapsforge.android.maps.MapView: org.mapsforge.android.maps.FrameBuffer getFrameBuffer()
+org.mapsforge.android.maps.MapView: org.mapsforge.android.maps.mapgenerator.TileCache getInMemoryTileCache()
+org.mapsforge.android.maps.MapView: org.mapsforge.android.maps.mapgenerator.JobQueue getJobQueue()
+org.mapsforge.android.maps.MapView: org.mapsforge.map.reader.MapDatabase getMapDatabase()
+org.mapsforge.android.maps.MapView: java.io.File getMapFile()
+org.mapsforge.android.maps.MapView: org.mapsforge.android.maps.mapgenerator.MapGenerator getMapGenerator()
+org.mapsforge.android.maps.MapView: org.mapsforge.android.maps.inputhandling.MapMover getMapMover()
+org.mapsforge.android.maps.MapView: org.mapsforge.android.maps.MapViewPosition getMapPosition()
+org.mapsforge.android.maps.MapView: org.mapsforge.android.maps.MapScaleBar getMapScaleBar()
+org.mapsforge.android.maps.MapView: org.mapsforge.android.maps.MapZoomControls getMapZoomControls()
+org.mapsforge.android.maps.MapView: java.util.List getOverlays()
+org.mapsforge.android.maps.MapView: org.mapsforge.android.maps.Projection getProjection()
+org.mapsforge.android.maps.MapView: void setBuiltInZoomControls(boolean)
+org.mapsforge.android.maps.MapView: void setCenter(org.mapsforge.core.GeoPoint)
+org.mapsforge.android.maps.MapView: void setDebugSettings(org.mapsforge.android.maps.DebugSettings)
+org.mapsforge.android.maps.MapView: void setMapGenerator(org.mapsforge.android.maps.mapgenerator.MapGenerator)
+org.mapsforge.android.maps.MapView: void setRenderTheme(java.io.File)
+org.mapsforge.android.maps.MapView: void setRenderTheme(org.mapsforge.android.maps.rendertheme.InternalRenderTheme)
+org.mapsforge.android.maps.MapView: void setTextScale(float)
+org.mapsforge.android.maps.MapView: void setMapGeneratorInternal(org.mapsforge.android.maps.mapgenerator.MapGenerator)
+org.mapsforge.android.maps.MapView: byte getMaximumPossibleZoomLevel()
+org.mapsforge.android.maps.MapView: void setCenterAndZoom(org.mapsforge.core.MapPosition)
+org.mapsforge.android.maps.mapgenerator.MapGeneratorInternal: org.mapsforge.android.maps.mapgenerator.MapGeneratorInternal[] values()
+org.mapsforge.android.maps.mapgenerator.MapGeneratorInternal: org.mapsforge.android.maps.mapgenerator.MapGeneratorInternal valueOf(java.lang.String)
+org.mapsforge.android.maps.mapgenerator.databaserenderer.ShapeType: org.mapsforge.android.maps.mapgenerator.databaserenderer.ShapeType[] values()
+org.mapsforge.android.maps.mapgenerator.databaserenderer.ShapeType: org.mapsforge.android.maps.mapgenerator.databaserenderer.ShapeType valueOf(java.lang.String)
+org.mapsforge.android.maps.overlay.Overlay$EventType: org.mapsforge.android.maps.overlay.Overlay$EventType[] values()
+org.mapsforge.android.maps.overlay.Overlay$EventType: org.mapsforge.android.maps.overlay.Overlay$EventType valueOf(java.lang.String)
+org.mapsforge.android.maps.rendertheme.Closed: org.mapsforge.android.maps.rendertheme.Closed[] values()
+org.mapsforge.android.maps.rendertheme.Closed: org.mapsforge.android.maps.rendertheme.Closed valueOf(java.lang.String)
+org.mapsforge.android.maps.rendertheme.Element: org.mapsforge.android.maps.rendertheme.Element[] values()
+org.mapsforge.android.maps.rendertheme.Element: org.mapsforge.android.maps.rendertheme.Element valueOf(java.lang.String)
+org.mapsforge.android.maps.rendertheme.InternalRenderTheme: org.mapsforge.android.maps.rendertheme.InternalRenderTheme[] values()
+org.mapsforge.android.maps.rendertheme.InternalRenderTheme: org.mapsforge.android.maps.rendertheme.InternalRenderTheme valueOf(java.lang.String)
+org.mapsforge.android.maps.rendertheme.RenderThemeHandler$Element: org.mapsforge.android.maps.rendertheme.RenderThemeHandler$Element[] values()
+org.mapsforge.android.maps.rendertheme.RenderThemeHandler$Element: org.mapsforge.android.maps.rendertheme.RenderThemeHandler$Element valueOf(java.lang.String)
+org.mapsforge.android.maps.rendertheme.renderinstruction.FontFamily: org.mapsforge.android.maps.rendertheme.renderinstruction.FontFamily[] values()
+org.mapsforge.android.maps.rendertheme.renderinstruction.FontFamily: org.mapsforge.android.maps.rendertheme.renderinstruction.FontFamily valueOf(java.lang.String)
+org.mapsforge.android.maps.rendertheme.renderinstruction.FontStyle: org.mapsforge.android.maps.rendertheme.renderinstruction.FontStyle[] values()
+org.mapsforge.android.maps.rendertheme.renderinstruction.FontStyle: org.mapsforge.android.maps.rendertheme.renderinstruction.FontStyle valueOf(java.lang.String)
+org.mapsforge.android.mapsold.MapActivity: MapActivity()
+org.mapsforge.android.mapsold.MapView
+org.mapsforge.android.mapsold.MapView: org.mapsforge.android.mapsold.MapViewMode getDefaultMapViewMode()
+org.mapsforge.android.mapsold.MapView: int getTileSizeInBytes()
+org.mapsforge.android.mapsold.MapView: MapView(android.content.Context)
+org.mapsforge.android.mapsold.MapView: MapView(android.content.Context,android.util.AttributeSet)
+org.mapsforge.android.mapsold.MapView: MapView(android.content.Context,org.mapsforge.android.mapsold.MapViewMode)
+org.mapsforge.android.mapsold.MapView: org.mapsforge.android.mapsold.MapController getController()
+org.mapsforge.android.mapsold.MapView: org.mapsforge.android.mapsold.GeoPoint getMapCenter()
+org.mapsforge.android.mapsold.MapView: org.mapsforge.android.mapsold.MapDatabase getMapDatabase()
+org.mapsforge.android.mapsold.MapView: java.lang.String getMapFile()
+org.mapsforge.android.mapsold.MapView: java.lang.String getMapTileDownloadServer()
+org.mapsforge.android.mapsold.MapView: org.mapsforge.android.mapsold.MapViewMode getMapViewMode()
+org.mapsforge.android.mapsold.MapView: int getMaxZoomLevel()
+org.mapsforge.android.mapsold.MapView: float getMoveSpeed()
+org.mapsforge.android.mapsold.MapView: java.util.List getOverlays()
+org.mapsforge.android.mapsold.MapView: org.mapsforge.android.mapsold.Projection getProjection()
+org.mapsforge.android.mapsold.MapView: byte getZoomLevel()
+org.mapsforge.android.mapsold.MapView: void setBuiltInZoomControls(boolean)
+org.mapsforge.android.mapsold.MapView: void setFpsCounter(boolean)
+org.mapsforge.android.mapsold.MapView: void setMapFile(java.lang.String)
+org.mapsforge.android.mapsold.MapView: void setMapViewMode(org.mapsforge.android.mapsold.MapViewMode)
+org.mapsforge.android.mapsold.MapView: void setMemoryCardCachePersistence(boolean)
+org.mapsforge.android.mapsold.MapView: void setMemoryCardCacheSize(int)
+org.mapsforge.android.mapsold.MapView: void setMoveSpeed(float)
+org.mapsforge.android.mapsold.MapView: void setScaleBar(boolean)
+org.mapsforge.android.mapsold.MapView: void setText(org.mapsforge.android.mapsold.MapView$TextField,java.lang.String)
+org.mapsforge.android.mapsold.MapView: void setTextScale(float)
+org.mapsforge.android.mapsold.MapView: void setTileCoordinates(boolean)
+org.mapsforge.android.mapsold.MapView: void setTileFrames(boolean)
+org.mapsforge.android.mapsold.MapView: void setWaterTiles(boolean)
+org.mapsforge.android.mapsold.MapView: void setZoomMax(byte)
+org.mapsforge.android.mapsold.MapView: void setZoomMin(byte)
+org.mapsforge.android.mapsold.MapView: byte getMaximumPossibleZoomLevel()
+org.mapsforge.android.mapsold.MapView: org.mapsforge.android.mapsold.GeoPoint getDefaultStartPoint()
+org.mapsforge.android.mapsold.MapView: byte getDefaultZoomLevel()
+org.mapsforge.android.mapsold.MapView: org.mapsforge.android.mapsold.MapActivity getMapActivity()
+org.mapsforge.android.mapsold.MapView: org.mapsforge.android.mapsold.ZoomAnimator getZoomAnimator()
+org.mapsforge.android.mapsold.MapView: void setCenter(org.mapsforge.android.mapsold.GeoPoint)
+org.mapsforge.android.mapsold.MapView: void setMapFileFromPreferences(java.lang.String)
+org.mapsforge.android.mapsold.MapView$TextField: org.mapsforge.android.mapsold.MapView$TextField[] values()
+org.mapsforge.android.mapsold.MapView$TextField: org.mapsforge.android.mapsold.MapView$TextField valueOf(java.lang.String)
+org.mapsforge.android.mapsold.MapViewMode: org.mapsforge.android.mapsold.MapViewMode[] values()
+org.mapsforge.android.mapsold.MapViewMode: org.mapsforge.android.mapsold.MapViewMode valueOf(java.lang.String)
+org.mapsforge.android.mapsold.Overlay$EventType: org.mapsforge.android.mapsold.Overlay$EventType[] values()
+org.mapsforge.android.mapsold.Overlay$EventType: org.mapsforge.android.mapsold.Overlay$EventType valueOf(java.lang.String)
+org.mapsforge.android.mapsold.ShapeType: org.mapsforge.android.mapsold.ShapeType[] values()
+org.mapsforge.android.mapsold.ShapeType: org.mapsforge.android.mapsold.ShapeType valueOf(java.lang.String)
