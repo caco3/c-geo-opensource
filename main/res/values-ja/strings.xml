@@ -1121,7 +1121,7 @@
     <string name="facebook">Facebook: <a href="">c:geo page</a></string>
     <string name="twitter">Twitter: <a href="">@android_GC</a></string>
     <string name="nutshellmanual">マニュアル: <a href="">c:geo マニュアル(英語)</a></string>
-    <string name="market">Android: <a href="">Google Playのc:geo</a></string>
+    <string name="market">Blackberry: <a href="">Google Playのc:geo</a></string>
     <string name="about_twitter">キャッシュのログを書いたら<b>c:geo</b>にTwitterでつぶやいてほしい?</string>
 
     <!-- status (used via string based resource loading) -->

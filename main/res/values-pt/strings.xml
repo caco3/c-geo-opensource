@@ -1028,7 +1028,7 @@
   <string name="facebook">Facebook: <a href="">página do c:geo</a></string>
   <string name="twitter">Twitter: <a href="">@android_GC</a></string>
   <string name="nutshellmanual">Manual: <a href="">o essencial do c:geo</a></string>
-  <string name="market">Android: <a href="">c:geo no Google Play</a></string>
+  <string name="market">Blackberry: <a href="">c:geo noBlackberry World</a></string>
   <string name="about_twitter">O <b>c:geo</b> deve publicar no Twitter de cada vez que uma cache for registada?</string>
   <string name="faq">FAQ: <a href="">faq.cgeo.org</a></string>
   <string name="status_new_release" tools:ignore="UnusedResources">Nova versão disponível.\nClique para instalar.</string>

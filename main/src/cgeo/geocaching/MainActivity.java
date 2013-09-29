@@ -17,7 +17,6 @@ import cgeo.geocaching.ui.Formatter;
 import cgeo.geocaching.utils.DatabaseBackupUtils;
 import cgeo.geocaching.utils.GeoDirHandler;
 import cgeo.geocaching.utils.Log;
-import cgeo.geocaching.utils.ProcessUtils;
 import cgeo.geocaching.utils.RunnableWithArgument;
 import cgeo.geocaching.utils.Version;
 
@@ -265,7 +264,7 @@ public class MainActivity extends AbstractActivity {
     @Override
     public boolean onPrepareOptionsMenu(final Menu menu) {
         super.onPrepareOptionsMenu(menu);
-        menu.findItem(R.id.menu_scan).setEnabled(ProcessUtils.isIntentAvailable(SCAN_INTENT));
+        //menu.findItem(R.id.menu_scan).setEnabled(ProcessUtils.isIntentAvailable(SCAN_INTENT));
         return true;
     }
 
@@ -276,17 +275,11 @@ public class MainActivity extends AbstractActivity {
             case R.id.menu_about:
                 showAbout(null);
                 return true;
-            case R.id.menu_helpers:
-                startActivity(new Intent(this, UsefulAppsActivity.class));
-                return true;
             case R.id.menu_settings:
                 startActivity(new Intent(this, SettingsActivity.class));
                 return true;
             case R.id.menu_history:
                 cgeocaches.startActivityHistory(this);
-                return true;
-            case R.id.menu_scan:
-                startScannerApplication();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

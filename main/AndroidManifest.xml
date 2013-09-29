@@ -3,7 +3,7 @@
     package="cgeo.geocaching"
     android:installLocation="auto"
     android:versionCode="20130706"
-    android:versionName="2013.08.26-1" >
+    android:versionName="2013.08.26-2" >
 
     <uses-sdk
         android:minSdkVersion="7"

@@ -585,6 +585,7 @@ cgeo.geocaching.LogCacheActivity:
 cgeo.geocaching.MainActivity:
     private static final java.lang.String SCAN_INTENT
     public static final int SEARCH_REQUEST_CODE
+    291:293:private void startScannerApplication()
 cgeo.geocaching.NavigateAnyPointActivity:
     private static final int CONTEXT_MENU_NAVIGATE
     private static final int CONTEXT_MENU_DELETE_WAYPOINT
@@ -2278,6 +2279,14 @@ com.google.zxing.integration.android.IntentIntegrator:
     public static final java.lang.String DEFAULT_NO
     private static final java.lang.String BS_PACKAGE
     private static final java.lang.String BSPLUS_PACKAGE
+    private final android.app.Activity activity
+    private java.lang.String title
+    private java.lang.String message
+    private java.lang.String buttonYes
+    private java.lang.String buttonNo
+    private java.util.List targetApplications
+    private final java.util.Map moreExtras
+    149:157:public IntentIntegrator(android.app.Activity)
     160:160:public java.lang.String getTitle()
     164:165:public void setTitle(java.lang.String)
     168:169:public void setTitleByID(int)
@@ -2296,8 +2305,18 @@ com.google.zxing.integration.android.IntentIntegrator:
     223:223:public java.util.Map getMoreExtras()
     227:228:public final void addExtra(java.lang.String,java.lang.Object)
     234:234:public final android.app.AlertDialog initiateScan()
+    246:271:public final android.app.AlertDialog initiateScan(java.util.Collection)
+    285:286:protected void startActivityForResult(android.content.Intent,int)
+    289:299:private java.lang.String findTargetAppPackage(android.content.Intent)
+    303:324:private android.app.AlertDialog showDownloadDialog()
     362:362:public final android.app.AlertDialog shareText(java.lang.CharSequence)
     375:389:public final android.app.AlertDialog shareText(java.lang.CharSequence,java.lang.CharSequence)
+    397:417:private void attachMoreExtras(android.content.Intent)
+    146:146:static synthetic java.util.List access$0(com.google.zxing.integration.android.IntentIntegrator)
+    141:141:static synthetic android.app.Activity access$1(com.google.zxing.integration.android.IntentIntegrator)
+    112:112:static synthetic java.lang.String access$2()
+com.google.zxing.integration.android.IntentIntegrator$1
+com.google.zxing.integration.android.IntentIntegrator$2
 com.google.zxing.integration.android.IntentResult:
     59:59:public java.lang.String getFormatName()
     66:66:public byte[] getRawBytes()

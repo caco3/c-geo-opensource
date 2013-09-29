@@ -2,6 +2,12 @@
 <resources>
   <!-- changelog for the release branch -->
   <string name="changelog_release" translatable="false">\n
+    <b>2013.08.26-2</b>\n
+    · Port to Blackberry 10 based on Android version 2013.08.26\n
+    · Removed Android references (Required by BB Store)\n
+    · Removed not supported features\n
+    \n
+    \n
     <b>2013.08.26</b>\n
     · Corrected language check for Talking Compass\n
     · Fall back to other map if selected map is not available any more\n
